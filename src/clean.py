@@ -9,17 +9,28 @@ def filter_iqr(df:pd.DataFrame, column:str = "precio_m2"):
     limite_inferior = Q1 - 1.5 * IQR
     limite_superior = Q3 + 1.5 * IQR
     
-    return df[(df[column] >= limite_inferior) & (df[column] <= limite_superior)]
+    return df.loc[(df[column] >= limite_inferior) & (df[column] <= limite_superior)].copy()
 
 def add_price_m2(df: pd.DataFrame) -> pd.DataFrame | None:
 
     df["precio_m2"] = df["precio"]//df["construidos_m2"]
 
-def add_age_column(df: pd.DataFrame, column_name: str = "fecha_publi", inplace: bool = True) -> pd.DataFrame | None:
+def add_age_column(
+    df: pd.DataFrame,
+    column_name: str = "fecha_publi",
+    inplace: bool = True
+) -> pd.DataFrame | None:
 
     fecha = pd.Timestamp(fecha_scrap)
+
+    df.loc[:, "edad_dias"] = (
+        fecha - df[column_name]
+    ).dt.days
+
     if inplace:
-        df["edad_dias"] = (fecha - df[column_name]).dt.days
+        return None
+
+    return df
 
 def group_by_colonia(df: pd.DataFrame) -> pd.DataFrame:
 
