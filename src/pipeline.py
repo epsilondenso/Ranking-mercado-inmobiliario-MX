@@ -53,3 +53,7 @@ def full_treatment(raw_data_path: str) -> pd.DataFrame:
     normalized.to_csv(SCORED_DATA / f"scored_{state_name}.csv", index= False)
 
     return normalized
+
+def get_top(data: pd.DataFrame, top:int = 10, criterion: str = "score") -> pd.DataFrame:
+    top_data = data.sort_values(by=criterion, ascending=False).head(top)
+    return top_data
