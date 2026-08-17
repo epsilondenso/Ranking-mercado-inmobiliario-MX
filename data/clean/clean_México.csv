@@ -287,7 +287,7 @@ San Antonio la Isla,Ex Rancho San Dimas,15833.0,2
 San Antonio la Isla,Ex Rancho San Dimas,19565.0,2
 Tecámac,Ojo de Agua,23000.0,2
 Metepec,Real de San Jerónimo,50000.0,1
-Metepec,Real de San Jerónimo,4000.0,1
+Metepec,Real de San Jerónimo,68160.0,1
 Metepec,San Miguel Totocuitlapilco,25632.0,2
 Metepec,San Miguel Totocuitlapilco,32832.0,1
 Nezahualcóyotl,Valle de Aragón,23250.0,1
@@ -301,7 +301,6 @@ Huixquilucan,Interlomas,36250.0,3
 Huixquilucan,Bosque Real,61365.0,3
 Huixquilucan,Hacienda de las Palmas,51966.0,2
 Huixquilucan,Hacienda de las Palmas,31600.0,2
-Naucalpan de Juárez,Los Alamos,5678.0,1
 Huixquilucan,Lomas Country Club,45226.0,2
 Huixquilucan,Bosque Real,64751.0,3
 Huixquilucan,Bosques de las Palmas,42631.0,2
@@ -327,7 +326,7 @@ Atizapán de Zaragoza,Villas de la Hacienda,23750.0,3
 Huixquilucan,Hacienda de las Palmas,38.0,3
 Tlalnepantla de Baz,Barrientos,29545.0,3
 Huixquilucan,Lomas de Tecamachalco Bosques I y II,34603.0,3
-Huixquilucan,Lomas Country Club,2758.0,3
+Huixquilucan,Lomas Country Club,47006.0,3
 Huixquilucan,Bosques de las Palmas,30373.0,3
 Naucalpan de Juárez,Heroes de la Revolucion,22911.0,3
 Jilotzingo,Santa María Mazatla,14492.0,3
@@ -745,7 +744,7 @@ Metepec,San Salvador Tizatlalli,33585.0,7
 Metepec,Llano Grande,32500.0,7
 Valle de Bravo,Valle de Bravo,35051.0,7
 Naucalpan de Juárez,La Florida,24264.0,6
-Valle de Bravo,Avandaro,4166.0,7
+Valle de Bravo,Avandaro,71000.0,7
 Huixquilucan,Lomas de Tecamachalco Bosques I y II,60769.0,7
 Atizapán de Zaragoza,Lomas de La Hacienda,33587.0,7
 Almoloya de Juárez,Santa Juana,11029.0,6
@@ -892,7 +891,7 @@ Huixquilucan,Bosque Real,61000.0,8
 Huixquilucan,Ampliación Palo Solo,31954.0,8
 Tlalnepantla de Baz,Viveros del Valle,41156.0,8
 Tultitlán,Unidad Morelos,3125.0,8
-Valle de Bravo,Avandaro,3869.0,8
+Valle de Bravo,Avandaro,65944.0,8
 Ecatepec de Morelos,Ehécatl (Paseos de Ecatepec),10869.0,8
 Ecatepec de Morelos,Jardines de San Gabriel,7758.0,8
 Atizapán de Zaragoza,Rancho San Juan,32248.0,1130
@@ -991,6 +990,7 @@ Metepec,San Salvador Tizatlalli,44245.0,9
 Naucalpan de Juárez,Lomas del Río,50158.0,9
 Naucalpan de Juárez,Lomas del Río,46925.0,9
 Valle de Bravo,Avandaro,49611.0,18
+Valle de Bravo,Avandaro,72454.0,18
 Valle de Bravo,Avandaro,37352.0,18
 Valle de Bravo,Avandaro,42391.0,18
 Naucalpan de Juárez,Bosque de Echegaray,33571.0,17
@@ -1106,7 +1106,7 @@ Cuautitlán Izcalli,Santa María Guadalupe las Torres,10079.0,18
 Metepec,Santa María Magdalena OcotitlAn,23318.0,18
 Metepec,Santa María Magdalena OcotitlAn,23318.0,18
 Metepec,Santa María Magdalena OcotitlAn,23318.0,18
-Huixquilucan,Hacienda de las Palmas,2379.0,18
+Huixquilucan,Hacienda de las Palmas,40545.0,18
 Ixtapaluca,San Jerónimo Cuatro Vientos,16981.0,18
 Calimaya,Sauces,19629.0,18
 Atizapán de Zaragoza,Rincón Colonial,29352.0,17
@@ -1170,13 +1170,13 @@ Toluca,Américas,1400.0,20
 Tlalnepantla de Baz,Valle Dorado,35849.0,20
 San Mateo Atenco,Santa Elena,4066.0,20
 Coacalco de Berriozábal,Villa de las Flores 1a Sección,1485.0,20
-Huixquilucan,Hacienda de las Palmas,3541.0,19
-Huixquilucan,Hacienda de las Palmas,2250.0,19
+Huixquilucan,Hacienda de las Palmas,60350.0,19
+Huixquilucan,Hacienda de las Palmas,38340.0,19
 Nezahualcóyotl,México,26724.0,20
 Naucalpan de Juárez,Lomas de Tecamachalco,37829.0,19
 Huixquilucan,Lomas del Sol,44019.0,19
 Huixquilucan,Interlomas,37634.0,19
-Huixquilucan,Hacienda de las Palmas,3000.0,19
+Huixquilucan,Hacienda de las Palmas,51120.0,19
 Huixquilucan,Hacienda de las Palmas,45921.0,19
 Huixquilucan,Hacienda de las Palmas,45041.0,19
 Tlalnepantla de Baz,Bellavista Satélite,27816.0,20
@@ -1214,7 +1214,7 @@ Huixquilucan,Bosque Real,46052.0,19
 Naucalpan de Juárez,Paseos del Bosque,36000.0,20
 Huixquilucan,Lomas de las Palmas,37053.0,19
 Huixquilucan,Lomas de las Palmas,31325.0,19
-Huixquilucan,Interlomas,3541.0,19
+Huixquilucan,Interlomas,60350.0,19
 Chalco,Campestre Santa Cruz,13412.0,19
 Ixtapaluca,Los Héroes,10690.0,20
 Calimaya,Villas del Campo,14601.0,20
@@ -1233,9 +1233,9 @@ Huixquilucan,Lomas AnAhuac,52745.0,19
 Tlalnepantla de Baz,Xocoyahualco,65310.0,19
 Huixquilucan,Hacienda de las Palmas,45887.0,19
 Huixquilucan,Lomas de las Palmas,35000.0,19
-Naucalpan de Juárez,Lomas de Tecamachalco,990.0,19
+Naucalpan de Juárez,Lomas de Tecamachalco,16869.0,19
 Naucalpan de Juárez,Lomas del Huizachal,31601.0,19
-Huixquilucan,Interlomas,4000.0,19
+Huixquilucan,Interlomas,68160.0,19
 Huixquilucan,Bosque Real,44294.0,19
 Huixquilucan,Bosque Real,58915.0,19
 Huixquilucan,Bosque Real,68577.0,19
@@ -1252,10 +1252,10 @@ Huehuetoca,Santa Teresa,13000.0,20
 Huixquilucan,La Herradura,30000.0,19
 Huixquilucan,La Herradura,40441.0,19
 Huixquilucan,Hacienda de las Palmas,54815.0,21
-Huixquilucan,Hacienda de las Palmas,2752.0,19
+Huixquilucan,Hacienda de las Palmas,46898.0,19
 Huixquilucan,Bosque Real,42809.0,21
 Huixquilucan,Interlomas,64563.0,24
-Huixquilucan,Interlomas,3000.0,19
+Huixquilucan,Interlomas,51120.0,19
 Huixquilucan,Jesús del Monte,32500.0,21
 Huixquilucan,Conjunto Urbano El Bosque,53486.0,21
 Valle de Bravo,Cuadrilla de Dolores,41538.0,20

@@ -6,7 +6,7 @@ import pandas as pd
 #Este proyecto
 from config.paths import SCORED_DATA, CLEAN_DATA, GROUPED_DATA
 #from config.config import pesos_score
-from src.preprocessing import drop_dup_null, filter_date
+from src.preprocessing import preprocess, filter_date
 from src.clean import filter_iqr, add_age_column, add_price_m2, group_by_colonia
 from src.score import minmax_columns, score
 from src.utils import extraer_sufijo_csv
@@ -27,7 +27,7 @@ def full_treatment(raw_data_path: str) -> pd.DataFrame:
     state_name = extraer_sufijo_csv(raw_data_path)
 
     #load
-    prep_data = filter_date(drop_dup_null(raw_data_path), date_column= "fecha_publi")
+    prep_data = filter_date(preprocess(raw_data_path), date_column= "fecha_publi")
     #Add price/m2
     add_price_m2(prep_data)
     #Drop outliers
