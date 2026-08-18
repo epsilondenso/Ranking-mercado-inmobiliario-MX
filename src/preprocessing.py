@@ -11,7 +11,7 @@ def convert_usd_to_mxn(df: pd.DataFrame, price_usd: float = tipo_cambio):
     df["price"] = df["price"].astype("int64")
     return df 
 
-def preprocess(file_path: str, rename_columns:bool = True, output_path:str|None = None, save: bool = False, ) -> pd.DataFrame:
+def preprocess(file_path: str, rename_columns:bool = True, output_path:str|None = None, save: bool = False) -> pd.DataFrame:
 
     data = pd.read_csv(file_path)[columns_to_maintain].drop_duplicates().dropna(subset = columns_not_null)
     data = convert_usd_to_mxn(data).drop(columns = ["currency"])
