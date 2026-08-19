@@ -21,9 +21,10 @@ def bar_plot(
         _, ax = plt.subplots()
 
     labels = [
-        f"{data['colonia'].iloc[i]} ({data['municipio'].iloc[i]})"
-        for i in range(data.shape[0])
-    ]
+    f"{data['colonia'].iloc[i].replace('Fraccionamiento ', '')} "
+    f"({data['municipio'].iloc[i]})"
+    for i in range(data.shape[0])
+]
 
     sns.barplot(
         data=data,

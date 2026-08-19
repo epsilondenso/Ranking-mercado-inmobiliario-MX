@@ -24,6 +24,6 @@ columns_score = ["precio_m2_mediana", "edad_dias_promedio", "precio_m2_cv"]
 
 paleta = {"oscuro":"#313131",
 "contraste":"#fb012b",
-"principal":"#6fcb9f",
+"principal":"#00c2c7",
 "claro_1":"#ffe28a",
 "claro_2":"#fffeb3"}
