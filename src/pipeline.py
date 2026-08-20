@@ -5,14 +5,14 @@ import pandas as pd
 #from sklearn.preprocessing import MinMaxScaler
 #Este proyecto
 from config.paths import SCORED_DATA, CLEAN_DATA, GROUPED_DATA
-#from config.config import pesos_score
+from config.config import min_ads
 from src.preprocessing import preprocess, filter_date
 from src.clean import filter_iqr, add_age_column, add_price_m2, group_by_colonia
 from src.score import minmax_columns, score
 from src.utils import extraer_sufijo_csv
 
 
-def full_treatment(raw_data_path: str) -> pd.DataFrame:
+def full_treatment(raw_data_path: str, min_ads: int = min_ads) -> pd.DataFrame:
 
     """
     Preprocess, cleans, normalizes and computes the score 
@@ -39,7 +39,7 @@ def full_treatment(raw_data_path: str) -> pd.DataFrame:
     #GROUP_BY_COLONIA
     grouped = group_by_colonia(clean_data)
     #Filter by minimum number of adds
-    grouped = grouped[grouped["conteo"] >= 10]
+    grouped = grouped[grouped["conteo"] >= min_ads]
     #Save grouped
     grouped.to_csv(GROUPED_DATA / f"grouped_{state_name}.csv", index= False)
     #Normalized features beetween 0 and 1
