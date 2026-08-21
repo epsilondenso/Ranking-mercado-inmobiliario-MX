@@ -7,7 +7,7 @@ Proyecto de análisis de datos que procesa anuncios inmobiliarios para generar u
 
 - `src/`: pipeline y funciones.
 - `data/`: datos crudos y procesados.
-- `notebooks/`: exploración.
+- `notebooks/`: Cálculo de scores y visualización.
 - `config/`: configuración.
 
 ## Stack

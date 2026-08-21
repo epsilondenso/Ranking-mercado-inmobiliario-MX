@@ -8,11 +8,13 @@ from config.paths import SCORED_DATA, CLEAN_DATA, GROUPED_DATA
 from config.config import min_ads
 from src.preprocessing import preprocess, filter_date
 from src.clean import filter_iqr, add_age_column, add_price_m2, group_by_colonia
-from src.score import minmax_columns, score
+from src.score import minmax_columns, pavc_score, qs_score
 from src.utils import extraer_sufijo_csv
 
 
-def full_treatment(raw_data_path: str, min_ads: int = min_ads) -> pd.DataFrame:
+def full_treatment(raw_data_path: str, 
+                   min_ads: int = min_ads, 
+                   columns_mantain: list[str] = ["municipio", "colonia", "precio_m2", "edad_dias"]) -> pd.DataFrame:
 
     """
     Preprocess, cleans, normalizes and computes the score 
@@ -35,7 +37,7 @@ def full_treatment(raw_data_path: str, min_ads: int = min_ads) -> pd.DataFrame:
     #Add age column (days between add publication date and scrap date)
     add_age_column(clean_data)
     #save clean
-    clean_data[["municipio", "colonia", "precio_m2", "edad_dias"]].to_csv(CLEAN_DATA / f"clean_{state_name}.csv", index = False)
+    clean_data[columns_mantain].to_csv(CLEAN_DATA / f"clean_{state_name}.csv", index = False)
     #GROUP_BY_COLONIA
     grouped = group_by_colonia(clean_data)
     #Filter by minimum number of adds
@@ -46,9 +48,11 @@ def full_treatment(raw_data_path: str, min_ads: int = min_ads) -> pd.DataFrame:
     normalized = minmax_columns(grouped, 
                             {"precio_m2_mediana": (0,1), #The higher, the better
                              "precio_m2_cv": (1,0), #The lower, the better
-                             "edad_dias_promedio": (1,0)}) #The lower, the better
+                             "edad_dias_promedio": (1,0), #The lower, the better
+                             "ln(1+n)": (0, 1)}) #The higher, the better
     #Compute score
-    normalized = score(normalized)
+    normalized = pavc_score(normalized)
+    normalized = qs_score(normalized)
     #save_scored_data
     normalized.to_csv(SCORED_DATA / f"scored_{state_name}.csv", index= False)
 

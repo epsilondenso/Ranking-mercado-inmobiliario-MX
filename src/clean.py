@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from config.config import fecha_scrap
 
 def filter_iqr(df:pd.DataFrame, column:str = "precio_m2"):
@@ -50,5 +51,8 @@ def group_by_colonia(df: pd.DataFrame, by: list[str] = ['municipio', 'colonia'])
     tabla_agrupada['precio_m2_cv'] = (
     tabla_agrupada['precio_m2_std'] / tabla_agrupada['precio_m2_promedio']
     ).fillna(0)
+
+    #4. Añadir columna ln(1 + count)
+    tabla_agrupada["ln(1+n)"] = np.log(1 + tabla_agrupada["conteo"])
     return tabla_agrupada 
-    
+

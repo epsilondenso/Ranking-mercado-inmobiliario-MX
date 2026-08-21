@@ -19,14 +19,36 @@ fecha_scrap = "2026-08-14"
 tipo_cambio = 17.04
 min_ads = 10
 
-pesos_score = [0.50, 
-               0.25, 
-               0.25]
+pesos_pavcscore = [0.50, #Price
+                   0.25, #Age
+                   0.25] #Variation coefficient
+
+#Normalized
+columns_score = ["precio_m2_mediana",  #Price
+                 "edad_dias_promedio", #Age
+                 "precio_m2_cv"]       #Variation coefficient
+
+#-- QS_SCORE (Quality-Strenght) --
+
+#QS
+qs_weights = [0.75,
+              0.25]
+
+#QUALITY
+q_weights = [0.75, #Price
+             0.25] #Age
+#Normalized
+q_columns = ["precio_m2_mediana",  #Price
+             "edad_dias_promedio"] #Age
+
+#STRENGHT
+s_weights = [1 #ln(1 + Number_of_ads) 
+             ]
+#Normalized
+s_columns = ["ln(1+n)"
+             ]
 
 
-columns_score = ["precio_m2_mediana", 
-                 "edad_dias_promedio", 
-                 "precio_m2_cv"]
 
 paleta = {"oscuro":"#313131",
           "contraste":"#fb012b",
