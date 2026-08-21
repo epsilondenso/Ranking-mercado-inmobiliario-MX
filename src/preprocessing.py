@@ -6,7 +6,7 @@ def convert_usd_to_mxn(df: pd.DataFrame, price_usd: float = tipo_cambio):
 
 
     df["price"] = df["price"].astype(float)
-    df.loc[df["currency"] == "USD", "price"] *= tipo_cambio
+    df.loc[df["currency"] == "USD", "price"] *= price_usd
     df.loc[df["currency"] == "USD", "currency"] = "MXN"
     df["price"] = df["price"].astype("int64")
     return df 
