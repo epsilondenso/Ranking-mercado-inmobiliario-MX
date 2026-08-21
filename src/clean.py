@@ -32,9 +32,9 @@ def add_age_column(
 
     return df
 
-def group_by_colonia(df: pd.DataFrame) -> pd.DataFrame:
+def group_by_colonia(df: pd.DataFrame, by: list[str] = ['municipio', 'colonia']) -> pd.DataFrame:
 
-    tabla_agrupada = df.groupby(['municipio', 'colonia']).agg(
+    tabla_agrupada = df.groupby(by).agg(
     conteo=('precio_m2', 'count'),
     precio_m2_mediana=('precio_m2', 'median'),
     precio_m2_promedio=('precio_m2', 'mean'),
