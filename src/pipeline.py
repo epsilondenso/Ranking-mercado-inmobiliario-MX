@@ -33,7 +33,7 @@ def full_treatment(raw_data_path: str,
     #Add price/m2
     add_price_m2(prep_data)
     #Drop outliers
-    clean_data = filter_iqr(prep_data, "precio_m2")
+    clean_data = filter_iqr(prep_data, ["precio_m2"])
     #Add age column (days between add publication date and scrap date)
     add_age_column(clean_data)
     #save clean

@@ -2,15 +2,19 @@ import pandas as pd
 import numpy as np
 from config.config import fecha_scrap
 
-def filter_iqr(df:pd.DataFrame, column:str = "precio_m2"):
+def filter_iqr(df:pd.DataFrame, columns:list[str] = ["precio_m2"]):
 
-    Q1 = df[column].quantile(0.25)
-    Q3 = df[column].quantile(0.75)
-    IQR = Q3 - Q1
-    limite_inferior = Q1 - 1.5 * IQR
-    limite_superior = Q3 + 1.5 * IQR
-    
-    return df.loc[(df[column] >= limite_inferior) & (df[column] <= limite_superior)].copy()
+    def filter_one_column(df:pd.DataFrame, column: str):
+        Q1 = df[column].quantile(0.25)
+        Q3 = df[column].quantile(0.75)
+        IQR = Q3 - Q1
+        limite_inferior = Q1 - 1.5 * IQR
+        limite_superior = Q3 + 1.5 * IQR
+        return df.loc[(df[column] >= limite_inferior) & (df[column] <= limite_superior)].copy()
+    filtered = df.copy()
+    for column in columns:
+        filtered = filter_one_column(filtered, column)
+    return filtered
 
 def add_price_m2(df: pd.DataFrame) -> pd.DataFrame | None:
 
