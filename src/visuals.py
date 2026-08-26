@@ -21,10 +21,10 @@ def bar_plot(
         _, ax = plt.subplots()
 
     labels = [
-    f"{data['colonia'].iloc[i].replace('Fraccionamiento ', '')} "
-    f"({data['municipio'].iloc[i]})"
-    for i in range(data.shape[0])
-]
+        f"{data['colonia'].iloc[i].replace('Fraccionamiento ', '')} "
+        f"({data['municipio'].iloc[i]})"
+        for i in range(data.shape[0])
+    ]
 
     sns.barplot(
         data=data,
@@ -38,14 +38,20 @@ def bar_plot(
     ax.set_title(title)
     ax.set_xlabel(criterion)
     ax.set_ylabel("Colonia (municipio)")
-    ax.set_yticks([])
+    #ax.set_yticks(range(1, data.shape[0]+1, 1))
+    ax.set_yticks(range(len(labels)))
+    ax.set_yticklabels(range(1, len(labels)+1, 1))
 
-    ax.bar_label(
-        ax.containers[0],
-        labels=labels,
-        label_type="center",
-        color=color_letras
-    )
+    for bar, label in zip(ax.containers[0], labels):
+        if bar is not None:
+            ax.text(
+                bar.get_x() + bar.get_width() / 2,
+                bar.get_y() + bar.get_height() / 2,
+                label,
+                ha="center",
+                va="center",
+                color=color_letras,
+            )
 
     return ax
 

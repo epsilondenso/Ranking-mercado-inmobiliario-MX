@@ -13,7 +13,7 @@ from src.utils import extraer_sufijo_csv
 
 
 def full_treatment(raw_data_path: str, 
-                   min_ads: int = min_ads, 
+                   max_min_ads: int = min_ads, 
                    columns_mantain: list[str] = ["municipio", "colonia", "precio_m2", "edad_dias"]) -> pd.DataFrame:
 
     """
@@ -41,7 +41,8 @@ def full_treatment(raw_data_path: str,
     #GROUP_BY_COLONIA
     grouped = group_by_colonia(clean_data)
     #Filter by minimum number of adds
-    grouped = grouped[grouped["conteo"] >= min_ads]
+    cut_off = min([max_min_ads, grouped["conteo"].median()])
+    grouped = grouped[ grouped["conteo"] >= cut_off ]
     #Save grouped
     grouped.to_csv(GROUPED_DATA / f"grouped_{state_name}.csv", index= False)
     #Normalized features beetween 0 and 1
