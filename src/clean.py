@@ -11,6 +11,7 @@ def filter_iqr(df:pd.DataFrame, columns:list[str] = ["precio_m2"]):
         limite_inferior = Q1 - 1.5 * IQR
         limite_superior = Q3 + 1.5 * IQR
         return df.loc[(df[column] >= limite_inferior) & (df[column] <= limite_superior)].copy()
+    
     filtered = df.copy()
     for column in columns:
         filtered = filter_one_column(filtered, column)
@@ -22,14 +23,27 @@ def add_price_m2(df: pd.DataFrame) -> pd.DataFrame | None:
 
 def add_age_column(
     df: pd.DataFrame,
-    column_name: str = "fecha_publi",
+    column_publi: str = "fecha_publi",
+    column_scrap: str = "fecha_scrap",
     inplace: bool = True
 ) -> pd.DataFrame | None:
 
-    fecha = pd.Timestamp(fecha_scrap)
+    #fecha = pd.Timestamp(fecha_scrap)
 
+    #CONVERTIR A DATETIME
+    df[column_publi] = pd.to_datetime(
+    df[column_publi],
+    errors="coerce"
+    ).dt.tz_localize(None)
+
+    df[column_scrap] = pd.to_datetime(
+    df[column_scrap],
+    errors="coerce"
+    ).dt.tz_localize(None)
+    
+    #CALCULAR EDAD EN DÍAS
     df.loc[:, "edad_dias"] = (
-        fecha - df[column_name]
+        df[column_scrap] - df[column_publi]
     ).dt.days
 
     if inplace:
