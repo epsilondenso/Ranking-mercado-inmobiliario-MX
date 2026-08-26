@@ -3,7 +3,8 @@ columns_to_maintain = ["city",
                        "price", 
                        "currency",
                        "built_m2", 
-                       "published_date"]
+                       "published_date", 
+                       "scraped_at"]
 
 columns_not_null = ["neighborhood",
                     "price",
@@ -13,9 +14,10 @@ columns_renamed = ["municipio",
                    "colonia",
                    "precio",
                    "construidos_m2",
-                   "fecha_publi"]
+                   "fecha_publi", 
+                   "fecha_scrap"]
 
-fecha_scrap = "2026-08-14"
+fecha_scrap = "2026-08-26"
 tipo_cambio = 17.04
 min_ads = 10
 
@@ -45,7 +47,8 @@ q_columns = ["precio_m2_mediana",  #Price
 s_weights = [1 #ln(1 + Number_of_ads) 
              ]
 #Normalized
-s_columns = ["ln(1+n)"
+s_columns = [
+             "ln(1+n)"
              ]
 
 
