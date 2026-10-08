@@ -28,7 +28,7 @@ def build_global_ranking() -> pd.DataFrame:
         },
     )
     normalized = qs_score(pavc_score(normalized))
-
+    normalized["precio_m2"] = grouped["precio_m2_mediana"]
     SCORED_DATA.mkdir(parents=True, exist_ok=True)
     output_path = SCORED_DATA / "global_norm.csv"
     normalized.to_csv(output_path, index=False)
