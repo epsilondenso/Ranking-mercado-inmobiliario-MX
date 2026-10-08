@@ -32,6 +32,6 @@ def filter_date(df: pd.DataFrame, min_year: int = 2024, date_column: str = "publ
 
     df[date_column] = [date[:10] for date in df[date_column]]
     df[date_column] = pd.to_datetime(df[date_column])
-    df[df[date_column].dt.year > min_year]
+    
 
-    return df
+    return df[df[date_column].dt.year > min_year]
