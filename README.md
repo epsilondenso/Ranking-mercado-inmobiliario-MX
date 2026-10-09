@@ -29,7 +29,7 @@ El notebook `notebooks/test.ipynb` aplica el pipeline a los archivos de `data/ra
 
 ## Requisitos y ejecución
 
-Se requiere Python y las dependencias listadas en `requirements.txt` (Pandas, NumPy, Matplotlib, Seaborn y scikit-learn). Desde la raíz del repositorio, instala las dependencias:
+Se requiere Python y las dependencias listadas en `requirements.txt` (Pandas, NumPy, Matplotlib, Seaborn, scikit-learn y GeoPandas). Desde la raíz del repositorio, instala las dependencias:
 
 ```bash
 python -m pip install -r requirements.txt
@@ -46,6 +46,16 @@ print(top_colonias[["municipio", "colonia", "pavc_score"]])
 ```
 
 `full_treatment` guarda automáticamente los tres CSV de salida. También puede ejecutarse `notebooks/test.ipynb` en Jupyter Notebook o JupyterLab para procesar los estados disponibles y ver las gráficas. No hay actualmente un comando de consola dedicado.
+
+## Asignación de código postal
+
+`geocoding/assign_cp.py` asigna a cada anuncio su código postal por *point-in-polygon* (geopandas), usando las coordenadas del anuncio y los polígonos de `geojson_with_names/cp_<Estado>.geojson`. Desde la raíz del repositorio:
+
+```bash
+python -m geocoding.assign_cp
+```
+
+Genera `data/geocoded/geocoded_<Estado>.csv` con las columnas originales más `codigo_postal` (texto a 5 dígitos) y `cp_metodo`: `within` si el punto cae dentro de un polígono, `nearest` si cae en un hueco entre polígonos y se asigna el más cercano a no más de `cp_max_distancia_m` (500 m, en `config/config.py`), o vacío si no tiene coordenadas o está más lejos (coordenadas erróneas). Los polígonos inválidos se reparan antes del cruce. Los nombres de estado (`<Estado>`) son los mismos en los CSV y en los GeoJSON: CamelCase sin acentos, espacios ni guiones bajos (p. ej. `CDMX`, `EstadodeMexico`, `NuevoLeon`).
 
 ## Alcances y limitaciones
 
@@ -65,6 +75,9 @@ data/raw/     Anuncios originales por estado
 data/clean/   Registros limpios generados
 data/grouped/ Métricas agregadas por colonia generadas
 data/scored/  Métricas normalizadas y puntajes generados
+data/geocoded/ Anuncios con código postal asignado
+geocoding/    Asignación de código postal (point-in-polygon)
+geojson_with_names/ Polígonos de códigos postales por estado (no versionado)
 notebooks/    Ejecución por estados y visualización
 src/          Preprocesamiento, limpieza, puntuación y gráficas
 ```

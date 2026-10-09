@@ -21,6 +21,10 @@ fecha_scrap = "2026-08-26"
 tipo_cambio = 17.04
 min_ads = 10
 
+#-- GEOCODING (código postal) --
+crs_metrico = 6372          #Mexico ITRF2008 / LCC, en metros
+cp_max_distancia_m = 500    #Distancia máxima para asignar el CP más cercano si el punto no cae en ningún polígono
+
 pesos_pavcscore = [0.50, #Price
                    0.25, #Age
                    0.25] #Variation coefficient
