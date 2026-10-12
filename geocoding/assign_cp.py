@@ -19,6 +19,31 @@ from config.config import crs_metrico, cp_max_distancia_m
 from config.paths import RAW_DATA, GEOJSON_CP, GEOCODED_DATA
 from src.utils import extraer_sufijo_csv
 
+columns_to_save_in_geodata = [
+"price",
+"currency",
+"property_type",
+"location",
+"neighborhood",
+"city",
+"state",
+"latitude",
+"longitude",
+"bedrooms",
+"bathrooms",
+"built_m2",
+"land_m2",
+"parking",
+"maintenance_expenses",
+"antiquity_years",
+"publication_age",
+"views_count",
+"published_date",
+"scraped_at",
+"source_page",
+"codigo_postal",
+"cp_metodo"
+]
 
 def load_cp_polygons(state_name: str) -> gpd.GeoDataFrame:
     polygons = gpd.read_file(GEOJSON_CP / f"cp_{state_name}.geojson", columns=["d_codigo"])
@@ -69,7 +94,7 @@ def geocode_state(raw_data_path) -> pd.DataFrame:
     state_name = extraer_sufijo_csv(raw_data_path)
     geocoded = assign_cp(pd.read_csv(raw_data_path), load_cp_polygons(state_name))
     GEOCODED_DATA.mkdir(parents=True, exist_ok=True)
-    geocoded.to_csv(GEOCODED_DATA / f"geocoded_{state_name}.csv", index=False)
+    geocoded[columns_to_save_in_geodata].to_csv(GEOCODED_DATA / f"geocoded_{state_name}.csv", index=False)
     return geocoded
 
 
