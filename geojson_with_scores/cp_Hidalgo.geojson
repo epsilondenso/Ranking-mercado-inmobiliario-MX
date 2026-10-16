@@ -70121,6 +70121,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Tepeji de Ocampo Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22727.0,
+            "score": 0.2183096796201743
           }
         ],
         "tipo_asenta": [
@@ -80758,6 +80764,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 17636.5,
             "score": 0.2256058804781301
+          },
+          {
+            "colonia": "Santa María Matílde",
+            "tipo_asenta": "colonia",
+            "precio_m2": 18125.0,
+            "score": 0.2267303540387148
           }
         ],
         "tipo_asenta": [
@@ -167508,14 +167520,14 @@
           {
             "colonia": "Hacienda la Herradura",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 19911.0,
+            "score": 0.2141691512597482
           },
           {
             "colonia": "Carlos Rovirosa",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 14406.0,
+            "score": 0.186872123794806
           },
           {
             "colonia": "Parque Esmeralda",
@@ -167738,6 +167750,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Ex-Hacienda la Luz",
+            "tipo_asenta": "colonia",
+            "precio_m2": 23658.0,
+            "score": 0.2392162561659694
           },
           {
             "colonia": "Fraccionamiento La Cartuja",
@@ -184420,14 +184438,20 @@
           {
             "colonia": "Ampliación San Antonio",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 18636.0,
+            "score": 0.2153416592554
           },
           {
             "colonia": "Fraccionamiento San Antonio",
             "tipo_asenta": "colonia",
             "precio_m2": 18788.5,
             "score": 0.1732208041012457
+          },
+          {
+            "colonia": "Zona Plateada",
+            "tipo_asenta": "colonia",
+            "precio_m2": 16944.0,
+            "score": 0.175866195668772
           }
         ],
         "tipo_asenta": [
@@ -216666,6 +216690,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 20544.0,
             "score": 0.2107997064553499
+          },
+          {
+            "colonia": "Fraccionamiento Mineral Oro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 18987.0,
+            "score": 0.2162430603118021
           },
           {
             "colonia": "Fraccionamiento Pivadas Santa Matílde",
@@ -275199,8 +275229,8 @@
           {
             "colonia": "La Cañada",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 24385.0,
+            "score": 0.1547199957440569
           },
           {
             "colonia": "Pueblo Nuevo",
@@ -352279,6 +352309,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Punta Azul",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19555.0,
+            "score": 0.1938821443835962
           }
         ],
         "tipo_asenta": [
@@ -522802,6 +522838,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Rancho o rancheria Yextho Chico",
+            "tipo_asenta": "colonia",
+            "precio_m2": 17307.0,
+            "score": 0.2027591861507411
           }
         ],
         "tipo_asenta": [
@@ -719621,6 +719663,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Portezuelo",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22276.0,
+            "score": 0.2106124968301291
           }
         ],
         "tipo_asenta": [
@@ -720635,8 +720683,8 @@
           {
             "colonia": "El Tezontle",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 24647.0,
+            "score": 0.2380396849220584
           },
           {
             "colonia": "Paseo de las Camelinas",
@@ -720823,6 +720871,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 23658.0,
             "score": 0.2029965981830373
+          },
+          {
+            "colonia": "San Pedro Nopalcalco",
+            "tipo_asenta": "colonia",
+            "precio_m2": 20316.0,
+            "score": 0.2675506330180546
           }
         ],
         "tipo_asenta": [
@@ -1088186,6 +1088240,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Banús",
+            "tipo_asenta": "colonia",
+            "precio_m2": 23684.0,
+            "score": 0.2781807689784696
           }
         ],
         "tipo_asenta": [
@@ -1265117,8 +1265177,8 @@
           {
             "colonia": "Olmos",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 17376.0,
+            "score": 0.1610056460648832
           }
         ],
         "tipo_asenta": [
@@ -1267793,8 +1267853,8 @@
           {
             "colonia": "Centro",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 23333.0,
+            "score": 0.2158451049738603
           }
         ],
         "tipo_asenta": [
@@ -1303130,8 +1303190,8 @@
           {
             "colonia": "Lomas de Vista Hermosa",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 16153.0,
+            "score": 0.2330553868568501
           }
         ],
         "tipo_asenta": [
@@ -1424345,6 +1424405,12 @@
             "score": 0.2311706896634553
           },
           {
+            "colonia": "11 de Julio",
+            "tipo_asenta": "colonia",
+            "precio_m2": 16000.0,
+            "score": 0.2224295539517865
+          },
+          {
             "colonia": "Fraccionamiento San Fernando",
             "tipo_asenta": "colonia",
             "precio_m2": 12916.5,
@@ -1427423,6 +1427489,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Los Sabinos",
+            "tipo_asenta": "colonia",
+            "precio_m2": 9519.0,
+            "score": 0.0889188441768461
           }
         ],
         "tipo_asenta": [
@@ -1452543,6 +1452615,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Barrio Tepojaco",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19811.0,
+            "score": 0.2429908994065832
           }
         ],
         "tipo_asenta": [
@@ -1453229,6 +1453307,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Ampliacion El Carmen",
+            "tipo_asenta": "colonia",
+            "precio_m2": 16626.0,
+            "score": 0.194479514138257
+          },
+          {
+            "colonia": "Fraccionamiento El Recinto",
+            "tipo_asenta": "colonia",
+            "precio_m2": 18571.0,
+            "score": 0.2591455166663806
           }
         ],
         "tipo_asenta": [
@@ -1454611,6 +1454701,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Tizayuca",
+            "tipo_asenta": "colonia",
+            "precio_m2": 13191.0,
+            "score": 0.1958511844959823
           }
         ],
         "tipo_asenta": [

@@ -1322863,6 +1322863,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Conde Santiago de La Laguna",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19321.0,
+            "score": 0.1408110908240825
           }
         ],
         "tipo_asenta": [

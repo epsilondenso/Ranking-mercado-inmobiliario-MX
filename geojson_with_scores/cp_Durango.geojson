@@ -27187,6 +27187,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Colinas del Saltito",
+            "tipo_asenta": "colonia",
+            "precio_m2": 12727.0,
+            "score": 0.1656239365347468
           }
         ],
         "tipo_asenta": [
@@ -815918,6 +815924,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Gómez Palacio Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 8421.0,
+            "score": 0.1521027543669426
           }
         ],
         "tipo_asenta": [
@@ -816336,8 +816348,8 @@
           {
             "colonia": "El Campestre",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 15714.0,
+            "score": 0.2437003911019337
           },
           {
             "colonia": "Rincón Campestre",
@@ -817131,6 +817143,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fidel VelAsquez",
+            "tipo_asenta": "colonia",
+            "precio_m2": 17466.0,
+            "score": 0.2287114910594249
           }
         ],
         "tipo_asenta": [
@@ -1098209,6 +1098227,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Gómez Palacio Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 15138.0,
+            "score": 0.2313630628181414
           }
         ],
         "tipo_asenta": [
@@ -1143023,6 +1143047,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 25495.0,
             "score": 0.3211590706827261
+          },
+          {
+            "colonia": "Victoria de Durango Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 15178.0,
+            "score": 0.1058104591769373
           }
         ],
         "tipo_asenta": [
@@ -1280030,8 +1280060,8 @@
           {
             "colonia": "Valle del Guadiana",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 10285.0,
+            "score": 0.1592637752844408
           },
           {
             "colonia": "Rinconada del Ángel",
@@ -1284063,6 +1284093,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Lomas del Parque",
+            "tipo_asenta": "colonia",
+            "precio_m2": 2416.0,
+            "score": 0.1768825951262152
           }
         ],
         "tipo_asenta": [
@@ -1302490,6 +1302526,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Cumbres Residencial",
+            "tipo_asenta": "colonia",
+            "precio_m2": 16326.0,
+            "score": 0.2185543203317499
           }
         ],
         "tipo_asenta": [
@@ -1305958,6 +1306000,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Barrio De Analco",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19306.0,
+            "score": 0.1458813649982989
           }
         ],
         "tipo_asenta": [
@@ -1307070,8 +1307118,8 @@
           {
             "colonia": "Jardines de Cancún",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 8688.0,
+            "score": 0.1144893242650925
           },
           {
             "colonia": "Isabel Almanza",
@@ -1310443,6 +1310491,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Paso Real",
+            "tipo_asenta": "colonia",
+            "precio_m2": 15094.0,
+            "score": 0.1921960264250595
           }
         ],
         "tipo_asenta": [

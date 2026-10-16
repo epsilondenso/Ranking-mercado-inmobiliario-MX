@@ -164,6 +164,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Real Monte Casino",
+            "tipo_asenta": "colonia",
+            "precio_m2": 4000.0,
+            "score": 0.197692718026166
           }
         ],
         "tipo_asenta": [
@@ -1864,6 +1870,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Club de golf San Gaspar",
+            "tipo_asenta": "colonia",
+            "precio_m2": 8787.0,
+            "score": 0.2137904549543075
           }
         ],
         "tipo_asenta": [
@@ -77823,6 +77835,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Los Limoneros",
+            "tipo_asenta": "colonia",
+            "precio_m2": 16343.0,
+            "score": 0.2549673721507721
           }
         ],
         "tipo_asenta": [
@@ -85950,6 +85968,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Pueblo Totolapan",
+            "tipo_asenta": "colonia",
+            "precio_m2": 10937.0,
+            "score": 0.2275292442993478
           }
         ],
         "tipo_asenta": [
@@ -126391,6 +126415,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Kloster Sumiya",
+            "tipo_asenta": "colonia",
+            "precio_m2": 26600.0,
+            "score": 0.3016668798693516
+          },
+          {
+            "colonia": "Fraccionamiento Sumiya",
+            "tipo_asenta": "colonia",
+            "precio_m2": 12117.0,
+            "score": 0.2372732536168943
           }
         ],
         "tipo_asenta": [
@@ -130895,8 +130931,8 @@
           {
             "colonia": "San Cristóbal",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 29473.0,
+            "score": 0.3134806054115797
           }
         ],
         "tipo_asenta": [
@@ -142151,8 +142187,8 @@
           {
             "colonia": "Tejalpa",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 13358.0,
+            "score": 0.2367806180788158
           },
           {
             "colonia": "Ampliación Tejalpa",
@@ -158826,6 +158862,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Pedregal de las Fuentes",
+            "tipo_asenta": "colonia",
+            "precio_m2": 23333.0,
+            "score": 0.2849287703125058
           }
         ],
         "tipo_asenta": [
@@ -161565,6 +161607,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Ciudad Chapultepec",
+            "tipo_asenta": "colonia",
+            "precio_m2": 27500.0,
+            "score": 0.3052193537191516
           }
         ],
         "tipo_asenta": [
@@ -163638,6 +163686,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 28016.0,
             "score": 0.3221750695492602
+          },
+          {
+            "colonia": "Amatitlán",
+            "tipo_asenta": "colonia",
+            "precio_m2": 7089.0,
+            "score": 0.2145662086070872
           }
         ],
         "tipo_asenta": [
@@ -166887,6 +166941,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Centro Cocoyoc",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22771.0,
+            "score": 0.2171978315511047
           },
           {
             "colonia": "Fraccionamiento Viveros de Cocoyoc",
@@ -196848,8 +196908,8 @@
           {
             "colonia": "Los Volcanes",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 23000.0,
+            "score": 0.2848275023984383
           },
           {
             "colonia": "Lomas del Mirador",
@@ -253806,8 +253866,8 @@
           {
             "colonia": "Chipitlán",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 22500.0,
+            "score": 0.2800119403437686
           },
           {
             "colonia": "Mina Cinco",
@@ -262594,6 +262654,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Pueblo Tehuixtla",
+            "tipo_asenta": "colonia",
+            "precio_m2": 14958.0,
+            "score": 0.2418876278091376
           }
         ],
         "tipo_asenta": [
@@ -266045,8 +266111,8 @@
           {
             "colonia": "Club de Golf",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 16176.0,
+            "score": 0.248101683587859
           }
         ],
         "tipo_asenta": [
@@ -335508,10 +335574,28 @@
             "score": null
           },
           {
+            "colonia": "Fraccionamiento Citlalli",
+            "tipo_asenta": "colonia",
+            "precio_m2": 27142.0,
+            "score": 0.3005804949533467
+          },
+          {
             "colonia": "Fraccionamiento Paraíso Tlahuica",
             "tipo_asenta": "colonia",
             "precio_m2": 12333.0,
             "score": 0.2752994733647441
+          },
+          {
+            "colonia": "Pueblo Tlayecac",
+            "tipo_asenta": "colonia",
+            "precio_m2": 20714.0,
+            "score": 0.2750034220071973
+          },
+          {
+            "colonia": "Unidad habitacional Mariano Matamoros",
+            "tipo_asenta": "colonia",
+            "precio_m2": 14200.0,
+            "score": 0.2420975146187203
           }
         ],
         "tipo_asenta": [
@@ -357428,6 +357512,12 @@
             "score": null
           },
           {
+            "colonia": "Bugambilias",
+            "tipo_asenta": "colonia",
+            "precio_m2": 24175.0,
+            "score": 0.293592280398227
+          },
+          {
             "colonia": "Fraccionamiento Brisas",
             "tipo_asenta": "colonia",
             "precio_m2": 21250.0,
@@ -357444,6 +357534,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 20277.0,
             "score": 0.366343551750303
+          },
+          {
+            "colonia": "Fraccionamiento Burgos Sección Casa Blanca",
+            "tipo_asenta": "colonia",
+            "precio_m2": 15768.0,
+            "score": 0.2490888383377026
           },
           {
             "colonia": "Fraccionamiento Lomas de Cuernavaca",
@@ -359508,6 +359604,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Unidad habitacional San Carlos",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19879.0,
+            "score": 0.2744996803878509
           }
         ],
         "tipo_asenta": [
@@ -371438,8 +371540,8 @@
           {
             "colonia": "San Juan Texcalpan",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 22500.0,
+            "score": 0.2874222989095056
           },
           {
             "colonia": "Lomas de Cocoyoc",
@@ -373319,6 +373421,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Ampliación 3 de Mayo",
+            "tipo_asenta": "colonia",
+            "precio_m2": 15714.0,
+            "score": 0.2523059687911767
           }
         ],
         "tipo_asenta": [
@@ -395188,6 +395296,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Pueblo Santa María Ahuacatitlán",
+            "tipo_asenta": "colonia",
+            "precio_m2": 9933.0,
+            "score": 0.2277999940999453
           }
         ],
         "tipo_asenta": [
@@ -409646,6 +409760,12 @@
             "score": 0.3453048704007898
           },
           {
+            "colonia": "Fraccionamiento Pedregal de Oaxtepec",
+            "tipo_asenta": "colonia",
+            "precio_m2": 15000.0,
+            "score": 0.2448303023524071
+          },
+          {
             "colonia": "Fraccionamiento Real de Oaxtepec",
             "tipo_asenta": "colonia",
             "precio_m2": 14171.0,
@@ -412565,8 +412685,8 @@
           {
             "colonia": "Hermenegildo Galeana",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 18300.0,
+            "score": 0.2653062390048611
           },
           {
             "colonia": "Agua Hedionda",
@@ -430894,6 +431014,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Oaxtepec Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 6404.0,
+            "score": 0.2130808407834246
           }
         ],
         "tipo_asenta": [
@@ -463941,6 +464067,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Tezahuapan",
+            "tipo_asenta": "colonia",
+            "precio_m2": 2400.0,
+            "score": 0.1844582182560036
           }
         ],
         "tipo_asenta": [

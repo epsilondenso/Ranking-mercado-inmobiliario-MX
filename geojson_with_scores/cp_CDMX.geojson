@@ -12352,8 +12352,8 @@
           {
             "colonia": "Santa Fe",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 48142.0,
+            "score": 0.4054237426837404
           }
         ],
         "tipo_asenta": [
@@ -20812,8 +20812,8 @@
           {
             "colonia": "Santa Fe",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 54395.0,
+            "score": 0.4344966438111537
           },
           {
             "colonia": "Santa Fe Peña Blanca",
@@ -20838,6 +20838,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 59068.5,
             "score": 0.4677847939824152
+          },
+          {
+            "colonia": "Santa Fe Cuajimalpa",
+            "tipo_asenta": "colonia",
+            "precio_m2": 78947.0,
+            "score": 0.5478304411906705
           }
         ],
         "tipo_asenta": [
@@ -24474,8 +24480,8 @@
           {
             "colonia": "Colina del Sur",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 28376.0,
+            "score": 0.314278688558455
           }
         ],
         "tipo_asenta": [
@@ -41527,8 +41533,8 @@
           {
             "colonia": "Lomas de las Águilas",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 48768.0,
+            "score": 0.4084298781690156
           },
           {
             "colonia": "Puente Colorado",
@@ -64244,8 +64250,8 @@
           {
             "colonia": "Atenor Salas",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 55000.0,
+            "score": 0.436569290630372
           }
         ],
         "tipo_asenta": [
@@ -64624,8 +64630,8 @@
           {
             "colonia": "Portales Sur",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 42857.0,
+            "score": 0.3811730525626935
           }
         ],
         "tipo_asenta": [
@@ -66179,8 +66185,8 @@
           {
             "colonia": "Portales Oriente",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 67432.0,
+            "score": 0.494134819979992
           }
         ],
         "tipo_asenta": [
@@ -69537,8 +69543,8 @@
           {
             "colonia": "Vértiz Narvarte",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 50684.0,
+            "score": 0.4171454227194823
           }
         ],
         "tipo_asenta": [
@@ -70425,8 +70431,8 @@
           {
             "colonia": "San Juan",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 53012.0,
+            "score": 0.4275217394069809
           }
         ],
         "tipo_asenta": [
@@ -70581,8 +70587,8 @@
           {
             "colonia": "Extremadura Insurgentes",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 52272.0,
+            "score": 0.4241094486019263
           }
         ],
         "tipo_asenta": [
@@ -70889,8 +70895,8 @@
           {
             "colonia": "Ampliación Nápoles",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 73394.0,
+            "score": 0.5218658608043366
           }
         ],
         "tipo_asenta": [
@@ -72441,8 +72447,8 @@
           {
             "colonia": "Mixcoac",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 46052.0,
+            "score": 0.3956668048490055
           }
         ],
         "tipo_asenta": [
@@ -74368,8 +74374,8 @@
           {
             "colonia": "Del Carmen",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 71568.0,
+            "score": 0.513326280770324
           }
         ],
         "tipo_asenta": [
@@ -75417,6 +75423,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Manzanastitla",
+            "tipo_asenta": "colonia",
+            "precio_m2": 35333.0,
+            "score": 0.3464783552421103
           }
         ],
         "tipo_asenta": [
@@ -79698,8 +79710,8 @@
           {
             "colonia": "Pedregal de Santo Domingo",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 46666.0,
+            "score": 0.3983785620640921
           }
         ],
         "tipo_asenta": [
@@ -83819,6 +83831,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 48090.5,
             "score": 0.4172526402033126
+          },
+          {
+            "colonia": "Pueblo de Santa Ursula Coapa",
+            "tipo_asenta": "colonia",
+            "precio_m2": 55654.0,
+            "score": 0.4399435836464855
           }
         ],
         "tipo_asenta": [
@@ -92487,8 +92505,8 @@
           {
             "colonia": "Fuentes del Pedregal",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 36506.0,
+            "score": 0.3512896877267481
           }
         ],
         "tipo_asenta": [
@@ -98773,8 +98791,8 @@
           {
             "colonia": "Campestre Coyoacán",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 33208.0,
+            "score": 0.3362014595376522
           }
         ],
         "tipo_asenta": [
@@ -98937,6 +98955,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 49667.0,
             "score": 0.4671775534535658
+          },
+          {
+            "colonia": "Cuajimalpa",
+            "tipo_asenta": "colonia",
+            "precio_m2": 41636.0,
+            "score": 0.3759013384714051
           }
         ],
         "tipo_asenta": [
@@ -103899,6 +103923,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 59433.0,
             "score": 0.5388446440648322
+          },
+          {
+            "colonia": "Bosques de las Lomas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 56701.0,
+            "score": 0.4445324701905577
           }
         ],
         "tipo_asenta": [
@@ -104921,6 +104951,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Contadero",
+            "tipo_asenta": "colonia",
+            "precio_m2": 36889.0,
+            "score": 0.3537729102526571
           }
         ],
         "tipo_asenta": [
@@ -107366,6 +107402,12 @@
             "score": 0.5799967892718683
           },
           {
+            "colonia": "Contadero",
+            "tipo_asenta": "colonia",
+            "precio_m2": 65000.0,
+            "score": 0.4837570257476719
+          },
+          {
             "colonia": "San Mateo Tlaltenango",
             "tipo_asenta": "colonia",
             "precio_m2": 70000.0,
@@ -109312,8 +109354,8 @@
           {
             "colonia": "San Mateo Tlaltenango",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 86096.0,
+            "score": 0.5807959370897733
           }
         ],
         "tipo_asenta": [
@@ -119234,6 +119276,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 56906.0,
             "score": 0.4578130657852114
+          },
+          {
+            "colonia": "Roma Norte",
+            "tipo_asenta": "colonia",
+            "precio_m2": 80885.0,
+            "score": 0.5559303007504272
           }
         ],
         "tipo_asenta": [
@@ -196041,6 +196089,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Lomas Estrella",
+            "tipo_asenta": "colonia",
+            "precio_m2": 30036.0,
+            "score": 0.321335677289122
           }
         ],
         "tipo_asenta": [
@@ -215556,6 +215610,12 @@
             "score": 0.5732630940001469
           },
           {
+            "colonia": "Lomas de Chapultepec - 2 Sección",
+            "tipo_asenta": "colonia",
+            "precio_m2": 78464.0,
+            "score": 0.5454837078474531
+          },
+          {
             "colonia": "Lomas de Chapultepec - 8 Sección",
             "tipo_asenta": "colonia",
             "precio_m2": 65917.0,
@@ -219380,8 +219440,8 @@
           {
             "colonia": "San Ángel Inn",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 76579.0,
+            "score": 0.5370306325268461
           }
         ],
         "tipo_asenta": [
@@ -228419,8 +228479,8 @@
           {
             "colonia": "Anzures",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 59853.0,
+            "score": 0.4591865064509251
           }
         ],
         "tipo_asenta": [
@@ -233204,8 +233264,8 @@
           {
             "colonia": "Lomas Altas",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 51996.0,
+            "score": 0.4235538878298202
           }
         ],
         "tipo_asenta": [
@@ -292892,8 +292952,8 @@
           {
             "colonia": "Los Girasoles",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 38823.0,
+            "score": 0.3617348030849006
           }
         ],
         "tipo_asenta": [
@@ -364244,8 +364304,8 @@
           {
             "colonia": "Ampliación Del Gas",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 55882.0,
+            "score": 0.4406363723736938
           }
         ],
         "tipo_asenta": [
@@ -369833,8 +369893,8 @@
           {
             "colonia": "Escandón I Sección",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 74789.0,
+            "score": 0.5287765777416462
           },
           {
             "colonia": "Escandón II Sección",
@@ -374034,8 +374094,8 @@
           {
             "colonia": "Del Valle Norte",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 48811.0,
+            "score": 0.4085086380196614
           },
           {
             "colonia": "Del Valle Centro",
@@ -381617,8 +381677,8 @@
           {
             "colonia": "General Pedro María Anaya",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 67500.0,
+            "score": 0.494687425662455
           }
         ],
         "tipo_asenta": [
@@ -385658,6 +385718,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 65481.0,
             "score": 0.5289252335935218
+          },
+          {
+            "colonia": "Del Valle Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 34000.0,
+            "score": 0.340690186326273
           }
         ],
         "tipo_asenta": [
@@ -387829,8 +387895,8 @@
           {
             "colonia": "Américas Unidas",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 55757.0,
+            "score": 0.441255191023373
           }
         ],
         "tipo_asenta": [
@@ -391833,8 +391899,8 @@
           {
             "colonia": "Residencial Zacatenco",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 25625.0,
+            "score": 0.3015932669304746
           }
         ],
         "tipo_asenta": [
@@ -410947,8 +411013,8 @@
           {
             "colonia": "Carola",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 43965.0,
+            "score": 0.3861627444503437
           },
           {
             "colonia": "8 de Agosto",
@@ -419586,8 +419652,8 @@
           {
             "colonia": "Reforma Social",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 60075.0,
+            "score": 0.4605687594294932
           }
         ],
         "tipo_asenta": [

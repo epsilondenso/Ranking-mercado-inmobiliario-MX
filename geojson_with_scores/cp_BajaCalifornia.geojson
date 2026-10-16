@@ -26224,14 +26224,14 @@
           {
             "colonia": "Bosque del Sol",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 25352.0,
+            "score": 0.2855136911641627
           },
           {
             "colonia": "Terrazas del Valle",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 26666.0,
+            "score": 0.2698198248972214
           },
           {
             "colonia": "Rivera Maya Residencial",
@@ -42195,8 +42195,8 @@
           {
             "colonia": "Leandro Valle",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 35772.0,
+            "score": 0.3250763788854729
           },
           {
             "colonia": "Xochimilco Solidaridad",
@@ -42245,6 +42245,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Industrial Pacífico",
+            "tipo_asenta": "colonia",
+            "precio_m2": 38281.0,
+            "score": 0.3295940963674393
           }
         ],
         "tipo_asenta": [
@@ -43687,8 +43693,8 @@
           {
             "colonia": "Jardines de La Misión",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 36666.0,
+            "score": 0.3271669225643221
           }
         ],
         "tipo_asenta": [
@@ -60917,8 +60923,8 @@
           {
             "colonia": "Ex Ejido Coahuila",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 31443.0,
+            "score": 0.2974650752854647
           },
           {
             "colonia": "Las Palmas",
@@ -69850,8 +69856,8 @@
           {
             "colonia": "Unión de Residentes Lázaro Cárdenas",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 28592.0,
+            "score": 0.2902946288959528
           },
           {
             "colonia": "Parque Industrial el Dorado",
@@ -70714,8 +70720,8 @@
           {
             "colonia": "Independencia",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 29373.0,
+            "score": 0.3028601224827175
           },
           {
             "colonia": "La Mina",
@@ -92810,8 +92816,8 @@
           {
             "colonia": "Real de Rosarito",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 18215.0,
+            "score": 0.2647947647703083
           },
           {
             "colonia": "Cumbres de Rosarito",
@@ -92900,8 +92906,8 @@
           {
             "colonia": "Plan Libertador",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 30769.0,
+            "score": 0.3061897932532997
           },
           {
             "colonia": "Ampliación Benito Juárez",
@@ -115131,8 +115137,8 @@
           {
             "colonia": "Hacienda Las Delicias",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 5745.0,
+            "score": 0.1976117786009476
           },
           {
             "colonia": "Hacienda los Venados",
@@ -123910,8 +123916,8 @@
           {
             "colonia": "Independencia",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 49583.0,
+            "score": 0.3698772522862548
           },
           {
             "colonia": "Guerrero",
@@ -142677,6 +142683,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Santa Anita del Mar",
+            "tipo_asenta": "colonia",
+            "precio_m2": 45621.0,
+            "score": 0.3847152325889559
           }
         ],
         "tipo_asenta": [
@@ -171370,8 +171382,8 @@
           {
             "colonia": "Hacienda Linda Vista",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 24609.0,
+            "score": 0.2701353755126764
           }
         ],
         "tipo_asenta": [
@@ -172295,8 +172307,8 @@
           {
             "colonia": "Residencial Barcelona",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 27920.0,
+            "score": 0.2417775732554328
           }
         ],
         "tipo_asenta": [
@@ -237216,6 +237228,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 55112.5,
             "score": 0.4377723336244003
+          },
+          {
+            "colonia": "Madero",
+            "tipo_asenta": "colonia",
+            "precio_m2": 83802.0,
+            "score": 0.535676002924781
           }
         ],
         "tipo_asenta": [
@@ -239385,6 +239403,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Calete",
+            "tipo_asenta": "colonia",
+            "precio_m2": 70929.0,
+            "score": 0.4858777295162489
           }
         ],
         "tipo_asenta": [
@@ -242018,6 +242042,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Reforma",
+            "tipo_asenta": "colonia",
+            "precio_m2": 47959.0,
+            "score": 0.3804364660952372
           }
         ],
         "tipo_asenta": [
@@ -244220,8 +244250,8 @@
           {
             "colonia": "Jardines de La Mesa",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 43000.0,
+            "score": 0.3567328531111259
           },
           {
             "colonia": "México Lindo",
@@ -244252,6 +244282,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Obrera",
+            "tipo_asenta": "colonia",
+            "precio_m2": 36129.0,
+            "score": 0.3218221802323478
           }
         ],
         "tipo_asenta": [
@@ -250825,8 +250861,8 @@
           {
             "colonia": "Alamar",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 69385.0,
+            "score": 0.4804313376364485
           },
           {
             "colonia": "Hidalgo",
@@ -278407,8 +278443,8 @@
           {
             "colonia": "Popotla",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 39900.0,
+            "score": 0.3339520655833287
           },
           {
             "colonia": "Playa Hermosa",
@@ -278427,6 +278463,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Villa Mar",
+            "tipo_asenta": "colonia",
+            "precio_m2": 49099.0,
+            "score": 0.337167342002195
           }
         ],
         "tipo_asenta": [
@@ -519052,8 +519094,14 @@
           {
             "colonia": "Jardines de Agua Caliente",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 36666.0,
+            "score": 0.3288402293372305
+          },
+          {
+            "colonia": "Las Plazas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 39046.0,
+            "score": 0.3145957708529168
           }
         ],
         "tipo_asenta": [
@@ -520386,6 +520434,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 38453.0,
             "score": 0.3918961997093677
+          },
+          {
+            "colonia": "Playas de Tijuana",
+            "tipo_asenta": "colonia",
+            "precio_m2": 37828.0,
+            "score": 0.2874653804128408
           }
         ],
         "tipo_asenta": [
@@ -535830,8 +535884,8 @@
           {
             "colonia": "Hipódromo",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 62878.0,
+            "score": 0.434171254491239
           },
           {
             "colonia": "Neidhart",
@@ -571596,8 +571650,8 @@
           {
             "colonia": "Chapultepec",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 23483.0,
+            "score": 0.2800029210006198
           },
           {
             "colonia": "Aeropuerto",
@@ -578893,6 +578947,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Laderas del Mar",
+            "tipo_asenta": "colonia",
+            "precio_m2": 37266.0,
+            "score": 0.3489376289024358
           }
         ],
         "tipo_asenta": [
@@ -600067,8 +600127,8 @@
           {
             "colonia": "Ribera del Bosque",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 28000.0,
+            "score": 0.2923456727459329
           }
         ],
         "tipo_asenta": [
@@ -617625,8 +617685,8 @@
           {
             "colonia": "Colinas del Mar",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 33798.0,
+            "score": 0.3163324283398518
           },
           {
             "colonia": "Balcones Cíbolas del Mar",
@@ -617655,8 +617715,8 @@
           {
             "colonia": "Lomas del Sauzal",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 32857.0,
+            "score": 0.2964554369673059
           },
           {
             "colonia": "Colinas del Mar Residencial",
@@ -630393,8 +630453,8 @@
           {
             "colonia": "Valle Dorado",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 22375.0,
+            "score": 0.2573239860850812
           },
           {
             "colonia": "Militar (23 de Noviembre)",
@@ -632927,6 +632987,12 @@
             "score": 0.34947813551428
           },
           {
+            "colonia": "Pórticos de San Antonio",
+            "tipo_asenta": "colonia",
+            "precio_m2": 27247.0,
+            "score": 0.3046503287218791
+          },
+          {
             "colonia": "Verona",
             "tipo_asenta": "colonia",
             "precio_m2": 30765.0,
@@ -634374,8 +634440,8 @@
           {
             "colonia": "San Agustin",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 30263.0,
+            "score": 0.2897529384778783
           },
           {
             "colonia": "Hacienda las Flores",

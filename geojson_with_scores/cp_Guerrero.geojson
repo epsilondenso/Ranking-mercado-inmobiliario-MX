@@ -245004,8 +245004,8 @@
           {
             "colonia": "Luces en el Mar",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 9221.0,
+            "score": 0.1510108409054103
           },
           {
             "colonia": "San Nicolás de las Playas",
@@ -401475,6 +401475,12 @@
             "score": 0.2630200524966651
           },
           {
+            "colonia": "Fraccionamiento Costa Dorada",
+            "tipo_asenta": "colonia",
+            "precio_m2": 25000.0,
+            "score": 0.2346475195414202
+          },
+          {
             "colonia": "Fraccionamiento Granjas del Márquez",
             "tipo_asenta": "colonia",
             "precio_m2": 26946.0,
@@ -463780,6 +463786,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 28260.0,
             "score": 0.2729853325929741
+          },
+          {
+            "colonia": "Nuevo Centro de Población",
+            "tipo_asenta": "colonia",
+            "precio_m2": 45614.0,
+            "score": 0.3708184123297522
           }
         ],
         "tipo_asenta": [
@@ -580115,6 +580127,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Las Playas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 32500.0,
+            "score": 0.2915821455805904
           }
         ],
         "tipo_asenta": [
@@ -618674,8 +618692,8 @@
           {
             "colonia": "Hornos Insurgentes",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 14830.0,
+            "score": 0.1878710989032218
           },
           {
             "colonia": "Progreso",
@@ -618700,6 +618718,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Acapulco de Juárez Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 20359.0,
+            "score": 0.2391831777292582
           },
           {
             "colonia": "Fraccionamiento Hornos Insurgentes",
@@ -1078584,6 +1078608,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Puerto Marqués",
+            "tipo_asenta": "colonia",
+            "precio_m2": 12121.0,
+            "score": 0.2303594275157221
           }
         ],
         "tipo_asenta": [
@@ -1351444,6 +1351474,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Las Brisas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 40000.0,
+            "score": 0.3152896799862945
           }
         ],
         "tipo_asenta": [
@@ -1369263,6 +1369299,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Acapulco de Juárez Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 21031.0,
+            "score": 0.2708476437283439
           },
           {
             "colonia": "Fraccionamiento Balcones de Costa Azul",
@@ -1392601,8 +1392643,8 @@
           {
             "colonia": "Acapulco de Juárez Centro",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 20800.0,
+            "score": 0.2303402245770148
           },
           {
             "colonia": "Del Panteón",
@@ -1734098,6 +1734140,12 @@
             "score": 0.4622411846951074
           },
           {
+            "colonia": "Fraccionamiento Puerto Marqués",
+            "tipo_asenta": "colonia",
+            "precio_m2": 13186.0,
+            "score": 0.1713261364451568
+          },
+          {
             "colonia": "Fraccionamiento Real Diamante",
             "tipo_asenta": "colonia",
             "precio_m2": 31490.5,
@@ -1774529,6 +1774577,18 @@
             "score": null
           },
           {
+            "colonia": "10 de Abril",
+            "tipo_asenta": "colonia",
+            "precio_m2": 14676.0,
+            "score": 0.1250095790971564
+          },
+          {
+            "colonia": "Cumbres Llano Largo",
+            "tipo_asenta": "colonia",
+            "precio_m2": 21764.0,
+            "score": 0.2448252656686173
+          },
+          {
             "colonia": "Fraccionamiento Costa Dorada",
             "tipo_asenta": "colonia",
             "precio_m2": 17959.0,
@@ -1774539,6 +1774599,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 13099.5,
             "score": 0.2256032035850456
+          },
+          {
+            "colonia": "Nicolás Bravo",
+            "tipo_asenta": "colonia",
+            "precio_m2": 18831.0,
+            "score": 0.1215794894128965
           },
           {
             "colonia": "Pueblo de Llano Largo",
@@ -2038127,6 +2038193,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento San Agustin",
+            "tipo_asenta": "colonia",
+            "precio_m2": 10000.0,
+            "score": 0.1734874308096934
           }
         ],
         "tipo_asenta": [
@@ -2064399,6 +2064471,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Villa Tulipanes",
+            "tipo_asenta": "colonia",
+            "precio_m2": 13561.0,
+            "score": 0.2309039434443265
           }
         ],
         "tipo_asenta": [
@@ -2066475,8 +2066553,8 @@
           {
             "colonia": "Parque Ecológico de Viveristas",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 18823.0,
+            "score": 0.1835744722925318
           },
           {
             "colonia": "Alfredo V Bonfil",

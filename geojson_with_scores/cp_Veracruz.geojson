@@ -423333,6 +423333,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Lomas Diamante",
+            "tipo_asenta": "colonia",
+            "precio_m2": 23377.0,
+            "score": 0.283577878418735
+          },
+          {
+            "colonia": "Residencial Lomas Residencial",
+            "tipo_asenta": "colonia",
+            "precio_m2": 20900.0,
+            "score": 0.272155926629383
           }
         ],
         "tipo_asenta": [
@@ -504083,6 +504095,12 @@
             "score": 0.4484268632214186
           },
           {
+            "colonia": "Residencial Las Lomas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22338.0,
+            "score": 0.2844043675607647
+          },
+          {
             "colonia": "Residencial Lomas Residencial",
             "tipo_asenta": "colonia",
             "precio_m2": 23406.0,
@@ -578718,8 +578736,8 @@
           {
             "colonia": "Xalapa Enríquez Centro",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 20278.0,
+            "score": 0.2647459252022981
           }
         ],
         "tipo_asenta": [
@@ -671484,6 +671502,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento San José",
+            "tipo_asenta": "colonia",
+            "precio_m2": 18076.0,
+            "score": 0.2620024130211021
           }
         ],
         "tipo_asenta": [
@@ -692863,6 +692887,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento San José",
+            "tipo_asenta": "colonia",
+            "precio_m2": 12550.0,
+            "score": 0.2385527733841268
           }
         ],
         "tipo_asenta": [
@@ -781790,8 +781820,8 @@
           {
             "colonia": "Coatzacoalcos Centro",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 10955.0,
+            "score": 0.2279708117046306
           }
         ],
         "tipo_asenta": [
@@ -1085875,8 +1085905,8 @@
           {
             "colonia": "Ylang Ylang",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 14705.0,
+            "score": 0.2480118299034985
           },
           {
             "colonia": "Ampliación Villa Rica",
@@ -1085887,8 +1085917,8 @@
           {
             "colonia": "Playa de Oro Mocambo",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 38831.0,
+            "score": 0.3606959955040701
           },
           {
             "colonia": "Las Américas",
@@ -1085901,6 +1085931,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 28301.0,
             "score": 0.3429380053168386
+          },
+          {
+            "colonia": "Los Pinos",
+            "tipo_asenta": "colonia",
+            "precio_m2": 25000.0,
+            "score": 0.2868785952386314
           }
         ],
         "tipo_asenta": [
@@ -1171668,6 +1171704,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 19314.5,
             "score": 0.3502865199151211
+          },
+          {
+            "colonia": "Pueblo Playa de Vacas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 32317.0,
+            "score": 0.3175112036534418
           }
         ],
         "tipo_asenta": [
@@ -1213053,6 +1213095,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Floresta",
+            "tipo_asenta": "colonia",
+            "precio_m2": 7989.0,
+            "score": 0.2183577262815884
           }
         ],
         "tipo_asenta": [
@@ -1237547,6 +1237595,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Nuevo Coapexpan",
+            "tipo_asenta": "colonia",
+            "precio_m2": 24090.0,
+            "score": 0.2816067025780169
           }
         ],
         "tipo_asenta": [
@@ -1343908,6 +1343962,12 @@
             "score": null
           },
           {
+            "colonia": "Fraccionamiento Cañada de Las Ánimas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 20934.0,
+            "score": 0.2713565322594592
+          },
+          {
             "colonia": "Pedregal de las Animas",
             "tipo_asenta": "colonia",
             "precio_m2": 19987.0,
@@ -1362022,6 +1362082,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": 21351.0,
             "score": 0.3047801491047384
+          },
+          {
+            "colonia": "Fraccionamiento Las Americas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 27108.0,
+            "score": 0.2937304869328323
+          },
+          {
+            "colonia": "Jardines de Virginia",
+            "tipo_asenta": "colonia",
+            "precio_m2": 21351.0,
+            "score": 0.2760284082242091
           }
         ],
         "tipo_asenta": [
@@ -1789887,6 +1789959,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Club de Golf",
+            "tipo_asenta": "colonia",
+            "precio_m2": 21106.0,
+            "score": 0.2793209740524807
           }
         ],
         "tipo_asenta": [
@@ -2064078,8 +2064156,8 @@
           {
             "colonia": "Mártires de Chicago",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 15625.0,
+            "score": 0.2502222648809037
           },
           {
             "colonia": "Villas del Carmen",
@@ -2064102,8 +2064180,8 @@
           {
             "colonia": "Mártires de Chicago",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 15625.0,
+            "score": 0.2502222648809037
           }
         ],
         "tipo_asenta": [
@@ -2068257,6 +2068335,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Jardines de Santa Rosa",
+            "tipo_asenta": "colonia",
+            "precio_m2": 15666.0,
+            "score": 0.246228057304048
           }
         ],
         "tipo_asenta": [
@@ -2095975,6 +2096059,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Hacienda Paraíso",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22097.0,
+            "score": 0.2761217527061907
           }
         ],
         "tipo_asenta": [
@@ -2497604,8 +2497694,8 @@
           {
             "colonia": "El Jobo",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 12612.0,
+            "score": 0.2290378712063959
           },
           {
             "colonia": "Flores Del Valle",
@@ -2819440,6 +2819530,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "El Morro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 23142.0,
+            "score": 0.2784305005080204
           }
         ],
         "tipo_asenta": [
@@ -2820710,8 +2820806,8 @@
           {
             "colonia": "Boca del Río Centro",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 28740.0,
+            "score": 0.3105786806824617
           },
           {
             "colonia": "Costa del Sol",
@@ -2820728,8 +2820824,8 @@
           {
             "colonia": "Ricardo Flores Magón",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 28666.0,
+            "score": 0.3082055790919961
           },
           {
             "colonia": "Río Jamapa",
@@ -2828028,10 +2828124,22 @@
             "score": null
           },
           {
+            "colonia": "Primero de Mayo Norte",
+            "tipo_asenta": "colonia",
+            "precio_m2": 23076.0,
+            "score": 0.2838632128506684
+          },
+          {
             "colonia": "Primero de Mayo Sur",
             "tipo_asenta": "colonia",
             "precio_m2": 19776.0,
             "score": 0.2904455529401739
+          },
+          {
+            "colonia": "Unidad habitacional Infonavit las Vegas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 13571.0,
+            "score": 0.238838501697372
           }
         ],
         "tipo_asenta": [
@@ -3142262,6 +3142370,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 16956.0,
             "score": 0.308255156150954
+          },
+          {
+            "colonia": "Residencial Paseo de la Reina",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19180.0,
+            "score": 0.263985612284825
           }
         ],
         "tipo_asenta": [
@@ -3144524,8 +3144638,8 @@
           {
             "colonia": "Los Pinos",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 9381.0,
+            "score": 0.2201151673764504
           },
           {
             "colonia": "Tecnológico",
@@ -3149866,8 +3149980,8 @@
           {
             "colonia": "Playa Linda",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 12105.0,
+            "score": 0.2312418235538771
           }
         ],
         "tipo_asenta": [

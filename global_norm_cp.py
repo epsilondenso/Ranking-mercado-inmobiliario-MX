@@ -103,6 +103,9 @@ def build_global_ranking_cp() -> pd.DataFrame:
     )
     normalized = qs_score(pavc_score(normalized))
     normalized["precio_m2"] = grouped["precio_m2_mediana"]
+    #Nombres que espera insertar_score_json.py
+    normalized = normalized.rename(columns={"conteo": "conteo_cp",
+                                            "proporcion": "proporcion_cp_colonia"})
     SCORED_DATA.mkdir(parents=True, exist_ok=True)
     output_path = SCORED_DATA / "global_norm_cp.csv"
     normalized.to_csv(output_path, index=False)

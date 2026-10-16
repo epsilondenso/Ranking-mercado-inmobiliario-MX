@@ -130698,8 +130698,8 @@
           {
             "colonia": "Residencial Puerta de Piedra",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 17741.0,
+            "score": 0.2621309665241547
           },
           {
             "colonia": "Palma Mallorca",
@@ -151863,6 +151863,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Club de golf Desarrollo Las Ventanas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 36931.0,
+            "score": 0.3471538318078788
           }
         ],
         "tipo_asenta": [
@@ -207056,6 +207062,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fracciones de el Alto",
+            "tipo_asenta": "colonia",
+            "precio_m2": 17272.0,
+            "score": 0.2593707023846035
           }
         ],
         "tipo_asenta": [
@@ -213212,6 +213224,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Residencial Marfil",
+            "tipo_asenta": "colonia",
+            "precio_m2": 26666.0,
+            "score": 0.2946803826661457
           }
         ],
         "tipo_asenta": [
@@ -233959,8 +233977,8 @@
           {
             "colonia": "Fuentes de Balvanera",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 19230.0,
+            "score": 0.2672042202831206
           },
           {
             "colonia": "La Pitahaya",
@@ -328406,8 +328424,14 @@
           {
             "colonia": "San Miguel de Allende Centro",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 26956.0,
+            "score": 0.3021132492953043
+          },
+          {
+            "colonia": "Club de golf Desarrollo Las Ventanas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 39811.0,
+            "score": 0.3576850947407847
           }
         ],
         "tipo_asenta": [
@@ -331519,8 +331543,8 @@
           {
             "colonia": "Villas del Campestre",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 26272.0,
+            "score": 0.2970468353049145
           }
         ],
         "tipo_asenta": [
@@ -377120,8 +377144,8 @@
           {
             "colonia": "Silao Centro",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 19911.0,
+            "score": 0.267117358431063
           }
         ],
         "tipo_asenta": [
@@ -541967,6 +541991,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 19915.0,
             "score": 0.2900907313777507
+          },
+          {
+            "colonia": "Fraccionamiento Arras Norte",
+            "tipo_asenta": "colonia",
+            "precio_m2": 17605.0,
+            "score": 0.257081532051659
           }
         ],
         "tipo_asenta": [
@@ -617517,8 +617547,8 @@
           {
             "colonia": "La Lejona",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 30237.0,
+            "score": 0.3147326487729479
           },
           {
             "colonia": "Nuevo Pantoja [Zona Ecológica]",
@@ -618024,6 +618054,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Brisas del Carmen",
+            "tipo_asenta": "colonia",
+            "precio_m2": 18888.0,
+            "score": 0.2667028857978858
           }
         ],
         "tipo_asenta": [
@@ -628015,8 +628051,8 @@
           {
             "colonia": "Villa Magna",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 21388.0,
+            "score": 0.2785894610114738
           },
           {
             "colonia": "Quintas San Lorenzo",
@@ -632407,6 +632443,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Quinta Los Naranjos",
+            "tipo_asenta": "colonia",
+            "precio_m2": 20000.0,
+            "score": 0.2707548472018938
           }
         ],
         "tipo_asenta": [
@@ -638424,8 +638466,8 @@
           {
             "colonia": "Hidalgo del Valle",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 19230.0,
+            "score": 0.266487088809017
           },
           {
             "colonia": "Misión de La Florida",
@@ -734181,6 +734223,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento La Estancia",
+            "tipo_asenta": "colonia",
+            "precio_m2": 14885.0,
+            "score": 0.2433438386176817
           }
         ],
         "tipo_asenta": [
@@ -760123,6 +760171,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Las Arboledas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 14363.0,
+            "score": 0.2429686627489411
           }
         ],
         "tipo_asenta": [
@@ -805239,8 +805293,8 @@
           {
             "colonia": "Álamo Country Club",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 10000.0,
+            "score": 0.2252404188575022
           }
         ],
         "tipo_asenta": [
@@ -843560,8 +843614,8 @@
           {
             "colonia": "El Trébol",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 19379.0,
+            "score": 0.2662179828750138
           },
           {
             "colonia": "Valle de San Carlos",
@@ -843574,6 +843628,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": 19874.5,
             "score": 0.3705163227820158
+          },
+          {
+            "colonia": "Mayorazgo del Valle",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19722.0,
+            "score": 0.2668434504763898
+          },
+          {
+            "colonia": "Residencial San José",
+            "tipo_asenta": "colonia",
+            "precio_m2": 18666.0,
+            "score": 0.2597031029388396
           }
         ],
         "tipo_asenta": [
@@ -866818,6 +866884,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Parque Verde",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22641.0,
+            "score": 0.2854429965722691
           }
         ],
         "tipo_asenta": [
@@ -1082423,8 +1082495,8 @@
           {
             "colonia": "Colinas de Gran Jardín",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 25536.0,
+            "score": 0.2910235072433091
           }
         ],
         "tipo_asenta": [
@@ -1104601,6 +1104673,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 21333.0,
             "score": 0.287414171509014
+          },
+          {
+            "colonia": "Fraccionamiento Pedregal del Gigante",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22222.0,
+            "score": 0.2804033324628861
           }
         ],
         "tipo_asenta": [
@@ -1109609,8 +1109687,8 @@
           {
             "colonia": "La Herradura",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 20177.0,
+            "score": 0.267268241428211
           },
           {
             "colonia": "Arboledas del Campo",
@@ -1109633,8 +1109711,8 @@
           {
             "colonia": "Los Héroes León",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 16443.0,
+            "score": 0.2576994088644949
           },
           {
             "colonia": "Fraccionamiento Mayorca Residencial",

@@ -19063,8 +19063,8 @@
           {
             "colonia": "Las Tunas",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 62983.0,
+            "score": 0.4742171838773013
           },
           {
             "colonia": "La Poza",
@@ -48925,8 +48925,8 @@
           {
             "colonia": "Arcoiris",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 27551.0,
+            "score": 0.2820282302917558
           },
           {
             "colonia": "Ayuntamiento",
@@ -49714,6 +49714,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Centenario",
+            "tipo_asenta": "colonia",
+            "precio_m2": 46936.0,
+            "score": 0.3084283679640521
           }
         ],
         "tipo_asenta": [
@@ -66821,6 +66827,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Club de Golf Residencial",
+            "tipo_asenta": "colonia",
+            "precio_m2": 111764.0,
+            "score": 0.6374830092143569
           }
         ],
         "tipo_asenta": [
@@ -68472,6 +68484,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "California",
+            "tipo_asenta": "colonia",
+            "precio_m2": 21267.0,
+            "score": 0.138549433639662
           }
         ],
         "tipo_asenta": [
@@ -148203,8 +148221,8 @@
           {
             "colonia": "Pedregal de la Paz",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 61487.0,
+            "score": 0.3904662333651079
           },
           {
             "colonia": "Punta Prieta",
@@ -162757,8 +162775,8 @@
           {
             "colonia": "Colina del Sol",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 53886.0,
+            "score": 0.3647391825159939
           },
           {
             "colonia": "Lomas de Palmira",
@@ -179704,8 +179722,8 @@
           {
             "colonia": "Bugambilias",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 56923.0,
+            "score": 0.2962732889061777
           },
           {
             "colonia": "San Antonio El Zacatal",
@@ -365673,6 +365691,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 28692.0,
             "score": 0.2630183500500251
+          },
+          {
+            "colonia": "La Paz",
+            "tipo_asenta": "colonia",
+            "precio_m2": 42567.0,
+            "score": 0.3176844090411046
           }
         ],
         "tipo_asenta": [
@@ -382364,6 +382388,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Jardines del Sol",
+            "tipo_asenta": "colonia",
+            "precio_m2": 37614.0,
+            "score": 0.2317375469450756
           }
         ],
         "tipo_asenta": [
@@ -440216,10 +440246,22 @@
             "score": null
           },
           {
+            "colonia": "Cabo San Lucas Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 100017.0,
+            "score": 0.5994506564533395
+          },
+          {
             "colonia": "Libertad",
             "tipo_asenta": "colonia",
             "precio_m2": 44886.0,
             "score": 0.3881955393345819
+          },
+          {
+            "colonia": "Los Cangrejos",
+            "tipo_asenta": "colonia",
+            "precio_m2": 67193.0,
+            "score": 0.418809634704314
           }
         ],
         "tipo_asenta": [
@@ -463930,7 +463972,14 @@
         "d_codigo": 23524,
         "estado": [],
         "municipio": [],
-        "colonias": [],
+        "colonias": [
+          {
+            "colonia": "Villas de Cortez",
+            "tipo_asenta": "colonia",
+            "precio_m2": 6640.0,
+            "score": 0.1865595231250216
+          }
+        ],
         "tipo_asenta": []
       },
       "bbox": [
@@ -465367,8 +465416,8 @@
           {
             "colonia": "Altamira",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 28571.0,
+            "score": 0.2772894270824854
           },
           {
             "colonia": "Altamira Condominios Plus",
@@ -465397,8 +465446,8 @@
           {
             "colonia": "Cerro de los Venados",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 35055.0,
+            "score": 0.2651167593134191
           },
           {
             "colonia": "El Tesoro Residencial",
@@ -465445,8 +465494,8 @@
           {
             "colonia": "Jacarandas",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 24050.0,
+            "score": 0.246163290282966
           },
           {
             "colonia": "Hojazen",
@@ -465457,8 +465506,8 @@
           {
             "colonia": "Cerro de los Venados",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 35055.0,
+            "score": 0.2651167593134191
           },
           {
             "colonia": "Auroras",
@@ -465517,8 +465566,8 @@
           {
             "colonia": "Terranova",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 29379.0,
+            "score": 0.2849595028528716
           }
         ],
         "tipo_asenta": [
@@ -474671,6 +474720,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Club de Golf Residencial",
+            "tipo_asenta": "colonia",
+            "precio_m2": 68028.0,
+            "score": 0.4502695516224652
           }
         ],
         "tipo_asenta": [

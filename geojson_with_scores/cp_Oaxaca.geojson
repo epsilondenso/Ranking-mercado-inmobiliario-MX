@@ -111504,6 +111504,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Ejido Guadalupe Victoria",
+            "tipo_asenta": "colonia",
+            "precio_m2": 28301.0,
+            "score": 0.2230961948877047
           }
         ],
         "tipo_asenta": [
@@ -136214,6 +136220,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Rancho o rancheria Santa Elena el Tule",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19000.0,
+            "score": 0.2553866712997255
           }
         ],
         "tipo_asenta": [
@@ -357756,8 +357768,8 @@
           {
             "colonia": "San Agustinillo",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 41666.0,
+            "score": 0.2989480411189881
           },
           {
             "colonia": "San Antonio",
@@ -608349,6 +608361,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Pueblo Tlalixtac de Cabrera",
+            "tipo_asenta": "colonia",
+            "precio_m2": 30018.0,
+            "score": 0.2709339505212893
           }
         ],
         "tipo_asenta": [
@@ -609789,6 +609807,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Rancho Valle del Lago",
+            "tipo_asenta": "colonia",
+            "precio_m2": 13297.0,
+            "score": 0.1952642748866321
           }
         ],
         "tipo_asenta": [
@@ -1006646,6 +1006670,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Real del Valle",
+            "tipo_asenta": "colonia",
+            "precio_m2": 15270.0,
+            "score": 0.1673103871368292
           }
         ],
         "tipo_asenta": [
@@ -1116594,8 +1116624,8 @@
           {
             "colonia": "Santa María Huatulco Centro",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 3382.0,
+            "score": 0.1373529542429288
           },
           {
             "colonia": "Tamarindo",
@@ -1120247,8 +1120277,8 @@
           {
             "colonia": "El Arrocito",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 52910.0,
+            "score": 0.409003587855398
           },
           {
             "colonia": "Sector O",
@@ -1126798,8 +1126828,8 @@
           {
             "colonia": "Sector R",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 74054.0,
+            "score": 0.4580965063021581
           },
           {
             "colonia": "Sector T",
@@ -2426138,8 +2426168,8 @@
           {
             "colonia": "Volcanes",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 26050.0,
+            "score": 0.2814414747566252
           },
           {
             "colonia": "Ampliación Volcanes",
@@ -2428407,6 +2428437,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 39200.0,
+            "score": 0.3418397607785041
           }
         ],
         "tipo_asenta": [
@@ -2429520,6 +2429556,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Lomas de Sierra Juárez",
+            "tipo_asenta": "colonia",
+            "precio_m2": 25187.0,
+            "score": 0.270290691144289
           }
         ],
         "tipo_asenta": [
@@ -2750211,6 +2750253,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Puerto Escondido Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 27777.0,
+            "score": 0.257731716930108
           }
         ],
         "tipo_asenta": [

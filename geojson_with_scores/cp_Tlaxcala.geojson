@@ -33613,6 +33613,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "La Loma Xicotencatl",
+            "tipo_asenta": "colonia",
+            "precio_m2": 10720.0,
+            "score": 0.15565211905288
           }
         ],
         "tipo_asenta": [
@@ -55927,6 +55933,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Pueblo San Sebastián Atlahapa",
+            "tipo_asenta": "colonia",
+            "precio_m2": 13125.0,
+            "score": 0.2324791159621365
           }
         ],
         "tipo_asenta": [
@@ -173118,8 +173130,8 @@
           {
             "colonia": "Tlaxcala Centro",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 19000.0,
+            "score": 0.2571794999849845
           },
           {
             "colonia": "Huertas de San Francisco",
@@ -226981,6 +226993,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Barrio El Alto",
+            "tipo_asenta": "colonia",
+            "precio_m2": 13000.0,
+            "score": 0.2235361816237678
           }
         ],
         "tipo_asenta": [
@@ -329296,6 +329314,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Pueblo San Andres Ahuashuatepec",
+            "tipo_asenta": "colonia",
+            "precio_m2": 12345.0,
+            "score": 0.1715118590771704
           }
         ],
         "tipo_asenta": [

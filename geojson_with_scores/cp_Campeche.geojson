@@ -38032,6 +38032,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Ejido San Lorenzo",
+            "tipo_asenta": "colonia",
+            "precio_m2": 4750.0,
+            "score": 0.1436610810284894
+          },
+          {
+            "colonia": "Pueblo Lerma",
+            "tipo_asenta": "colonia",
+            "precio_m2": 15891.0,
+            "score": 0.2267078092326334
           }
         ],
         "tipo_asenta": [
@@ -54698,8 +54710,8 @@
           {
             "colonia": "Guadalupe",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 11714.0,
+            "score": 0.1693193209593962
           },
           {
             "colonia": "San Miguel",
@@ -324177,6 +324189,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Residencial San Miguel",
+            "tipo_asenta": "colonia",
+            "precio_m2": 25000.0,
+            "score": 0.276002101214727
           }
         ],
         "tipo_asenta": [
@@ -344964,8 +344982,8 @@
           {
             "colonia": "Miguel Hidalgo",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 9433.0,
+            "score": 0.1635820416070285
           },
           {
             "colonia": "Ampliación Miguel Hidalgo",

@@ -5742,10 +5742,22 @@
             "score": null
           },
           {
+            "colonia": "Fraccionamiento Jurica Pinar",
+            "tipo_asenta": "colonia",
+            "precio_m2": 27762.0,
+            "score": 0.3086984054469539
+          },
+          {
             "colonia": "Juriquilla",
             "tipo_asenta": "colonia",
             "precio_m2": 31287.5,
             "score": 0.3555595349327288
+          },
+          {
+            "colonia": "Juriquilla Santa Fe",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22777.0,
+            "score": 0.2871458174989481
           }
         ],
         "tipo_asenta": [
@@ -8852,6 +8864,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Palmares",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22222.0,
+            "score": 0.2849451651322088
+          },
+          {
+            "colonia": "Jurica",
+            "tipo_asenta": "colonia",
+            "precio_m2": 33742.0,
+            "score": 0.3375881451506849
           }
         ],
         "tipo_asenta": [
@@ -15133,6 +15157,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Portal de Samaniego",
+            "tipo_asenta": "colonia",
+            "precio_m2": 23816.0,
+            "score": 0.2922954239744483
           }
         ],
         "tipo_asenta": [
@@ -72570,8 +72600,8 @@
           {
             "colonia": "El Pueblito Centro",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 29555.0,
+            "score": 0.3195957759152388
           },
           {
             "colonia": "Emiliano Zapata",
@@ -157207,6 +157237,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Barrio San Juan",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22391.0,
+            "score": 0.2864415900469262
           }
         ],
         "tipo_asenta": [
@@ -224509,8 +224545,8 @@
           {
             "colonia": "Alleza Mirador",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 29000.0,
+            "score": 0.3175146454608502
           },
           {
             "colonia": "Sendas Residencial",
@@ -224545,8 +224581,8 @@
           {
             "colonia": "Rodanta",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 19310.0,
+            "score": 0.2704416424827841
           },
           {
             "colonia": "Valencia Residencial",
@@ -224703,6 +224739,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 25506.5,
             "score": 0.3676738990567751
+          },
+          {
+            "colonia": "Rincones el Marqués",
+            "tipo_asenta": "colonia",
+            "precio_m2": 20642.0,
+            "score": 0.2781375507924404
           }
         ],
         "tipo_asenta": [
@@ -238076,6 +238118,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "El Marqués",
+            "tipo_asenta": "colonia",
+            "precio_m2": 26901.0,
+            "score": 0.3061624219314421
           },
           {
             "colonia": "Fraccionamiento Desarrollo Habitacional Zibata",
@@ -336534,6 +336582,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Misión de San Jerónimo",
+            "tipo_asenta": "colonia",
+            "precio_m2": 30648.0,
+            "score": 0.324755343570731
           }
         ],
         "tipo_asenta": [
@@ -372443,6 +372497,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 24499.25,
             "score": 0.3528252332801304
+          },
+          {
+            "colonia": "El Rosario",
+            "tipo_asenta": "colonia",
+            "precio_m2": 23009.0,
+            "score": 0.2882156167783706
           }
         ],
         "tipo_asenta": [
@@ -428594,8 +428654,8 @@
           {
             "colonia": "Tres Cantos Residencial",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 17469.0,
+            "score": 0.2602791095313546
           },
           {
             "colonia": "El Rincón",
@@ -428614,6 +428674,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Sonterra",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22830.0,
+            "score": 0.2882268646863048
           }
         ],
         "tipo_asenta": [
@@ -443038,6 +443104,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Santiago",
+            "tipo_asenta": "colonia",
+            "precio_m2": 30227.0,
+            "score": 0.3214992857390257
           }
         ],
         "tipo_asenta": [
@@ -444212,6 +444284,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Plaza del Parque",
+            "tipo_asenta": "colonia",
+            "precio_m2": 18333.0,
+            "score": 0.2666536278534574
           }
         ],
         "tipo_asenta": [
@@ -444899,8 +444977,8 @@
           {
             "colonia": "Lomas del Marqués",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 36212.0,
+            "score": 0.3490973404258533
           },
           {
             "colonia": "La Vista Residencial",
@@ -470613,10 +470691,22 @@
             "score": 0.3696652425502833
           },
           {
+            "colonia": "Fraccionamiento Real de Juriquilla",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22184.0,
+            "score": 0.2832161545276077
+          },
+          {
             "colonia": "Juriquilla",
             "tipo_asenta": "colonia",
             "precio_m2": 25936.5,
             "score": 0.4613863362462022
+          },
+          {
+            "colonia": "Residencial Juriquilla Santa Fe",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22565.0,
+            "score": 0.2876025052435449
           }
         ],
         "tipo_asenta": [
@@ -493055,8 +493145,8 @@
           {
             "colonia": "La Joya",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 23986.0,
+            "score": 0.2930793286188527
           },
           {
             "colonia": "Anáhuac",
@@ -493571,8 +493661,8 @@
           {
             "colonia": "Álamos 2a Sección",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 27227.0,
+            "score": 0.3074266305424812
           },
           {
             "colonia": "Álamos 3a Sección",
@@ -510062,6 +510152,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Congregacion Hacienda Grande",
+            "tipo_asenta": "colonia",
+            "precio_m2": 21399.0,
+            "score": 0.2817477539742861
           }
         ],
         "tipo_asenta": [
@@ -511307,6 +511403,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Barrio La Magdalena",
+            "tipo_asenta": "colonia",
+            "precio_m2": 23333.0,
+            "score": 0.2911439097547369
           }
         ],
         "tipo_asenta": [

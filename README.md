@@ -21,7 +21,7 @@ data/raw/properties_<Estado>.csv
 python -m pip install -r requirements.txt
 ```
 
-Los polígonos de CP van en `geojson_with_names/cp_<Estado>.geojson` (no versionados; consíguelos aparte).
+Los polígonos de CP van en `geojson_with_names/cp_<Estado>.geojson` (no versionados ).
 
 ### 1. Ranking por estado
 
@@ -56,18 +56,7 @@ Cruza las coordenadas de cada anuncio con los polígonos de CP (*point-in-polygo
 python global_norm_cp.py
 ```
 
-Hace los mismos pasos de limpieza que el paso 1, pero con los CSV geocodificados. Agrupa por estado, ciudad, municipio (tomado del polígono), colonia y CP, exige al menos `min_ads_cp` (3) anuncios y normaliza a nivel nacional. Salida: `data/scored/global_norm_cp.csv`.
-
-> **Paso manual:** el paso 5 lee las columnas `conteo_cp` y `proporcion_cp_colonia`, pero el script escribe `conteo` y `proporcion`. Antes de seguir, renómbralas (es lo que hace `notebooks/cp_test.ipynb`):
->
-> ```python
-> import pandas as pd
-> from config.paths import SCORED_DATA
-> f = SCORED_DATA / "global_norm_cp.csv"
-> pd.read_csv(f, dtype={"codigo_postal": str}).rename(
->     columns={"conteo": "conteo_cp", "proporcion": "proporcion_cp_colonia"}
-> ).to_csv(f, index=False)
-> ```
+Hace los mismos pasos de limpieza que el paso 1, pero con los CSV geocodificados. Agrupa por estado, ciudad, municipio (tomado del polígono), colonia y CP, exige al menos `min_ads_cp` (3) anuncios y normaliza a nivel nacional. Salida: `data/scored/global_norm_cp.csv`, con `conteo_cp` (anuncios en esa colonia-CP), `proporcion_cp_colonia` (fracción de los anuncios de la colonia que caen en ese CP), `precio_m2` y los puntajes; es la entrada directa del paso 5.
 
 ### 5. Asignar score a cada colonia de los GeoJSON
 
@@ -100,7 +89,7 @@ geocoding/             Asignación de código postal
 global_norm.py         Ranking global por colonia
 global_norm_cp.py      Ranking global por colonia y CP
 insertar_score_json.py Score y precio en los GeoJSON
-notebooks/             Ejecución por estados, ajuste de columnas CP y visualización
+notebooks/             Ejecución por estados y visualización
 data/raw/              Anuncios originales por estado
 data/{clean,grouped,scored,geocoded}/  Salidas generadas (CSV no versionados)
 geojson_with_names/    Polígonos de CP por estado (no versionado)

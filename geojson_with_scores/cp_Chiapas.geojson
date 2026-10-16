@@ -372939,8 +372939,8 @@
           {
             "colonia": "La Quinta San Martín",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 16000.0,
+            "score": 0.1614733786529817
           },
           {
             "colonia": "La Ventana",
@@ -394275,6 +394275,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Deportivo San Cristóbal",
+            "tipo_asenta": "colonia",
+            "precio_m2": 33333.0,
+            "score": 0.1748256687764192
           }
         ],
         "tipo_asenta": [
@@ -734958,8 +734964,8 @@
           {
             "colonia": "Maya",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 27165.0,
+            "score": 0.2292124490548734
           },
           {
             "colonia": "Mirador Santuario",
@@ -887976,8 +887982,8 @@
           {
             "colonia": "Las Arboledas",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 21250.0,
+            "score": 0.2338495292309985
           },
           {
             "colonia": "Las Brisas",
@@ -888018,8 +888024,8 @@
           {
             "colonia": "Vista Hermosa",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 21333.0,
+            "score": 0.2357860440061773
           },
           {
             "colonia": "Rincón de Joyyo Mayu",
@@ -1132474,6 +1132480,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Tuxtla Gutiérrez Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 11512.0,
+            "score": 0.1896627581920985
           }
         ],
         "tipo_asenta": [
@@ -1486319,6 +1486331,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Barrio La Merced",
+            "tipo_asenta": "colonia",
+            "precio_m2": 29505.0,
+            "score": 0.1490464906261065
           }
         ],
         "tipo_asenta": [
@@ -1491405,8 +1491423,8 @@
           {
             "colonia": "5 de Febrero",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 16279.0,
+            "score": 0.1872618965424357
           },
           {
             "colonia": "Campestre",

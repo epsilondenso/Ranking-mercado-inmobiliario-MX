@@ -18119,6 +18119,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "San Bernardino Tlaxcalancingo",
+            "tipo_asenta": "colonia",
+            "precio_m2": 37864.0,
+            "score": 0.356834571000299
           }
         ],
         "tipo_asenta": [
@@ -105233,8 +105239,8 @@
           {
             "colonia": "Granjas Puebla",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 14134.0,
+            "score": 0.2425103066426434
           },
           {
             "colonia": "Guadalupe Hidalgo",
@@ -252095,8 +252101,8 @@
           {
             "colonia": "Anzures",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 32956.0,
+            "score": 0.3289438186525369
           },
           {
             "colonia": "Ladrillera de Benitez",
@@ -269029,8 +269035,8 @@
           {
             "colonia": "Lomas del Mármol",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 17522.0,
+            "score": 0.2562207144876356
           },
           {
             "colonia": "Jardines de Saint Germain",
@@ -490359,8 +490365,8 @@
           {
             "colonia": "San José del Puente",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 28409.0,
+            "score": 0.3078571531042624
           },
           {
             "colonia": "Santa Cruz Buenavista",
@@ -1143143,6 +1143149,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Galaxia la Calera",
+            "tipo_asenta": "colonia",
+            "precio_m2": 24112.0,
+            "score": 0.2906722924877052
           }
         ],
         "tipo_asenta": [
@@ -1346593,6 +1346605,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Cuautlancingo",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22727.0,
+            "score": 0.2859590820106125
           }
         ],
         "tipo_asenta": [
@@ -1386799,8 +1386817,8 @@
           {
             "colonia": "Cuautlancingo",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 22727.0,
+            "score": 0.2839272095006524
           },
           {
             "colonia": "Desarrollo Atlatenco",
@@ -1437631,6 +1437649,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Cuautlancingo",
+            "tipo_asenta": "colonia",
+            "precio_m2": 18518.0,
+            "score": 0.261889170674243
           }
         ],
         "tipo_asenta": [
@@ -1533598,8 +1533622,8 @@
           {
             "colonia": "Camino Real a Cholula",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 25822.0,
+            "score": 0.2936570525632814
           },
           {
             "colonia": "La Cuchilla",
@@ -1540375,8 +1540399,8 @@
           {
             "colonia": "Concepción la Cruz",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 27419.0,
+            "score": 0.3081924597579286
           },
           {
             "colonia": "Pontevedra",
@@ -1636549,6 +1636573,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Barrio de Santiago",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22307.0,
+            "score": 0.2830662011197497
           }
         ],
         "tipo_asenta": [
@@ -1797947,8 +1797977,8 @@
           {
             "colonia": "Ex-Hacienda la Carcaña",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 23333.0,
+            "score": 0.2863630332607129
           },
           {
             "colonia": "Residencial el Campanario",
@@ -1802906,6 +1802936,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 22268.0,
             "score": 0.3043749197983373
+          },
+          {
+            "colonia": "Equipamiento Zona Cementos Atoyac",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22274.0,
+            "score": 0.2766988919524283
           }
         ],
         "tipo_asenta": [
@@ -2054449,6 +2054485,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Rancho San José Xilotzingo",
+            "tipo_asenta": "colonia",
+            "precio_m2": 25000.0,
+            "score": 0.295006085278472
           }
         ],
         "tipo_asenta": [
@@ -2112935,8 +2112977,8 @@
           {
             "colonia": "San Pedro",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 14994.0,
+            "score": 0.2475516391137272
           },
           {
             "colonia": "Tepeyac",
@@ -2183857,8 +2183899,8 @@
           {
             "colonia": "Real del Monte",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 22167.0,
+            "score": 0.282301110676713
           },
           {
             "colonia": "Villa Posadas",
@@ -2191401,6 +2191443,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Santa Cruz Buenavista",
+            "tipo_asenta": "colonia",
+            "precio_m2": 37800.0,
+            "score": 0.3450653503720423
           }
         ],
         "tipo_asenta": [
@@ -2203272,6 +2203320,12 @@
             "score": null
           },
           {
+            "colonia": "Barrio Cuarto",
+            "tipo_asenta": "colonia",
+            "precio_m2": 16088.0,
+            "score": 0.2490106386901414
+          },
+          {
             "colonia": "Barrio Primero",
             "tipo_asenta": "colonia",
             "precio_m2": 17708.0,
@@ -2206947,8 +2207001,8 @@
           {
             "colonia": "Valle Dorado",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 19958.0,
+            "score": 0.2729516148896999
           },
           {
             "colonia": "Rancho Colorado",
@@ -2223489,8 +2223543,8 @@
           {
             "colonia": "Bosques de Morillotla",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 26511.0,
+            "score": 0.3008979169949351
           },
           {
             "colonia": "Rincón de Atzala",
@@ -2276158,8 +2276212,8 @@
           {
             "colonia": "Parque de la Castellana",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 21447.0,
+            "score": 0.2744392112781479
           },
           {
             "colonia": "Parque de la Plata",
@@ -2283812,6 +2283866,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "San Bernardino Tlaxcalancingo",
+            "tipo_asenta": "colonia",
+            "precio_m2": 40566.0,
+            "score": 0.3626008165509057
           }
         ],
         "tipo_asenta": [
@@ -2387561,8 +2387621,8 @@
           {
             "colonia": "Reforma Agua Azul",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 31363.0,
+            "score": 0.3192077327670761
           },
           {
             "colonia": "Rivera del Atoyac",
@@ -2394952,8 +2395012,8 @@
           {
             "colonia": "El Cerrito",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 19298.0,
+            "score": 0.2685934793520378
           },
           {
             "colonia": "Los Ángeles Mayorazgo",
@@ -2532097,8 +2532157,8 @@
           {
             "colonia": "El Mirador (La Calera)",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 15991.0,
+            "score": 0.2473681327989459
           },
           {
             "colonia": "Rincones de la Calera",
@@ -2553923,6 +2553983,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Villa Satélite la Calera",
+            "tipo_asenta": "colonia",
+            "precio_m2": 18367.0,
+            "score": 0.2622685761130156
           }
         ],
         "tipo_asenta": [
@@ -2570919,6 +2570985,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Zerezotla",
+            "tipo_asenta": "colonia",
+            "precio_m2": 23091.0,
+            "score": 0.2857252095927866
           }
         ],
         "tipo_asenta": [
@@ -2796047,8 +2796119,8 @@
           {
             "colonia": "Arboledas de Loma Bella",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 19285.0,
+            "score": 0.2402068404756681
           },
           {
             "colonia": "INFONAVIT Loma Bella",
@@ -2914270,8 +2914342,8 @@
           {
             "colonia": "Insurgentes Oriente",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 17600.0,
+            "score": 0.2589708266303155
           },
           {
             "colonia": "INFONAVIT la Flor",
@@ -2940666,8 +2940738,8 @@
           {
             "colonia": "San Felipe Hueyotlipan",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 10403.0,
+            "score": 0.2272182558974704
           },
           {
             "colonia": "Futura",
@@ -2976064,7 +2976136,14 @@
         "d_codigo": 72682,
         "estado": [],
         "municipio": [],
-        "colonias": [],
+        "colonias": [
+          {
+            "colonia": "San Francisco Ocotlán",
+            "tipo_asenta": "colonia",
+            "precio_m2": 21056.0,
+            "score": 0.2786123262135476
+          }
+        ],
         "tipo_asenta": []
       },
       "bbox": [
@@ -3006673,6 +3006752,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Club de Golf el Cristo",
+            "tipo_asenta": "colonia",
+            "precio_m2": 26174.0,
+            "score": 0.2989853755804462
           }
         ],
         "tipo_asenta": [
@@ -3008202,6 +3008287,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Santa María Coronango",
+            "tipo_asenta": "colonia",
+            "precio_m2": 18032.0,
+            "score": 0.2649070897754306
           }
         ],
         "tipo_asenta": [

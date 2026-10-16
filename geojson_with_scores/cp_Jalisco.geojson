@@ -667965,6 +667965,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Americana",
+            "tipo_asenta": "colonia",
+            "precio_m2": 52840.0,
+            "score": 0.427087178092047
           }
         ],
         "tipo_asenta": [
@@ -677346,6 +677352,12 @@
             "score": null
           },
           {
+            "colonia": "Arboleda Bosques de Santa Anita",
+            "tipo_asenta": "colonia",
+            "precio_m2": 27948.0,
+            "score": 0.3114684399496178
+          },
+          {
             "colonia": "Bosques de Santa Anita",
             "tipo_asenta": "colonia",
             "precio_m2": 27352.5,
@@ -678737,6 +678749,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": 23248.0,
             "score": 0.3106867281983985
+          },
+          {
+            "colonia": "Fraccionamiento El Alcázar (Casa Fuerte)",
+            "tipo_asenta": "colonia",
+            "precio_m2": 24705.0,
+            "score": 0.2972314375307587
+          },
+          {
+            "colonia": "Fraccionamiento Senderos de Monte Verde",
+            "tipo_asenta": "colonia",
+            "precio_m2": 20479.0,
+            "score": 0.2766687931004666
           },
           {
             "colonia": "San Agustín",
@@ -684323,6 +684347,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Mirador del Bosque",
+            "tipo_asenta": "colonia",
+            "precio_m2": 21896.0,
+            "score": 0.2834419126964684
           },
           {
             "colonia": "Fraccionamiento Parques de Tesistán",
@@ -778868,6 +778898,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Obrera",
+            "tipo_asenta": "colonia",
+            "precio_m2": 50153.0,
+            "score": 0.41350165438316
           }
         ],
         "tipo_asenta": [
@@ -805767,8 +805803,8 @@
           {
             "colonia": "Mezquitan Country",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 34637.0,
+            "score": 0.3427908697544403
           },
           {
             "colonia": "Miguel Galindo",
@@ -805803,8 +805839,14 @@
           {
             "colonia": "Mezquitan",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 47916.0,
+            "score": 0.4035449572406073
+          },
+          {
+            "colonia": "Artesanos",
+            "tipo_asenta": "colonia",
+            "precio_m2": 48051.0,
+            "score": 0.4046455574017426
           }
         ],
         "tipo_asenta": [
@@ -832216,6 +832258,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "5 de Diciembre",
+            "tipo_asenta": "colonia",
+            "precio_m2": 98186.0,
+            "score": 0.6341549526712902
           }
         ],
         "tipo_asenta": [
@@ -879884,6 +879932,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Colomos Providencia",
+            "tipo_asenta": "colonia",
+            "precio_m2": 64833.0,
+            "score": 0.4802379507305755
           }
         ],
         "tipo_asenta": [
@@ -979550,8 +979604,8 @@
           {
             "colonia": "Jardines Del Sur",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 33125.0,
+            "score": 0.334982076236577
           }
         ],
         "tipo_asenta": [
@@ -1020985,8 +1021039,8 @@
           {
             "colonia": "Las Águilas",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 24595.0,
+            "score": 0.2968437270261417
           },
           {
             "colonia": "Pinar de La Calma",
@@ -1178001,8 +1178055,8 @@
           {
             "colonia": "Balcones de Santa María",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 48933.0,
+            "score": 0.4070393323721562
           },
           {
             "colonia": "Jardines de Santa María",
@@ -1331378,6 +1331432,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Zotogrande",
+            "tipo_asenta": "colonia",
+            "precio_m2": 87521.0,
+            "score": 0.5846178985073351
           }
         ],
         "tipo_asenta": [
@@ -1591582,6 +1591642,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 30454.0,
             "score": 0.4270181958986035
+          },
+          {
+            "colonia": "Hogares de Nuevo México",
+            "tipo_asenta": "colonia",
+            "precio_m2": 32882.0,
+            "score": 0.3339810756278083
           }
         ],
         "tipo_asenta": [
@@ -1665015,6 +1665081,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Jardines Vallarta",
+            "tipo_asenta": "colonia",
+            "precio_m2": 68013.0,
+            "score": 0.4949015787847295
           }
         ],
         "tipo_asenta": [
@@ -2008631,8 +2008703,8 @@
           {
             "colonia": "Francisco Sarabia",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 31915.0,
+            "score": 0.3296415634746347
           },
           {
             "colonia": "Jardines de Ixtepete",
@@ -2165828,6 +2165900,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Bugambilias",
+            "tipo_asenta": "colonia",
+            "precio_m2": 32043.0,
+            "score": 0.329156100348678
           }
         ],
         "tipo_asenta": [
@@ -2221389,8 +2221467,8 @@
           {
             "colonia": "Natura Bosque Residencial",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 31203.0,
+            "score": 0.3265974302004184
           },
           {
             "colonia": "La Granja",
@@ -2221509,8 +2221587,8 @@
           {
             "colonia": "El Fortín",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 28676.0,
+            "score": 0.3153034839585875
           },
           {
             "colonia": "Colinas de La Primavera",
@@ -2499130,6 +2499208,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 75675.0,
             "score": 0.5911439889566071
+          },
+          {
+            "colonia": "Fraccionamiento Colomos Providencia",
+            "tipo_asenta": "colonia",
+            "precio_m2": 49007.0,
+            "score": 0.4070219957156099
           }
         ],
         "tipo_asenta": [
@@ -2747740,6 +2747824,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Chapalita",
+            "tipo_asenta": "colonia",
+            "precio_m2": 84523.0,
+            "score": 0.573183947790085
+          },
+          {
+            "colonia": "Jardines del Bosque",
+            "tipo_asenta": "colonia",
+            "precio_m2": 32000.0,
+            "score": 0.3309896910956418
           }
         ],
         "tipo_asenta": [
@@ -3038825,6 +3038921,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Lomas de Providencia",
+            "tipo_asenta": "colonia",
+            "precio_m2": 57631.0,
+            "score": 0.4492989773652315
           }
         ],
         "tipo_asenta": [
@@ -3342916,8 +3343018,8 @@
           {
             "colonia": "Los Robles",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 30916.0,
+            "score": 0.3263497119236674
           }
         ],
         "tipo_asenta": [
@@ -3421056,8 +3421158,8 @@
           {
             "colonia": "Vallarta La Patria",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 45454.0,
+            "score": 0.3932678707192699
           }
         ],
         "tipo_asenta": [

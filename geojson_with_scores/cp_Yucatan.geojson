@@ -6956,6 +6956,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": 15648.0,
             "score": 0.3023432235051809
+          },
+          {
+            "colonia": "Mérida Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 32746.0,
+            "score": 0.3334734738246354
+          },
+          {
+            "colonia": "Yucatán Country Club",
+            "tipo_asenta": "colonia",
+            "precio_m2": 34296.0,
+            "score": 0.3405013177877372
           }
         ],
         "tipo_asenta": [
@@ -15057,8 +15069,8 @@
           {
             "colonia": "Sodzil Norte",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 43800.0,
+            "score": 0.3843261986137369
           },
           {
             "colonia": "Montes de Ame",
@@ -65025,8 +65037,8 @@
           {
             "colonia": "Francisco de Montejo",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 18902.0,
+            "score": 0.268082183686811
           },
           {
             "colonia": "San José Chuburna",
@@ -124982,8 +124994,8 @@
           {
             "colonia": "Residencial Xcanatún",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 23589.0,
+            "score": 0.2913682026263294
           },
           {
             "colonia": "Royal del Parque",
@@ -125182,6 +125194,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 19965.5,
             "score": 0.3453496440986049
+          },
+          {
+            "colonia": "Mérida",
+            "tipo_asenta": "colonia",
+            "precio_m2": 20258.0,
+            "score": 0.276486370449195
           }
         ],
         "tipo_asenta": [
@@ -366074,6 +366092,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Pueblo San Crisanto",
+            "tipo_asenta": "colonia",
+            "precio_m2": 41176.0,
+            "score": 0.3701945273572045
           }
         ],
         "tipo_asenta": [
@@ -414684,6 +414708,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Pueblo Temozon",
+            "tipo_asenta": "colonia",
+            "precio_m2": 35555.0,
+            "score": 0.345350648061316
           }
         ],
         "tipo_asenta": [
@@ -451936,6 +451966,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Pueblo Chicxulub",
+            "tipo_asenta": "colonia",
+            "precio_m2": 20645.0,
+            "score": 0.2777928186667604
           }
         ],
         "tipo_asenta": [
@@ -525601,8 +525637,8 @@
           {
             "colonia": "Montevideo",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 28155.0,
+            "score": 0.3096739551502112
           },
           {
             "colonia": "Residencial Camara de Comercio Norte",
@@ -525615,6 +525651,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Montecristo",
+            "tipo_asenta": "colonia",
+            "precio_m2": 26000.0,
+            "score": 0.3005734643678913
           }
         ],
         "tipo_asenta": [
@@ -534483,6 +534525,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Pueblo Chicxulub Puerto",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22916.0,
+            "score": 0.2880258186505446
           }
         ],
         "tipo_asenta": [
@@ -535310,6 +535358,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Pueblo Chicxulub",
+            "tipo_asenta": "colonia",
+            "precio_m2": 53750.0,
+            "score": 0.4274586723462871
           },
           {
             "colonia": "Pueblo Chicxulub Puerto",
@@ -539091,6 +539145,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Pueblo San Ignacio",
+            "tipo_asenta": "colonia",
+            "precio_m2": 18561.0,
+            "score": 0.2665097631942115
+          },
+          {
+            "colonia": "Pueblo Tamanche",
+            "tipo_asenta": "colonia",
+            "precio_m2": 23115.0,
+            "score": 0.2887044043801757
           }
         ],
         "tipo_asenta": [
@@ -545124,6 +545190,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Pueblo Kiktel",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19642.0,
+            "score": 0.2679088171213478
           }
         ],
         "tipo_asenta": [
@@ -547668,6 +547740,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Pueblo Conkal",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19020.0,
+            "score": 0.2682677399970518
           }
         ],
         "tipo_asenta": [

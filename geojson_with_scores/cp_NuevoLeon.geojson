@@ -10156,6 +10156,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 68311.5,
             "score": 0.524193110610303
+          },
+          {
+            "colonia": "Monterrey Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 89000.0,
+            "score": 0.5896450402283949
           }
         ],
         "tipo_asenta": [
@@ -40253,8 +40259,8 @@
           {
             "colonia": "Paseo del Vergel",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 30192.0,
+            "score": 0.3205012402199001
           },
           {
             "colonia": "Residencial Amura",
@@ -40415,8 +40421,8 @@
           {
             "colonia": "Contry Sur",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 25121.0,
+            "score": 0.2967592600606423
           },
           {
             "colonia": "Bosques de la Estanzuela",
@@ -109004,6 +109010,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 54207.5,
             "score": 0.4585590827857237
+          },
+          {
+            "colonia": "Residencial y Club de Golf la Herradura Etapa B",
+            "tipo_asenta": "colonia",
+            "precio_m2": 61516.0,
+            "score": 0.4661378068806133
           }
         ],
         "tipo_asenta": [
@@ -252615,8 +252627,8 @@
           {
             "colonia": "Villa los Pinos",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 30000.0,
+            "score": 0.3192573233550503
           }
         ],
         "tipo_asenta": [
@@ -452984,8 +452996,8 @@
           {
             "colonia": "Arboledas Nueva Lindavista",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 23333.0,
+            "score": 0.2875582523842189
           },
           {
             "colonia": "Jardines Nueva Lindavista",
@@ -453864,8 +453876,8 @@
           {
             "colonia": "Azteca",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 20231.0,
+            "score": 0.2728957324886811
           },
           {
             "colonia": "Las Canteras",
@@ -540563,8 +540575,8 @@
           {
             "colonia": "Lomas Del Valle",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 82446.0,
+            "score": 0.5603793858835127
           }
         ],
         "tipo_asenta": [
@@ -557335,14 +557347,14 @@
           {
             "colonia": "Anáhuac",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 42934.0,
+            "score": 0.3792571989199095
           },
           {
             "colonia": "Cuauhtémoc",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 59107.0,
+            "score": 0.4508461500167522
           },
           {
             "colonia": "Chapultepec",
@@ -572595,8 +572607,8 @@
           {
             "colonia": "Villa Montaña",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 75259.0,
+            "score": 0.5264020108539122
           }
         ],
         "tipo_asenta": [
@@ -573098,6 +573110,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Bosques de La Huasteca",
+            "tipo_asenta": "colonia",
+            "precio_m2": 65289.0,
+            "score": 0.4782769146391754
           }
         ],
         "tipo_asenta": [
@@ -642533,8 +642551,8 @@
           {
             "colonia": "Residencial Cordillera",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 74299.0,
+            "score": 0.520899558003767
           },
           {
             "colonia": "Los Cenizos",
@@ -728713,8 +728731,8 @@
           {
             "colonia": "Palmas Diamante",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 28991.0,
+            "score": 0.3154412721167745
           },
           {
             "colonia": "Rincón de Casa Blanca Sector 2",
@@ -737240,8 +737258,8 @@
           {
             "colonia": "San Pedro Garza García Centro",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 48534.0,
+            "score": 0.4053189839720517
           }
         ],
         "tipo_asenta": [
@@ -812085,8 +812103,8 @@
           {
             "colonia": "Las Misiones",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 43344.0,
+            "score": 0.3823430115975674
           }
         ],
         "tipo_asenta": [
@@ -817553,8 +817571,8 @@
           {
             "colonia": "Bosques de la Pastora",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 38333.0,
+            "score": 0.3560091777693321
           },
           {
             "colonia": "Villa Pastora",
@@ -974160,6 +974178,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "El Cerrito",
+            "tipo_asenta": "colonia",
+            "precio_m2": 32964.0,
+            "score": 0.332207799916328
           }
         ],
         "tipo_asenta": [
@@ -1126900,6 +1126924,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Apodaca Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 50000.0,
+            "score": 0.4112423553426383
           }
         ],
         "tipo_asenta": [
@@ -1127732,6 +1127762,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Residencial Capellanía",
+            "tipo_asenta": "colonia",
+            "precio_m2": 25000.0,
+            "score": 0.2948865633661214
           }
         ],
         "tipo_asenta": [
@@ -1128664,8 +1128700,8 @@
           {
             "colonia": "La Encomienda",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 49473.0,
+            "score": 0.4103660358055422
           }
         ],
         "tipo_asenta": [
@@ -1130318,8 +1130354,8 @@
           {
             "colonia": "Privadas del Los Sauces",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 22222.0,
+            "score": 0.2843475555704558
           },
           {
             "colonia": "Rincón de las Encinas",
@@ -1135073,8 +1135109,8 @@
           {
             "colonia": "Linda Vista",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 31558.0,
+            "score": 0.3246487501755687
           }
         ],
         "tipo_asenta": [
@@ -1136915,14 +1136951,14 @@
           {
             "colonia": "Buenos Aires",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 36516.0,
+            "score": 0.3501405806411483
           },
           {
             "colonia": "Buenos Aires",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 36516.0,
+            "score": 0.3501405806411483
           }
         ],
         "tipo_asenta": [
@@ -1140585,8 +1140621,8 @@
           {
             "colonia": "Fuentes del Valle",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 57762.0,
+            "score": 0.4459588219542323
           },
           {
             "colonia": "Fuentes del Valle Sector Colinas",
@@ -1149663,6 +1149699,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "El Lechugal",
+            "tipo_asenta": "colonia",
+            "precio_m2": 63855.0,
+            "score": 0.473815842825745
           }
         ],
         "tipo_asenta": [
@@ -1182739,8 +1182781,8 @@
           {
             "colonia": "Roma",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 48994.0,
+            "score": 0.40457161181932
           },
           {
             "colonia": "Roma Sur",
@@ -1232730,8 +1232772,8 @@
           {
             "colonia": "Monticello",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 24675.0,
+            "score": 0.2917146153612634
           },
           {
             "colonia": "Santoral",
@@ -1239069,6 +1239111,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Cumbres Allegro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 47777.0,
+            "score": 0.3995573863678952
           }
         ],
         "tipo_asenta": [

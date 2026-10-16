@@ -52210,6 +52210,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 14601.0,
+            "score": 0.130400790605689
           }
         ],
         "tipo_asenta": [
@@ -236258,6 +236264,30 @@
             "tipo_asenta": "colonia",
             "precio_m2": 24584.5,
             "score": 0.2617683163198037
+          },
+          {
+            "colonia": "Fraccionamiento La Misión",
+            "tipo_asenta": "colonia",
+            "precio_m2": 21928.0,
+            "score": 0.1953822999030271
+          },
+          {
+            "colonia": "Fraccionamiento Palma Real",
+            "tipo_asenta": "colonia",
+            "precio_m2": 24833.0,
+            "score": 0.2322041417354793
+          },
+          {
+            "colonia": "Fraccionamiento Villa Esmeralda",
+            "tipo_asenta": "colonia",
+            "precio_m2": 23166.0,
+            "score": 0.231927623582262
+          },
+          {
+            "colonia": "Pueblo San José del Valle",
+            "tipo_asenta": "colonia",
+            "precio_m2": 23250.0,
+            "score": 0.2511994268520681
           }
         ],
         "tipo_asenta": [
@@ -283975,6 +284005,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Rancho o rancheria San Francisco",
+            "tipo_asenta": "colonia",
+            "precio_m2": 107311.0,
+            "score": 0.6066704342725993
           }
         ],
         "tipo_asenta": [
@@ -290769,6 +290805,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Punta Mita",
+            "tipo_asenta": "colonia",
+            "precio_m2": 99137.0,
+            "score": 0.5826039524960848
           },
           {
             "colonia": "Sayulita",
@@ -515616,6 +515658,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Xalisco Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 24074.0,
+            "score": 0.2462739591739407
           }
         ],
         "tipo_asenta": [
@@ -561284,8 +561332,8 @@
           {
             "colonia": "13 de Septiembre",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 35714.0,
+            "score": 0.3170400047628285
           },
           {
             "colonia": "Villa Esmeralda",
@@ -561394,6 +561442,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 34367.0,
             "score": 0.3537214697634703
+          },
+          {
+            "colonia": "Paraíso",
+            "tipo_asenta": "colonia",
+            "precio_m2": 23157.0,
+            "score": 0.2370255649792222
           },
           {
             "colonia": "Virreyes Vallarta",
@@ -563402,8 +563456,8 @@
           {
             "colonia": "Dorada",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 68000.0,
+            "score": 0.4899412347290771
           },
           {
             "colonia": "Playas de Huanacaxtle",

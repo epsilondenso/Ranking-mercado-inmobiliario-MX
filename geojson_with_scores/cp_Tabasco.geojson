@@ -49682,6 +49682,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Villahermosa Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 20357.0,
+            "score": 0.2125205688674937
           }
         ],
         "tipo_asenta": [
@@ -322560,6 +322566,18 @@
             "score": null
           },
           {
+            "colonia": "Cedros",
+            "tipo_asenta": "colonia",
+            "precio_m2": 17943.0,
+            "score": 0.2557715930364723
+          },
+          {
+            "colonia": "Ciudad Industrial",
+            "tipo_asenta": "colonia",
+            "precio_m2": 17041.0,
+            "score": 0.1415326059424377
+          },
+          {
             "colonia": "Unidad habitacional Indeco Unidad",
             "tipo_asenta": "colonia",
             "precio_m2": 19122.0,
@@ -333374,8 +333392,8 @@
           {
             "colonia": "Monteceibas",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 7574.0,
+            "score": 0.0553285388598778
           }
         ],
         "tipo_asenta": [
@@ -426264,6 +426282,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 21428.0,
             "score": 0.2539418783423679
+          },
+          {
+            "colonia": "Residencial Residencial las Puertas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 25000.0,
+            "score": 0.2390698302983923
           }
         ],
         "tipo_asenta": [
@@ -558649,6 +558673,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Real Del Sur",
+            "tipo_asenta": "colonia",
+            "precio_m2": 17847.0,
+            "score": 0.1776396744446849
           },
           {
             "colonia": "Plutarco Elias Calles Cura Hueso",
@@ -766311,8 +766341,8 @@
           {
             "colonia": "Villahermosa Centro",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 17896.0,
+            "score": 0.1534831533109031
           },
           {
             "colonia": "Diroga Premier",

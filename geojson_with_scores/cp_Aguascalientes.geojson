@@ -350,6 +350,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento La Casita",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22522.0,
+            "score": 0.2527428688988752
+          },
+          {
+            "colonia": "Hacienda Viñedos RIVer",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19398.0,
+            "score": 0.2226800977390674
           }
         ],
         "tipo_asenta": [
@@ -2405,6 +2417,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Arroyo El Molino",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22687.0,
+            "score": 0.2759738370462389
           }
         ],
         "tipo_asenta": [
@@ -10156,6 +10174,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 17371.0,
             "score": 0.3085892340125824
+          },
+          {
+            "colonia": "Hacienda El Chichimeco",
+            "tipo_asenta": "colonia",
+            "precio_m2": 17104.0,
+            "score": 0.2459266974386169
           }
         ],
         "tipo_asenta": [
@@ -43445,6 +43469,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Valle del Campestre",
+            "tipo_asenta": "colonia",
+            "precio_m2": 18571.0,
+            "score": 0.2077510943556236
           }
         ],
         "tipo_asenta": [
@@ -43813,8 +43843,8 @@
           {
             "colonia": "Fátima",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 25896.0,
+            "score": 0.1939584410063367
           },
           {
             "colonia": "Independencia de México",
@@ -48196,6 +48226,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 28428.0,
             "score": 0.3077182781697891
+          },
+          {
+            "colonia": "Fraccionamiento Los Vergeles",
+            "tipo_asenta": "colonia",
+            "precio_m2": 34000.0,
+            "score": 0.2772240508681057
           }
         ],
         "tipo_asenta": [
@@ -50767,6 +50803,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Ejido Los Pocitos",
+            "tipo_asenta": "colonia",
+            "precio_m2": 28757.0,
+            "score": 0.2794618520233962
           }
         ],
         "tipo_asenta": [
@@ -59711,8 +59753,8 @@
           {
             "colonia": "Chicahuales",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 20192.0,
+            "score": 0.2773772501225204
           },
           {
             "colonia": "Lomas del Valle",
@@ -59797,6 +59839,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Condominio La Piedra",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19069.0,
+            "score": 0.2265414977477321
           },
           {
             "colonia": "Condominio Yalta Campestre",
@@ -133735,6 +133783,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Paseos Gómez Portugal",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19174.0,
+            "score": 0.2554718892851888
           }
         ],
         "tipo_asenta": [
@@ -153278,6 +153332,12 @@
             "score": null
           },
           {
+            "colonia": "Bosques del Paraíso Residencial",
+            "tipo_asenta": "colonia",
+            "precio_m2": 21346.0,
+            "score": 0.2346507705319493
+          },
+          {
             "colonia": "Condominio Nura",
             "tipo_asenta": "colonia",
             "precio_m2": 23965.0,
@@ -153290,10 +153350,28 @@
             "score": 0.2806623745934457
           },
           {
+            "colonia": "Fraccionamiento Rancho San Miguel",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19266.0,
+            "score": 0.2251789885598218
+          },
+          {
+            "colonia": "Fraccionamiento Reserva San Cristóbal",
+            "tipo_asenta": "colonia",
+            "precio_m2": 21382.0,
+            "score": 0.2574064153026743
+          },
+          {
             "colonia": "Fraccionamiento Trojes de San Cristóbal",
             "tipo_asenta": "colonia",
             "precio_m2": 19117.0,
             "score": 0.26560597282941
+          },
+          {
+            "colonia": "Fraccionamiento Villas del Molino",
+            "tipo_asenta": "colonia",
+            "precio_m2": 23000.0,
+            "score": 0.2874569844701514
           },
           {
             "colonia": "Fraccionamiento Viña Antigua",
@@ -154647,6 +154725,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Loma Bonita",
+            "tipo_asenta": "colonia",
+            "precio_m2": 21739.0,
+            "score": 0.229530702705326
           },
           {
             "colonia": "Fraccionamiento Vergel de la Cantera",
@@ -156770,6 +156854,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 22320.0,
             "score": 0.3140142455520067
+          },
+          {
+            "colonia": "Rancho o rancheria Tepetates",
+            "tipo_asenta": "colonia",
+            "precio_m2": 27202.0,
+            "score": 0.2406181233560823
           }
         ],
         "tipo_asenta": [
@@ -186591,8 +186681,8 @@
           {
             "colonia": "El Edén",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 24148.0,
+            "score": 0.2860574193301434
           },
           {
             "colonia": "Parque Industrial el Vergel",
@@ -190655,8 +190745,8 @@
           {
             "colonia": "San Gerardo",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 15777.0,
+            "score": 0.2144689845901448
           },
           {
             "colonia": "Santa Gertrudis",
@@ -212831,6 +212921,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Residencial Altaria",
+            "tipo_asenta": "colonia",
+            "precio_m2": 29066.0,
+            "score": 0.2407273514448953
           }
         ],
         "tipo_asenta": [
@@ -221211,6 +221307,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 22255.5,
             "score": 0.2589488834998797
+          },
+          {
+            "colonia": "Fraccionamiento Villas de San Nicolás",
+            "tipo_asenta": "colonia",
+            "precio_m2": 16740.0,
+            "score": 0.2165191355934946
           }
         ],
         "tipo_asenta": [
@@ -234262,8 +234364,8 @@
           {
             "colonia": "Jacarandas",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 23293.0,
+            "score": 0.2597642424796063
           },
           {
             "colonia": "Deportiva",
@@ -239635,6 +239737,12 @@
             "score": 0.2784530280379523
           },
           {
+            "colonia": "Fraccionamiento Lomas del Picacho",
+            "tipo_asenta": "colonia",
+            "precio_m2": 8117.0,
+            "score": 0.1526132990122054
+          },
+          {
             "colonia": "Rancho o rancheria Viñedos Valle Redondo",
             "tipo_asenta": "colonia",
             "precio_m2": 16230.5,
@@ -240760,6 +240868,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Residencial del Valle",
+            "tipo_asenta": "colonia",
+            "precio_m2": 15000.0,
+            "score": 0.2309657605197378
           }
         ],
         "tipo_asenta": [
@@ -244288,14 +244402,26 @@
           {
             "colonia": "San Marcos",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 15075.0,
+            "score": 0.1881641904454681
           },
           {
             "colonia": "San Marcos",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 15075.0,
+            "score": 0.1881641904454681
+          },
+          {
+            "colonia": "Barrio San Marcos",
+            "tipo_asenta": "colonia",
+            "precio_m2": 21285.0,
+            "score": 0.2337718775389688
+          },
+          {
+            "colonia": "Zona Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 15094.0,
+            "score": 0.22829164395494
           }
         ],
         "tipo_asenta": [
@@ -244984,6 +245110,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Cerrada de la Mezquitera",
+            "tipo_asenta": "colonia",
+            "precio_m2": 26190.0,
+            "score": 0.2591388361159964
+          },
+          {
+            "colonia": "Fraccionamiento Las Misiones",
+            "tipo_asenta": "colonia",
+            "precio_m2": 23589.0,
+            "score": 0.2386590392797158
           },
           {
             "colonia": "Fraccionamiento Los Calicantos",

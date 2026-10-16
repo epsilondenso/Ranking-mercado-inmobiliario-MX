@@ -42077,6 +42077,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Cancún",
+            "tipo_asenta": "colonia",
+            "precio_m2": 65384.0,
+            "score": 0.48397394314271
           }
         ],
         "tipo_asenta": [
@@ -92236,8 +92242,8 @@
           {
             "colonia": "Álamos I",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 14152.0,
+            "score": 0.2489279696654561
           },
           {
             "colonia": "Chamuyil",
@@ -94547,6 +94553,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 36568.5,
             "score": 0.564023742552191
+          },
+          {
+            "colonia": "Supermanzana 312",
+            "tipo_asenta": "colonia",
+            "precio_m2": 32094.0,
+            "score": 0.3307060127778559
           }
         ],
         "tipo_asenta": [
@@ -105596,6 +105608,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Cancún",
+            "tipo_asenta": "colonia",
+            "precio_m2": 74117.0,
+            "score": 0.5240045420214449
           }
         ],
         "tipo_asenta": [
@@ -106258,6 +106276,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Playa del Carmen",
+            "tipo_asenta": "colonia",
+            "precio_m2": 122667.0,
+            "score": 0.7484760956175298
           }
         ],
         "tipo_asenta": [
@@ -134591,6 +134615,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Puerto Morelos",
+            "tipo_asenta": "colonia",
+            "precio_m2": 3050.0,
+            "score": 0.1983319947438074
           }
         ],
         "tipo_asenta": [
@@ -154360,7 +154390,14 @@
         "d_codigo": 77775,
         "estado": [],
         "municipio": [],
-        "colonias": [],
+        "colonias": [
+          {
+            "colonia": "Akumal",
+            "tipo_asenta": "colonia",
+            "precio_m2": 40044.0,
+            "score": 0.367604126737942
+          }
+        ],
         "tipo_asenta": []
       },
       "bbox": [
@@ -155601,8 +155638,8 @@
           {
             "colonia": "Supermanzana 13",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 34136.0,
+            "score": 0.3406001785676931
           },
           {
             "colonia": "Supermanzana 14",
@@ -161648,6 +161685,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Cancún",
+            "tipo_asenta": "colonia",
+            "precio_m2": 35833.0,
+            "score": 0.3473496941892104
           }
         ],
         "tipo_asenta": [
@@ -173437,6 +173480,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 50424.0,
             "score": 0.4359290892647267
+          },
+          {
+            "colonia": "Isla Mujeres Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 56572.0,
+            "score": 0.4436985810768672
           }
         ],
         "tipo_asenta": [
@@ -218596,8 +218645,14 @@
           {
             "colonia": "El Bambú",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 23907.0,
+            "score": 0.2927150435193941
+          },
+          {
+            "colonia": "Playa del Carmen",
+            "tipo_asenta": "colonia",
+            "precio_m2": 28906.0,
+            "score": 0.3157664512686758
           }
         ],
         "tipo_asenta": [

@@ -233767,6 +233767,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Las Haciendas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 14400.0,
+            "score": 0.2194739386437755
           }
         ],
         "tipo_asenta": [
@@ -324395,6 +324401,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Campestre Washington",
+            "tipo_asenta": "colonia",
+            "precio_m2": 14310.0,
+            "score": 0.2236007629719429
           },
           {
             "colonia": "Residencial Cumbres",
@@ -482113,6 +482125,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Alamedas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 20108.0,
+            "score": 0.234440108207296
           }
         ],
         "tipo_asenta": [
@@ -903042,6 +903060,12 @@
             "score": 0.2857257157770624
           },
           {
+            "colonia": "Fraccionamiento Residencial El León",
+            "tipo_asenta": "colonia",
+            "precio_m2": 18723.0,
+            "score": 0.2495675351804026
+          },
+          {
             "colonia": "Fraccionamiento Romanzza",
             "tipo_asenta": "colonia",
             "precio_m2": 17744.0,
@@ -926124,8 +926148,8 @@
           {
             "colonia": "Lomas Karike",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 14682.0,
+            "score": 0.2426468080728882
           },
           {
             "colonia": "Lourdes",
@@ -1121949,8 +1121973,8 @@
           {
             "colonia": "Parques de San Felipe",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 19285.0,
+            "score": 0.2486928962525606
           },
           {
             "colonia": "Ampliación Parques de San Felipe",
@@ -1387316,6 +1387340,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Cerrada del Sol II",
+            "tipo_asenta": "colonia",
+            "precio_m2": 21044.0,
+            "score": 0.247122728819853
+          },
+          {
+            "colonia": "Fraccionamiento Jardines de Aragón",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22500.0,
+            "score": 0.2390159244075136
           }
         ],
         "tipo_asenta": [
@@ -1799135,8 +1799171,8 @@
           {
             "colonia": "Tierra y Libertad",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 14726.0,
+            "score": 0.2248018922747349
           },
           {
             "colonia": "24 de Junio",
@@ -1945623,8 +1945659,8 @@
           {
             "colonia": "Niños Héroes",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 10588.0,
+            "score": 0.2042864680409651
           },
           {
             "colonia": "Pedro Domínguez",
@@ -2181381,8 +2181417,8 @@
           {
             "colonia": "Panamericana",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 38238.0,
+            "score": 0.346009360421176
           },
           {
             "colonia": "Américas",
@@ -2222383,6 +2222419,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Virreyes",
+            "tipo_asenta": "colonia",
+            "precio_m2": 17889.0,
+            "score": 0.2347257752827752
           }
         ],
         "tipo_asenta": [
@@ -2456763,8 +2456805,8 @@
           {
             "colonia": "Mirador",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 17868.0,
+            "score": 0.2343898961784711
           },
           {
             "colonia": "Los Sicomoros",
@@ -2487114,6 +2487156,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "San Carlos",
+            "tipo_asenta": "colonia",
+            "precio_m2": 18343.0,
+            "score": 0.2652654769431564
           }
         ],
         "tipo_asenta": [
@@ -2500733,8 +2500781,8 @@
           {
             "colonia": "Santa Rita",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 19207.0,
+            "score": 0.240803341878805
           },
           {
             "colonia": "Cuauhtémoc",
@@ -2560488,6 +2560536,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Los Lagos",
+            "tipo_asenta": "colonia",
+            "precio_m2": 28041.0,
+            "score": 0.2804630189539378
           }
         ],
         "tipo_asenta": [
@@ -2711406,8 +2711460,8 @@
           {
             "colonia": "Paseos de Chihuahua",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 17586.0,
+            "score": 0.232730970972466
           },
           {
             "colonia": "Residencial Universidad",
@@ -2882343,6 +2882397,18 @@
             "score": 0.3317592152683235
           },
           {
+            "colonia": "Fraccionamiento Las Misiones",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22892.0,
+            "score": 0.2665207274488129
+          },
+          {
+            "colonia": "Residencial Bosques de San Francisco",
+            "tipo_asenta": "colonia",
+            "precio_m2": 28757.0,
+            "score": 0.2890236050114441
+          },
+          {
             "colonia": "Residencial Country Club San Francisco",
             "tipo_asenta": "colonia",
             "precio_m2": 36627.0,
@@ -2988054,8 +2988120,8 @@
           {
             "colonia": "Lomas de San Charbel",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 46315.0,
+            "score": 0.3693895116052996
           },
           {
             "colonia": "Lomas del Pedregal",
@@ -2988218,6 +2988284,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 24661.0,
             "score": 0.2753299788397167
+          },
+          {
+            "colonia": "Pueblo Poblado La Haciendita",
+            "tipo_asenta": "colonia",
+            "precio_m2": 47252.0,
+            "score": 0.3841086159316075
           },
           {
             "colonia": "Residencial Lomas del Valle",
@@ -2990273,6 +2990345,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 23722.0,
             "score": 0.2811752276397712
+          },
+          {
+            "colonia": "Lomas del Santuario",
+            "tipo_asenta": "colonia",
+            "precio_m2": 16957.0,
+            "score": 0.2352090098439464
           }
         ],
         "tipo_asenta": [
@@ -3083025,8 +3083103,8 @@
           {
             "colonia": "Guadalupe",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 14649.0,
+            "score": 0.2410603753995907
           },
           {
             "colonia": "Campesina",
@@ -3161062,8 +3161140,8 @@
           {
             "colonia": "Barrancas",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 20125.0,
+            "score": 0.2634428014605812
           },
           {
             "colonia": "Rincones del Pedregal",
@@ -3169546,8 +3169624,8 @@
           {
             "colonia": "Aeropuerto",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 16286.0,
+            "score": 0.2272144936940696
           },
           {
             "colonia": "Sierra Azul",
@@ -3169570,8 +3169648,8 @@
           {
             "colonia": "Acequias de Tabalaopa",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 22500.0,
+            "score": 0.2806095499055215
           },
           {
             "colonia": "California",
@@ -3170013,14 +3170091,20 @@
           {
             "colonia": "Los Álamos",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 10864.0,
+            "score": 0.1921727061039078
           },
           {
             "colonia": "Residencial Leones",
             "tipo_asenta": "colonia",
             "precio_m2": 19703.5,
             "score": 0.2594619679202555
+          },
+          {
+            "colonia": "Residencial Residencial los Leones",
+            "tipo_asenta": "colonia",
+            "precio_m2": 10222.0,
+            "score": 0.2134752614775046
           }
         ],
         "tipo_asenta": [

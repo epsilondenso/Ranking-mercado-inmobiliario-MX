@@ -18772,6 +18772,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Campestre Real del Potosí",
+            "tipo_asenta": "colonia",
+            "precio_m2": 9347.0,
+            "score": 0.1945002191168922
           }
         ],
         "tipo_asenta": [
@@ -297644,8 +297650,8 @@
           {
             "colonia": "Laguna de Santa Rita",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 21073.0,
+            "score": 0.2170174099050796
           },
           {
             "colonia": "Los Blancos (Enrique Tapia)",
@@ -297662,8 +297668,8 @@
           {
             "colonia": "Los Lagos",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 17768.0,
+            "score": 0.2438490945245092
           },
           {
             "colonia": "Los Lagos Privada Azul",
@@ -409886,8 +409892,8 @@
           {
             "colonia": "Hacienda de los Morales",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 14615.0,
+            "score": 0.2257243116021839
           },
           {
             "colonia": "Jardines del Sol",
@@ -579687,6 +579693,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Club de Golf la Loma",
+            "tipo_asenta": "colonia",
+            "precio_m2": 30947.0,
+            "score": 0.3171699500778299
+          },
+          {
+            "colonia": "Lomas Primera Sección",
+            "tipo_asenta": "colonia",
+            "precio_m2": 37356.0,
+            "score": 0.3246116013870174
           }
         ],
         "tipo_asenta": [
@@ -591963,8 +591981,8 @@
           {
             "colonia": "Lomas Primera Sección",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 30263.0,
+            "score": 0.3118644922627389
           },
           {
             "colonia": "Los Filtros",
@@ -591977,6 +591995,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Lomas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 34090.0,
+            "score": 0.2867227245479065
           }
         ],
         "tipo_asenta": [
@@ -595188,8 +595212,8 @@
           {
             "colonia": "Miravalle",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 26707.0,
+            "score": 0.2690527089538318
           },
           {
             "colonia": "Villantigua",
@@ -599971,8 +599995,8 @@
           {
             "colonia": "Tangamanga",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 25171.0,
+            "score": 0.2726073501306512
           }
         ],
         "tipo_asenta": [
@@ -600159,8 +600183,8 @@
           {
             "colonia": "Burócrata",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 27932.0,
+            "score": 0.2461356965455416
           },
           {
             "colonia": "Cuauhtémoc",
@@ -600734,6 +600758,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Loma Alta",
+            "tipo_asenta": "colonia",
+            "precio_m2": 40714.0,
+            "score": 0.3226458245127135
           }
         ],
         "tipo_asenta": [
@@ -600917,8 +600947,8 @@
           {
             "colonia": "Garita de Jalisco",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 27183.0,
+            "score": 0.2686181598864511
           },
           {
             "colonia": "Residencial del Parque",
@@ -600931,6 +600961,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 29173.5,
             "score": 0.2841260837536294
+          },
+          {
+            "colonia": "Viveros",
+            "tipo_asenta": "colonia",
+            "precio_m2": 36170.0,
+            "score": 0.2893817575160499
           }
         ],
         "tipo_asenta": [
@@ -611853,8 +611889,8 @@
           {
             "colonia": "Balcones del Valle",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 14639.0,
+            "score": 0.2296596816883778
           },
           {
             "colonia": "Himno Nacional 2a Secc",
@@ -612804,6 +612840,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Satélite Francisco I Madero",
+            "tipo_asenta": "colonia",
+            "precio_m2": 20306.0,
+            "score": 0.2513690628128178
           }
         ],
         "tipo_asenta": [
@@ -613090,8 +613132,14 @@
           {
             "colonia": "Puerta de Piedra",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 21285.0,
+            "score": 0.2588714791325943
+          },
+          {
+            "colonia": "El Aguaje",
+            "tipo_asenta": "colonia",
+            "precio_m2": 18575.0,
+            "score": 0.2479289017205868
           }
         ],
         "tipo_asenta": [
@@ -670679,6 +670727,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": 20000.0,
             "score": 0.3258369179682058
+          },
+          {
+            "colonia": "El Peñón",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19206.0,
+            "score": 0.2474919577666479
+          },
+          {
+            "colonia": "Guadalupe",
+            "tipo_asenta": "colonia",
+            "precio_m2": 16623.0,
+            "score": 0.2153820151882397
           }
         ],
         "tipo_asenta": [
@@ -963190,8 +963250,8 @@
           {
             "colonia": "Soledad de Graciano Sánchez Centro",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 17857.0,
+            "score": 0.2430642725383679
           },
           {
             "colonia": "Las Higueras",
@@ -963354,6 +963414,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Bugambilias",
+            "tipo_asenta": "colonia",
+            "precio_m2": 15267.0,
+            "score": 0.2172567128880072
           }
         ],
         "tipo_asenta": [
@@ -1054983,8 +1055049,8 @@
           {
             "colonia": "Loma Dorada",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 23860.0,
+            "score": 0.2681158468217134
           },
           {
             "colonia": "La Vista",
@@ -1055021,6 +1055087,24 @@
             "tipo_asenta": "colonia",
             "precio_m2": 33073.5,
             "score": 0.3163449456995789
+          },
+          {
+            "colonia": "Loma Verde",
+            "tipo_asenta": "colonia",
+            "precio_m2": 32303.0,
+            "score": 0.3105143758840385
+          },
+          {
+            "colonia": "Lomas 3ra Secc",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19168.0,
+            "score": 0.233213146365234
+          },
+          {
+            "colonia": "Lomas de Chapultepec",
+            "tipo_asenta": "colonia",
+            "precio_m2": 25629.0,
+            "score": 0.2637232655304976
           }
         ],
         "tipo_asenta": [
@@ -1222317,8 +1222401,8 @@
           {
             "colonia": "Tercera Grande",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 16919.0,
+            "score": 0.2088584852951222
           },
           {
             "colonia": "Villas de la Victoria",
@@ -1306673,6 +1306757,12 @@
             "score": 0.3434234360626103
           },
           {
+            "colonia": "Colonia Lomas de San Luis Sur",
+            "tipo_asenta": "colonia",
+            "precio_m2": 27000.0,
+            "score": 0.2861806840947607
+          },
+          {
             "colonia": "Lomas 3ra Secc",
             "tipo_asenta": "colonia",
             "precio_m2": 28571.0,
@@ -1307584,10 +1307674,22 @@
             "score": 0.2818429912647309
           },
           {
+            "colonia": "Punta San Luis",
+            "tipo_asenta": "colonia",
+            "precio_m2": 29069.0,
+            "score": 0.3036097109526814
+          },
+          {
             "colonia": "Rinconada de los Andes",
             "tipo_asenta": "colonia",
             "precio_m2": 24099.0,
             "score": 0.3236219595656294
+          },
+          {
+            "colonia": "Villas del Pedregal",
+            "tipo_asenta": "colonia",
+            "precio_m2": 24131.0,
+            "score": 0.1682499452003643
           }
         ],
         "tipo_asenta": [
@@ -1308251,6 +1308353,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "San Marcos Carmona",
+            "tipo_asenta": "colonia",
+            "precio_m2": 25367.0,
+            "score": 0.2643079588226156
           }
         ],
         "tipo_asenta": [
@@ -1310698,6 +1310806,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Cerrada de las Flores",
+            "tipo_asenta": "colonia",
+            "precio_m2": 31187.0,
+            "score": 0.2729778342067009
           },
           {
             "colonia": "Lomas del Pedregal",

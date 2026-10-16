@@ -720978,6 +720978,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Bahía de Kino Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 31250.0,
+            "score": 0.3045830810813661
           }
         ],
         "tipo_asenta": [
@@ -727629,6 +727635,12 @@
             "score": null
           },
           {
+            "colonia": "Fraccionamiento Nueva Palmira",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19230.0,
+            "score": 0.2571643796456704
+          },
+          {
             "colonia": "Hermosillo Centro",
             "tipo_asenta": "colonia",
             "precio_m2": 37323.0,
@@ -731335,6 +731347,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Raquet Club",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22306.0,
+            "score": 0.2378823070474331
           }
         ],
         "tipo_asenta": [
@@ -748948,6 +748966,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 22993.5,
             "score": 0.2776806371563174
+          },
+          {
+            "colonia": "Residencial Montebello",
+            "tipo_asenta": "colonia",
+            "precio_m2": 32504.0,
+            "score": 0.2489312676865895
           }
         ],
         "tipo_asenta": [
@@ -774004,8 +774028,8 @@
           {
             "colonia": "Solidaridad",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 12756.0,
+            "score": 0.2285066654287384
           },
           {
             "colonia": "Manuel Gómez Morín",
@@ -774066,6 +774090,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento La Campiña",
+            "tipo_asenta": "colonia",
+            "precio_m2": 14782.0,
+            "score": 0.2330680878144994
           }
         ],
         "tipo_asenta": [
@@ -779330,6 +779360,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Residencial La Paloma Residencial",
+            "tipo_asenta": "colonia",
+            "precio_m2": 24332.0,
+            "score": 0.2545154425806045
           }
         ],
         "tipo_asenta": [
@@ -862940,6 +862976,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Caborca Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 9399.0,
+            "score": 0.1983256590845221
           }
         ],
         "tipo_asenta": [
@@ -884156,6 +884198,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Bahía de Kino Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 16583.0,
+            "score": 0.1958350172358183
           },
           {
             "colonia": "Zona industrial Kino Nuevo",
@@ -1644160,6 +1644208,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Puerto Peñasco Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 31808.0,
+            "score": 0.2717776467407521
           }
         ],
         "tipo_asenta": [
@@ -1647183,6 +1647237,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Puerto Peñasco Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 34080.0,
+            "score": 0.294206492988088
           }
         ],
         "tipo_asenta": [
@@ -2436531,8 +2436591,8 @@
           {
             "colonia": "Nacameri",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 15865.0,
+            "score": 0.2459504677348743
           },
           {
             "colonia": "San Ángel",

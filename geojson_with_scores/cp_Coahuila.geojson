@@ -99381,6 +99381,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "La Perla",
+            "tipo_asenta": "colonia",
+            "precio_m2": 9646.0,
+            "score": 0.2262375347873378
           }
         ],
         "tipo_asenta": [
@@ -245511,6 +245517,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Congregacion San Antonio de las Alazanas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 28333.0,
+            "score": 0.2796580960384864
           }
         ],
         "tipo_asenta": [
@@ -403128,8 +403140,8 @@
           {
             "colonia": "Ampliación los Ángeles",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 18814.0,
+            "score": 0.2327759993468625
           }
         ],
         "tipo_asenta": [
@@ -580477,6 +580489,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Roma",
+            "tipo_asenta": "colonia",
+            "precio_m2": 12347.0,
+            "score": 0.2195688902496918
           }
         ],
         "tipo_asenta": [
@@ -584363,6 +584381,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Hacienda San Rafael",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19277.0,
+            "score": 0.2602496321202436
           }
         ],
         "tipo_asenta": [
@@ -784976,6 +785000,18 @@
             "score": null
           },
           {
+            "colonia": "Fraccionamiento Habita",
+            "tipo_asenta": "colonia",
+            "precio_m2": 29000.0,
+            "score": 0.2809409402815673
+          },
+          {
+            "colonia": "Fraccionamiento Habita ll",
+            "tipo_asenta": "colonia",
+            "precio_m2": 31612.0,
+            "score": 0.2713519384471941
+          },
+          {
             "colonia": "Residencial San Alberto",
             "tipo_asenta": "colonia",
             "precio_m2": 26121.5,
@@ -788970,6 +789006,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Jardines de Versalles",
+            "tipo_asenta": "colonia",
+            "precio_m2": 28350.0,
+            "score": 0.3054336976583053
           }
         ],
         "tipo_asenta": [
@@ -790757,6 +790799,12 @@
             "score": null
           },
           {
+            "colonia": "Jardines Coloniales",
+            "tipo_asenta": "colonia",
+            "precio_m2": 17832.0,
+            "score": 0.2156979964276663
+          },
+          {
             "colonia": "Las Brisas",
             "tipo_asenta": "colonia",
             "precio_m2": 20000.0,
@@ -791616,8 +791664,8 @@
           {
             "colonia": "Jardín",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 18438.0,
+            "score": 0.2489704735741811
           },
           {
             "colonia": "La Salle",
@@ -791975,8 +792023,8 @@
           {
             "colonia": "Los Doctores",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 20992.0,
+            "score": 0.2438948984139761
           },
           {
             "colonia": "Villas de San Carlos",
@@ -792256,8 +792304,8 @@
           {
             "colonia": "Residencial los Reales",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 20214.0,
+            "score": 0.2590723221039219
           },
           {
             "colonia": "Centro de Investigación en Química Aplicada",
@@ -792929,8 +792977,8 @@
           {
             "colonia": "Los Maestros",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 21521.0,
+            "score": 0.2563740658566614
           },
           {
             "colonia": "Universidad",
@@ -793321,6 +793369,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 21712.0,
             "score": 0.2807274251521103
+          },
+          {
+            "colonia": "Seterra Residencial",
+            "tipo_asenta": "colonia",
+            "precio_m2": 20312.0,
+            "score": 0.255699518880183
           }
         ],
         "tipo_asenta": [
@@ -793869,8 +793923,8 @@
           {
             "colonia": "República Norte",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 21929.0,
+            "score": 0.2543112138956623
           },
           {
             "colonia": "República Oriente",
@@ -794456,8 +794510,8 @@
           {
             "colonia": "Oceanía",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 19500.0,
+            "score": 0.2413177712030009
           },
           {
             "colonia": "Oceanía Boulevares",
@@ -796085,8 +796139,8 @@
           {
             "colonia": "Los Tulipanes",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 27567.0,
+            "score": 0.2909466310663499
           },
           {
             "colonia": "Alcazar Residencial",
@@ -1438728,6 +1438782,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Loma Real",
+            "tipo_asenta": "colonia",
+            "precio_m2": 14413.0,
+            "score": 0.2329203384763204
           }
         ],
         "tipo_asenta": [
@@ -1446074,14 +1446134,20 @@
           {
             "colonia": "Las Maravillas",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 19760.0,
+            "score": 0.2629549312005128
           },
           {
             "colonia": "Villa Fundadores",
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Cantabria",
+            "tipo_asenta": "colonia",
+            "precio_m2": 20560.0,
+            "score": 0.2207474798903749
           }
         ],
         "tipo_asenta": [
@@ -1468177,6 +1468243,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 17758.0,
             "score": 0.2458295163639418
+          },
+          {
+            "colonia": "Residencial Las Trojes",
+            "tipo_asenta": "colonia",
+            "precio_m2": 17540.0,
+            "score": 0.2437539153590539
           }
         ],
         "tipo_asenta": [
@@ -1486449,6 +1486521,12 @@
             "score": null
           },
           {
+            "colonia": "Arteaga Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 16318.0,
+            "score": 0.2198321717372816
+          },
+          {
             "colonia": "Ejido Carbonera",
             "tipo_asenta": "colonia",
             "precio_m2": 15656.0,
@@ -1487644,6 +1487722,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 19427.0,
             "score": 0.3051265631360149
+          },
+          {
+            "colonia": "Ejido Carbonera",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22239.0,
+            "score": 0.2507207667520278
           }
         ],
         "tipo_asenta": [
@@ -1490096,6 +1490180,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Molinos del Rey",
+            "tipo_asenta": "colonia",
+            "precio_m2": 29295.0,
+            "score": 0.2537355083480057
+          },
+          {
+            "colonia": "Fraccionamiento Villamagna",
+            "tipo_asenta": "colonia",
+            "precio_m2": 21250.0,
+            "score": 0.2477140710636678
           },
           {
             "colonia": "Ramos Arizpe Centro",
@@ -1498295,6 +1498391,12 @@
             "score": null
           },
           {
+            "colonia": "Arteaga Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 16318.0,
+            "score": 0.2113461159603891
+          },
+          {
             "colonia": "Fraccionamiento Las Huertas",
             "tipo_asenta": "colonia",
             "precio_m2": 20676.0,
@@ -1500792,6 +1500894,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Congregacion San Antonio de las Alazanas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 15000.0,
+            "score": 0.2022805015555944
           }
         ],
         "tipo_asenta": [
@@ -1511452,8 +1511560,8 @@
           {
             "colonia": "Conejo Ixtlero",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 21226.0,
+            "score": 0.2351731232882309
           },
           {
             "colonia": "Villa Bonita",
@@ -1511514,6 +1511622,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 24807.0,
             "score": 0.2929873857397633
+          },
+          {
+            "colonia": "Fraccionamiento Villas de Guadalupe",
+            "tipo_asenta": "colonia",
+            "precio_m2": 24068.0,
+            "score": 0.2371626266125516
           },
           {
             "colonia": "Fraccionamiento Villas de San Sebastián",
@@ -1523718,8 +1523832,8 @@
           {
             "colonia": "Santa Bárbara",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 20982.0,
+            "score": 0.2532910174517672
           },
           {
             "colonia": "Residencial del Valle",
@@ -1562624,6 +1562738,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Parras de La Fuente Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19327.0,
+            "score": 0.2498427421105712
           }
         ],
         "tipo_asenta": [
@@ -1579095,6 +1579215,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento La Nogalera",
+            "tipo_asenta": "colonia",
+            "precio_m2": 21407.0,
+            "score": 0.2767647232858859
           }
         ],
         "tipo_asenta": [
@@ -1585951,6 +1586077,12 @@
             "score": 0.3320792726875273
           },
           {
+            "colonia": "Fraccionamiento Sorrento",
+            "tipo_asenta": "colonia",
+            "precio_m2": 26764.0,
+            "score": 0.2877219220718888
+          },
+          {
             "colonia": "Residencial Las Misiones",
             "tipo_asenta": "colonia",
             "precio_m2": 25176.0,
@@ -1587431,6 +1587563,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Nogalar del Campestre",
+            "tipo_asenta": "colonia",
+            "precio_m2": 26604.0,
+            "score": 0.2663068386287371
+          },
+          {
+            "colonia": "Residencial Loma Blanca",
+            "tipo_asenta": "colonia",
+            "precio_m2": 27777.0,
+            "score": 0.2872536292807056
           }
         ],
         "tipo_asenta": [

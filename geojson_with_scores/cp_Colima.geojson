@@ -590,8 +590,8 @@
           {
             "colonia": "Las Fuentes",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 17812.0,
+            "score": 0.1956456129893042
           },
           {
             "colonia": "La Rivera",
@@ -5945,8 +5945,8 @@
           {
             "colonia": "Las Lagunas",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 16279.0,
+            "score": 0.1932379921599655
           },
           {
             "colonia": "Lomas de La Herradura",
@@ -32839,8 +32839,8 @@
           {
             "colonia": "Nuevo Milenio",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 18059.0,
+            "score": 0.2087367715606458
           },
           {
             "colonia": "Mirador de La Cumbre",
@@ -39132,8 +39132,8 @@
           {
             "colonia": "Colinas de Santa Bárbara",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 3669.0,
+            "score": 0.1600707920415922
           },
           {
             "colonia": "Jardines Vista Hermosa",
@@ -43113,6 +43113,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Rancho o rancheria El Chanal",
+            "tipo_asenta": "colonia",
+            "precio_m2": 21153.0,
+            "score": 0.1511711667660977
           }
         ],
         "tipo_asenta": [
@@ -65492,6 +65498,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Valle de las Garzas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19852.0,
+            "score": 0.2276421101564207
           }
         ],
         "tipo_asenta": [
@@ -78251,6 +78263,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Colima Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19892.0,
+            "score": 0.2492209806188022
           }
         ],
         "tipo_asenta": [
@@ -110099,8 +110117,20 @@
           {
             "colonia": "Campestre Comala",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 22794.0,
+            "score": 0.1797740087602012
+          },
+          {
+            "colonia": "La Cañada",
+            "tipo_asenta": "colonia",
+            "precio_m2": 26808.0,
+            "score": 0.304538360855409
+          },
+          {
+            "colonia": "Montellano",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19587.0,
+            "score": 0.2406432487216289
           },
           {
             "colonia": "Pueblo Comala",
@@ -111540,8 +111570,8 @@
           {
             "colonia": "La Reserva",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 17164.0,
+            "score": 0.1784344453632649
           },
           {
             "colonia": "Buenavista",
@@ -121098,6 +121128,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Santiago",
+            "tipo_asenta": "colonia",
+            "precio_m2": 30864.0,
+            "score": 0.2726836345058384
           }
         ],
         "tipo_asenta": [
@@ -160316,6 +160352,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Valle Paraíso",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22507.0,
+            "score": 0.2351039797264782
           }
         ],
         "tipo_asenta": [
@@ -181138,6 +181180,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Barrio Nuevo Salahua",
+            "tipo_asenta": "colonia",
+            "precio_m2": 27343.0,
+            "score": 0.294455554086575
+          },
+          {
+            "colonia": "Salahua",
+            "tipo_asenta": "colonia",
+            "precio_m2": 25735.0,
+            "score": 0.221064642773737
           }
         ],
         "tipo_asenta": [

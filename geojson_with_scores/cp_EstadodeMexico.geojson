@@ -28691,8 +28691,8 @@
           {
             "colonia": "San Mateo Acatitlán",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 42857.0,
+            "score": 0.3814120963873947
           },
           {
             "colonia": "El Castellano",
@@ -50910,6 +50910,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Llano Grande",
+            "tipo_asenta": "colonia",
+            "precio_m2": 41250.0,
+            "score": 0.3722090632106183
           }
         ],
         "tipo_asenta": [
@@ -123595,6 +123601,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "La Virgen",
+            "tipo_asenta": "colonia",
+            "precio_m2": 16250.0,
+            "score": 0.2572875341823087
           }
         ],
         "tipo_asenta": [
@@ -127312,6 +127324,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Miramar",
+            "tipo_asenta": "colonia",
+            "precio_m2": 50861.0,
+            "score": 0.4160492551928114
           }
         ],
         "tipo_asenta": [
@@ -132545,7 +132563,14 @@
         "d_codigo": 54578,
         "estado": [],
         "municipio": [],
-        "colonias": [],
+        "colonias": [
+          {
+            "colonia": "Santa María Mazatla",
+            "tipo_asenta": "colonia",
+            "precio_m2": 34513.0,
+            "score": 0.3398286422373922
+          }
+        ],
         "tipo_asenta": []
       },
       "bbox": [
@@ -423611,6 +423636,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Ojo de Agua",
+            "tipo_asenta": "colonia",
+            "precio_m2": 8215.0,
+            "score": 0.2190412926012155
           }
         ],
         "tipo_asenta": [
@@ -531374,8 +531405,8 @@
           {
             "colonia": "Lomas Verdes 1a Sección",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 39473.0,
+            "score": 0.3654492170229036
           },
           {
             "colonia": "Lomas Verdes (Conjunto Lomas Verdes)",
@@ -550989,6 +551020,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Vista del Valle",
+            "tipo_asenta": "colonia",
+            "precio_m2": 23750.0,
+            "score": 0.2917520406995665
           }
         ],
         "tipo_asenta": [
@@ -591195,6 +591232,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Bosques de la Herradura",
+            "tipo_asenta": "colonia",
+            "precio_m2": 38750.0,
+            "score": 0.3600834441723292
           }
         ],
         "tipo_asenta": [
@@ -592979,8 +593022,8 @@
           {
             "colonia": "Lomas Hipódromo",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 30400.0,
+            "score": 0.3220579801701009
           }
         ],
         "tipo_asenta": [
@@ -594232,6 +594275,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 36575.5,
             "score": 0.4836829968149602
+          },
+          {
+            "colonia": "Lomas de Tecamachalco Bosques I y II",
+            "tipo_asenta": "colonia",
+            "precio_m2": 39333.0,
+            "score": 0.3642060389304646
           }
         ],
         "tipo_asenta": [
@@ -595815,8 +595864,8 @@
           {
             "colonia": "Lomas de Valle Dorado",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 27122.0,
+            "score": 0.3074205417938691
           },
           {
             "colonia": "Lomas de Atlaco",
@@ -608304,6 +608353,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Viveros del Río",
+            "tipo_asenta": "colonia",
+            "precio_m2": 29333.0,
+            "score": 0.3172573476378658
           }
         ],
         "tipo_asenta": [
@@ -783978,8 +784033,8 @@
           {
             "colonia": "Colinas del Lago",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 24583.0,
+            "score": 0.2971469583177061
           },
           {
             "colonia": "Nopaltepec",
@@ -1044117,6 +1044172,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Guadalupe Victoria",
+            "tipo_asenta": "colonia",
+            "precio_m2": 20484.0,
+            "score": 0.2752575861712125
           }
         ],
         "tipo_asenta": [
@@ -1127909,6 +1127970,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Club de Golf Valle Escondido",
+            "tipo_asenta": "colonia",
+            "precio_m2": 30434.0,
+            "score": 0.3229318925730853
           }
         ],
         "tipo_asenta": [
@@ -1129263,8 +1129330,8 @@
           {
             "colonia": "Campestre del Lago",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 11333.0,
+            "score": 0.2355704204426622
           }
         ],
         "tipo_asenta": [
@@ -1180395,8 +1180462,8 @@
           {
             "colonia": "Colinas de San José",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 35833.0,
+            "score": 0.3472301722768598
           }
         ],
         "tipo_asenta": [
@@ -1209235,6 +1209302,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Benito Juárez Centro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 63591.0,
+            "score": 0.474630357534983
           }
         ],
         "tipo_asenta": [
@@ -1388741,8 +1388814,8 @@
           {
             "colonia": "Fuentes de San José",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 17567.0,
+            "score": 0.2641971429610021
           },
           {
             "colonia": "Unidad Magisterial",
@@ -1413523,8 +1413596,8 @@
           {
             "colonia": "Prado Largo",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 27210.0,
+            "score": 0.3061530209545348
           }
         ],
         "tipo_asenta": [
@@ -1414368,6 +1414441,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Rancho Blanco",
+            "tipo_asenta": "colonia",
+            "precio_m2": 39735.0,
+            "score": 0.365940220941941
           }
         ],
         "tipo_asenta": [
@@ -1461953,8 +1462032,8 @@
           {
             "colonia": "Jardines de Atizapán",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 20329.0,
+            "score": 0.2756185467948226
           },
           {
             "colonia": "Las Acacias",
@@ -1472486,8 +1472565,8 @@
           {
             "colonia": "Lomas de La Hacienda",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 36666.0,
+            "score": 0.352147002245597
           }
         ],
         "tipo_asenta": [
@@ -1567501,8 +1567580,8 @@
           {
             "colonia": "San Francisco",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 25904.0,
+            "score": 0.3024017051386536
           },
           {
             "colonia": "San Juan",
@@ -1822247,8 +1822326,8 @@
           {
             "colonia": "Bosques Residencial",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 20573.0,
+            "score": 0.277221768169135
           },
           {
             "colonia": "Ojuelos",
@@ -1822309,6 +1822388,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "San Miguel Zinacantepec",
+            "tipo_asenta": "colonia",
+            "precio_m2": 17361.0,
+            "score": 0.2639643664542391
           }
         ],
         "tipo_asenta": [
@@ -1866467,8 +1866552,8 @@
           {
             "colonia": "Lomas Verdes 6a Sección",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 36500.0,
+            "score": 0.3509034547669526
           },
           {
             "colonia": "El Cristo",
@@ -2024072,6 +2024157,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Bosques de la Hacienda",
+            "tipo_asenta": "colonia",
+            "precio_m2": 24339.0,
+            "score": 0.293989952082836
           }
         ],
         "tipo_asenta": [
@@ -2044320,8 +2044411,8 @@
           {
             "colonia": "San Buenaventura",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 15000.0,
+            "score": 0.2511649637069888
           },
           {
             "colonia": "Vicente Guerrero",
@@ -2092402,8 +2092493,8 @@
           {
             "colonia": "Hacienda de las Fuentes",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 17993.0,
+            "score": 0.2661615157758038
           }
         ],
         "tipo_asenta": [
@@ -2248314,8 +2248405,8 @@
           {
             "colonia": "San Gaspar",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 33457.0,
+            "score": 0.3363934739827104
           }
         ],
         "tipo_asenta": [

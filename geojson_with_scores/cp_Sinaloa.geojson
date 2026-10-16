@@ -3695,6 +3695,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Rincón de Las Plazas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22941.0,
+            "score": 0.2649538477492941
           }
         ],
         "tipo_asenta": [
@@ -153358,6 +153364,12 @@
             "score": 0.5209177476063311
           },
           {
+            "colonia": "Fraccionamiento Sábalo Country Club",
+            "tipo_asenta": "colonia",
+            "precio_m2": 49206.0,
+            "score": 0.3891746850308983
+          },
+          {
             "colonia": "Mazatlan",
             "tipo_asenta": "colonia",
             "precio_m2": 35097.0,
@@ -267630,6 +267642,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Zona comercial Desarrollo Urbano 3 Ríos",
+            "tipo_asenta": "colonia",
+            "precio_m2": 54687.0,
+            "score": 0.3665204061546665
           }
         ],
         "tipo_asenta": [
@@ -460774,6 +460792,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Country del Río",
+            "tipo_asenta": "colonia",
+            "precio_m2": 18508.0,
+            "score": 0.2465442538554603
           }
         ],
         "tipo_asenta": [
@@ -607481,6 +607505,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Club Real",
+            "tipo_asenta": "colonia",
+            "precio_m2": 62636.0,
+            "score": 0.4347286499468187
           },
           {
             "colonia": "Fraccionamiento Mediterráneo Club Residencial",
@@ -974856,6 +974886,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Colinas de San Miguel",
+            "tipo_asenta": "colonia",
+            "precio_m2": 16022.0,
+            "score": 0.2465549048176502
           }
         ],
         "tipo_asenta": [
@@ -991908,8 +991944,8 @@
           {
             "colonia": "Gustavo Díaz Ordaz",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 11666.0,
+            "score": 0.2259904134563312
           },
           {
             "colonia": "Libertad",
@@ -1018737,8 +1018773,8 @@
           {
             "colonia": "López Mateos",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 18390.0,
+            "score": 0.2426535182623511
           }
         ],
         "tipo_asenta": [
@@ -1061432,6 +1061468,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Lomas de San Isidro",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19394.0,
+            "score": 0.2594744019278889
           }
         ],
         "tipo_asenta": [
@@ -1153324,6 +1153366,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Unidad habitacional INFONAVIT Playas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 17194.0,
+            "score": 0.2470588372538758
           }
         ],
         "tipo_asenta": [
@@ -1165234,6 +1165282,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "El Castillo",
+            "tipo_asenta": "colonia",
+            "precio_m2": 15614.0,
+            "score": 0.2288966412408005
           }
         ],
         "tipo_asenta": [
@@ -1168542,6 +1168596,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 22900.0,
             "score": 0.3204402098820241
+          },
+          {
+            "colonia": "Fraccionamiento Villas Del Rio",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19513.0,
+            "score": 0.2233299080873386
           }
         ],
         "tipo_asenta": [
@@ -1180038,6 +1180098,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 25313.0,
             "score": 0.2881074000458588
+          },
+          {
+            "colonia": "Fraccionamiento Marina Mazatlán",
+            "tipo_asenta": "colonia",
+            "precio_m2": 30000.0,
+            "score": 0.3052732596100304
           }
         ],
         "tipo_asenta": [
@@ -1180545,10 +1180611,22 @@
             "score": 0.3285546806643706
           },
           {
+            "colonia": "Fraccionamiento Las Palmas",
+            "tipo_asenta": "colonia",
+            "precio_m2": 45766.0,
+            "score": 0.3690093551465631
+          },
+          {
             "colonia": "Fraccionamiento Marina Mazatlán",
             "tipo_asenta": "colonia",
             "precio_m2": 54967.0,
             "score": 0.4800691197435119
+          },
+          {
+            "colonia": "Fraccionamiento Quintas del Mar",
+            "tipo_asenta": "colonia",
+            "precio_m2": 58762.0,
+            "score": 0.4408887508444483
           },
           {
             "colonia": "Fraccionamiento Sábalo Cerritos",

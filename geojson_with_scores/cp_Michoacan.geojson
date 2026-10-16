@@ -1427640,6 +1427640,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Campestre",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22540.0,
+            "score": 0.2218696952683015
           }
         ],
         "tipo_asenta": [
@@ -1500300,8 +1500306,8 @@
           {
             "colonia": "Jardines del Toreo",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 20454.0,
+            "score": 0.2446411624080917
           },
           {
             "colonia": "Ampliación Jardines del Toreo",
@@ -1501047,6 +1501053,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Unidad habitacional La Colina Infonavit",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19515.0,
+            "score": 0.2123431145586649
           }
         ],
         "tipo_asenta": [
@@ -1539518,8 +1539530,8 @@
           {
             "colonia": "Nueva Valladolid",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 21153.0,
+            "score": 0.2473863062083288
           },
           {
             "colonia": "Rector Hidalgo",
@@ -1695176,10 +1695188,28 @@
             "score": null
           },
           {
+            "colonia": "10 de Junio",
+            "tipo_asenta": "colonia",
+            "precio_m2": 30000.0,
+            "score": 0.2875840165821419
+          },
+          {
+            "colonia": "Fraccionamiento El Monasterio",
+            "tipo_asenta": "colonia",
+            "precio_m2": 27528.0,
+            "score": 0.2763046427240936
+          },
+          {
             "colonia": "Fraccionamiento Montaña Monarca",
             "tipo_asenta": "colonia",
             "precio_m2": 30210.5,
             "score": 0.3538949649981051
+          },
+          {
+            "colonia": "Pueblo Santa Maria de Guido",
+            "tipo_asenta": "colonia",
+            "precio_m2": 33333.0,
+            "score": 0.3312798520433515
           },
           {
             "colonia": "Torrecillas",
@@ -2003432,8 +2003462,8 @@
           {
             "colonia": "Movimiento Magisterial",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 19291.0,
+            "score": 0.2644974559055832
           },
           {
             "colonia": "Paseo de La Loma",
@@ -2432509,6 +2432539,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "La Huerta",
+            "tipo_asenta": "colonia",
+            "precio_m2": 28191.0,
+            "score": 0.2854574883671514
           }
         ],
         "tipo_asenta": [
@@ -2737402,10 +2737438,22 @@
             "score": 0.2615518213270047
           },
           {
+            "colonia": "Eucaliptos",
+            "tipo_asenta": "colonia",
+            "precio_m2": 39772.0,
+            "score": 0.3037203972351818
+          },
+          {
             "colonia": "Fraccionamiento Tres Marías",
             "tipo_asenta": "colonia",
             "precio_m2": 30581.0,
             "score": 0.4048139864908556
+          },
+          {
+            "colonia": "Montaña Dorada",
+            "tipo_asenta": "colonia",
+            "precio_m2": 42857.0,
+            "score": 0.2028463593356019
           }
         ],
         "tipo_asenta": [
@@ -2744231,6 +2744279,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Montaña Monarca",
+            "tipo_asenta": "colonia",
+            "precio_m2": 24193.0,
+            "score": 0.238456158560482
           }
         ],
         "tipo_asenta": [
@@ -2744607,6 +2744661,12 @@
             "score": 0.3022661063459826
           },
           {
+            "colonia": "Fraccionamiento Hacienda Del Monte",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22727.0,
+            "score": 0.1799431457556324
+          },
+          {
             "colonia": "Fraccionamiento Montaña Monarca",
             "tipo_asenta": "colonia",
             "precio_m2": 27865.0,
@@ -2744617,6 +2744677,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": 25238.0,
             "score": 0.3089903252148945
+          },
+          {
+            "colonia": "Montaña Dorada",
+            "tipo_asenta": "colonia",
+            "precio_m2": 29251.0,
+            "score": 0.1317397866959597
+          },
+          {
+            "colonia": "Pueblo Jesús Del Monte",
+            "tipo_asenta": "colonia",
+            "precio_m2": 22424.0,
+            "score": 0.200896548616638
           }
         ],
         "tipo_asenta": [
@@ -2745647,8 +2745719,8 @@
           {
             "colonia": "Torreón Nuevo",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 16728.0,
+            "score": 0.2341530441758957
           },
           {
             "colonia": "13 de Abril",
@@ -2745737,8 +2745809,8 @@
           {
             "colonia": "Torreón Nuevo",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 16728.0,
+            "score": 0.2341530441758957
           },
           {
             "colonia": "León Guzmán",

@@ -1464,8 +1464,8 @@
           {
             "colonia": "Loma Bonita",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 33384.0,
+            "score": 0.2991245851896609
           }
         ],
         "tipo_asenta": [
@@ -95698,6 +95698,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Monte Alto",
+            "tipo_asenta": "colonia",
+            "precio_m2": 16041.0,
+            "score": 0.2331365415940543
           }
         ],
         "tipo_asenta": [
@@ -99478,6 +99484,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Cumbres",
+            "tipo_asenta": "colonia",
+            "precio_m2": 15229.0,
+            "score": 0.2039340767853981
           }
         ],
         "tipo_asenta": [
@@ -301364,6 +301376,12 @@
             "score": null
           },
           {
+            "colonia": "Ampliacion Ampliación Unidad Nacional",
+            "tipo_asenta": "colonia",
+            "precio_m2": 19545.0,
+            "score": 0.2300511717879211
+          },
+          {
             "colonia": "Unidad habitacional Unidad Nacional",
             "tipo_asenta": "colonia",
             "precio_m2": 22168.5,
@@ -301997,8 +302015,8 @@
           {
             "colonia": "Las Américas",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 13481.0,
+            "score": 0.1708936128781291
           },
           {
             "colonia": "Monteverde",
@@ -305164,8 +305182,8 @@
           {
             "colonia": "Hidalgo Poniente",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 17235.0,
+            "score": 0.2388813627447491
           }
         ],
         "tipo_asenta": [
@@ -305321,8 +305339,8 @@
           {
             "colonia": "Benito Juárez",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 20214.0,
+            "score": 0.2477177404306151
           },
           {
             "colonia": "Vicente Guerrero",
@@ -367844,6 +367862,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Lomas Del Chairel",
+            "tipo_asenta": "colonia",
+            "precio_m2": 24840.0,
+            "score": 0.2723957827118144
           }
         ],
         "tipo_asenta": [
@@ -368626,8 +368650,8 @@
           {
             "colonia": "San Antonio",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 22147.0,
+            "score": 0.2551969344096657
           }
         ],
         "tipo_asenta": [
@@ -374702,8 +374726,8 @@
           {
             "colonia": "Barandillas",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 16250.0,
+            "score": 0.1975265780070098
           }
         ],
         "tipo_asenta": [
@@ -378129,8 +378153,8 @@
           {
             "colonia": "Tampico Centro",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 22413.0,
+            "score": 0.254391642108009
           },
           {
             "colonia": "Tamaulipas",
@@ -378397,8 +378421,8 @@
           {
             "colonia": "Luis Echeverría Álvarez",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 18043.0,
+            "score": 0.2551570162043785
           },
           {
             "colonia": "Diamante",
@@ -556086,6 +556110,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Lagunas de Miralta",
+            "tipo_asenta": "colonia",
+            "precio_m2": 14396.0,
+            "score": 0.2137184420357843
           }
         ],
         "tipo_asenta": [
@@ -562891,8 +562921,8 @@
           {
             "colonia": "Los Cedros",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 17456.0,
+            "score": 0.2312948610932319
           },
           {
             "colonia": "Manuel R Díaz",
@@ -562923,6 +562953,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Conjunto habitacional 18 de Marzo",
+            "tipo_asenta": "colonia",
+            "precio_m2": 20547.0,
+            "score": 0.2522413191016547
           }
         ],
         "tipo_asenta": [
@@ -563763,8 +563799,8 @@
           {
             "colonia": "Heriberto Kehoe",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 18421.0,
+            "score": 0.2450673819145215
           },
           {
             "colonia": "Ignacio Zaragoza",
@@ -586200,8 +586236,8 @@
           {
             "colonia": "Obrera",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 17304.0,
+            "score": 0.2403947549298075
           },
           {
             "colonia": "Telegrafistas",
@@ -598575,6 +598611,12 @@
             "tipo_asenta": "colonia",
             "precio_m2": 16619.5,
             "score": 0.2730471704947481
+          },
+          {
+            "colonia": "Fraccionamiento San Jacinto",
+            "tipo_asenta": "colonia",
+            "precio_m2": 12926.0,
+            "score": 0.2239120840173659
           }
         ],
         "tipo_asenta": [
@@ -603741,6 +603783,18 @@
             "tipo_asenta": "colonia",
             "precio_m2": null,
             "score": null
+          },
+          {
+            "colonia": "Fraccionamiento Residencia Velamar",
+            "tipo_asenta": "colonia",
+            "precio_m2": 31094.0,
+            "score": 0.2836645301027793
+          },
+          {
+            "colonia": "Fraccionamiento Velamar",
+            "tipo_asenta": "colonia",
+            "precio_m2": 28017.0,
+            "score": 0.2655316329314889
           }
         ],
         "tipo_asenta": [
@@ -607133,8 +607187,8 @@
           {
             "colonia": "Revolución Verde",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 17469.0,
+            "score": 0.2453388704875298
           }
         ],
         "tipo_asenta": [
@@ -623661,8 +623715,8 @@
           {
             "colonia": "Valle Alto",
             "tipo_asenta": "colonia",
-            "precio_m2": null,
-            "score": null
+            "precio_m2": 20202.0,
+            "score": 0.2597341191325381
           },
           {
             "colonia": "La Cima",
