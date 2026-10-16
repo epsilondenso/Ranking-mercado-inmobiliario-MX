@@ -64,7 +64,21 @@ Hace los mismos pasos de limpieza que el paso 1, pero con los CSV geocodificados
 python insertar_score_json.py
 ```
 
-Para cada polígono de `geojson_with_names/`, busca cada colonia de `properties.colonias` en `global_norm_cp.csv` por (CP, nombre normalizado sin acentos ni mayúsculas) y le escribe `score` (= `qs_score`) y `precio_m2` (mediana); si no la encuentra, los deja en `null`. Las colonias con score que no estaban en el GeoJSON se añaden a su CP. Solo usa colonia-CP con `conteo_cp >= MIN_ANUNCIOS` (3, constante en el script). Salida: `geojson_with_scores/cp_<Estado>.geojson`.
+Para cada polígono de `geojson_with_names/`, busca cada colonia de `properties.colonias` en `global_norm_cp.csv` por (CP, nombre normalizado sin acentos ni mayúsculas) y le escribe `score` (= `qs_score`) y `precio_m2` (mediana); si no la encuentra, los deja en `null`. Las colonias con score que no estaban en el GeoJSON se añaden a su CP. Solo usa colonia-CP con `conteo_cp >= MIN_ANUNCIOS` (3, constante en el script). Salida: `geojson_with_scores/cp_<Estado>.geojson` (estructura indentada; cada geometría y cada colonia en una sola línea para no inflar el tamaño). `--decimales N` redondea las coordenadas; por defecto conserva la precisión original.
+
+Estructura de cada feature, pensada para el mapa:
+
+```json
+{"type": "Feature", "properties": {
+  "d_codigo": "20358", "estado": "...", "municipio": "...",
+  "score_cp": 0.2377, "precio_m2_cp": 20960.0, "n_colonias_score": 2,
+  "colonias": [{"colonia": "Monteverde", "tipo_asenta": "Fraccionamiento", "precio_m2": null, "score": null}]
+}, "geometry": {...}}
+```
+
+- `d_codigo`: CP como texto de cinco dígitos.
+- `score_cp` (promedio), `precio_m2_cp` (mediana) y `n_colonias_score` resumen las colonias con score; sirven para colorear el polígono.
+- `colonias`: detalle por colonia para tooltips. `tipo_asenta` es `null` en las colonias añadidas desde los anuncios.
 
 ## Puntajes
 
