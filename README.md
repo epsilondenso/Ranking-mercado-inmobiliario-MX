@@ -1,83 +1,108 @@
 # Ranking de colonias del mercado inmobiliario en México
 
-Este proyecto procesa anuncios de inmuebles en venta y compara colonias dentro de cada estado. Resume los anuncios por municipio y colonia, calcula indicadores de precio, antigüedad y variabilidad, y genera dos puntajes para ordenar las colonias. Incluye datos crudos por estado, resultados procesados y un notebook para ejecutar el análisis y visualizar los principales resultados.
+Procesa anuncios de inmuebles en venta, resume precio por m², antigüedad y variabilidad por colonia, y genera puntajes para ordenarlas. El resultado final son GeoJSON de códigos postales en los que cada colonia tiene su `score` y su `precio_m2`, listos para pintar un mapa.
 
-## Qué hace
+## Flujo completo
 
-Para cada archivo `data/raw/properties_<Estado>.csv`, el pipeline:
+Ejecuta todos los comandos desde la raíz del repositorio. Los nombres de estado (`<Estado>`) usan CamelCase sin acentos ni espacios (`CDMX`, `EstadodeMexico`, `NuevoLeon`) y coinciden en CSV y GeoJSON.
 
-1. Conserva las columnas necesarias, elimina filas duplicadas y descarta registros sin colonia, precio o superficie construida.
-2. Convierte los precios en USD a MXN usando el tipo de cambio configurado y estandariza los nombres de columnas.
-3. Calcula el precio por metro cuadrado (`precio_m2`), elimina valores atípicos con el criterio de rango intercuartílico (IQR) y calcula la edad del anuncio en días.
-4. Agrupa los registros por municipio y colonia. Para cada grupo calcula el número de anuncios, mediana y promedio del precio por m², desviación estándar, coeficiente de variación y edad promedio.
-5. Descarta grupos con pocos anuncios y normaliza los indicadores entre 0 y 1 dentro del estado analizado.
-6. Calcula `pavc_score` y `qs_score`, y guarda los datos limpios, agrupados y puntuados.
+```text
+data/raw/properties_<Estado>.csv
+  ├─ 1. src/pipeline.py        → data/{clean,grouped,scored}/*_<Estado>.csv   (ranking por estado)
+  ├─ 2. global_norm.py         → data/scored/global_norm.csv                  (ranking global por colonia)
+  └─ 3. geocoding/assign_cp.py → data/geocoded/geocoded_<Estado>.csv
+        4. global_norm_cp.py   → data/scored/global_norm_cp.csv               (ranking global colonia-CP)
+        5. insertar_score_json.py → geojson_with_scores/cp_<Estado>.geojson   (score en cada colonia)
+```
 
-El puntaje PAVC combina mediana de precio por m² (50 %), antigüedad promedio (25 %) y coeficiente de variación del precio (25 %). El puntaje QS combina calidad (75 %: precio 75 % y antigüedad 25 %) y tamaño del mercado (25 %: logaritmo de uno más el número de anuncios). En los indicadores de antigüedad y variabilidad, valores menores reciben una puntuación normalizada mayor.
-
-## Cómo funciona
-
-El flujo principal está en `src/pipeline.py`; las transformaciones se reparten entre `src/preprocessing.py`, `src/clean.py` y `src/score.py`. Las rutas de entrada y salida se definen en `config/paths.py`, y los parámetros del análisis, pesos y valores de referencia están en `config/config.py`.
-
-Los resultados se escriben en:
-
-- `data/clean/clean_<Estado>.csv`: registros válidos con precio por m² y edad del anuncio.
-- `data/grouped/grouped_<Estado>.csv`: métricas agregadas por municipio y colonia.
-- `data/scored/scored_<Estado>.csv`: métricas normalizadas y puntajes.
-
-El notebook `notebooks/test.ipynb` aplica el pipeline a los archivos de `data/raw/`, obtiene los primeros lugares por puntaje o por mediana de precio, y muestra gráficas de barras e histogramas.
-
-## Requisitos y ejecución
-
-Se requiere Python y las dependencias listadas en `requirements.txt` (Pandas, NumPy, Matplotlib, Seaborn, scikit-learn y GeoPandas). Desde la raíz del repositorio, instala las dependencias:
+### 0. Instalación
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-Para procesar un estado directamente desde Python:
+Los polígonos de CP van en `geojson_with_names/cp_<Estado>.geojson` (no versionados; consíguelos aparte).
+
+### 1. Ranking por estado
 
 ```python
 from src.pipeline import full_treatment, get_top
 
 resultado = full_treatment("data/raw/properties_Sonora.csv")
-top_colonias = get_top(resultado, top=10, criterion="pavc_score")
-print(top_colonias[["municipio", "colonia", "pavc_score"]])
+print(get_top(resultado, top=10, criterion="qs_score")[["municipio", "colonia", "qs_score"]])
 ```
 
-`full_treatment` guarda automáticamente los tres CSV de salida. También puede ejecutarse `notebooks/test.ipynb` en Jupyter Notebook o JupyterLab para procesar los estados disponibles y ver las gráficas. No hay actualmente un comando de consola dedicado.
+Para cada estado: limpia los datos, convierte USD a MXN, calcula `precio_m2`, quita atípicos (IQR), calcula la edad del anuncio, agrupa por municipio y colonia, descarta grupos con menos de `min(min_ads, mediana de anuncios)` y normaliza (min-max) **dentro del estado**. Guarda `clean_`, `grouped_` y `scored_<Estado>.csv`. `notebooks/test.ipynb` lo corre para todos los estados y grafica los primeros lugares.
 
-## Asignación de código postal
+### 2. Ranking global
 
-`geocoding/assign_cp.py` asigna a cada anuncio su código postal por *point-in-polygon* (geopandas), usando las coordenadas del anuncio y los polígonos de `geojson_with_names/cp_<Estado>.geojson`. Desde la raíz del repositorio:
+```bash
+python global_norm.py
+```
+
+Junta todos los `data/grouped/grouped_*.csv` y normaliza sobre el conjunto nacional, así que los puntajes ya son comparables entre estados. Requiere haber corrido el paso 1. Salida: `data/scored/global_norm.csv`.
+
+### 3. Asignar código postal a cada anuncio
 
 ```bash
 python -m geocoding.assign_cp
 ```
 
-Genera `data/geocoded/geocoded_<Estado>.csv` con las columnas originales más `codigo_postal` (texto a 5 dígitos) y `cp_metodo`: `within` si el punto cae dentro de un polígono, `nearest` si cae en un hueco entre polígonos y se asigna el más cercano a no más de `cp_max_distancia_m` (500 m, en `config/config.py`), o vacío si no tiene coordenadas o está más lejos (coordenadas erróneas). Los polígonos inválidos se reparan antes del cruce. Los nombres de estado (`<Estado>`) son los mismos en los CSV y en los GeoJSON: CamelCase sin acentos, espacios ni guiones bajos (p. ej. `CDMX`, `EstadodeMexico`, `NuevoLeon`).
+Cruza las coordenadas de cada anuncio con los polígonos de CP (*point-in-polygon*). Agrega `codigo_postal` y `cp_metodo`: `within` si cae dentro de un polígono, `nearest` si cae en un hueco y hay un polígono a ≤ `cp_max_distancia_m` (500 m), o vacío en otro caso. Salida: `data/geocoded/geocoded_<Estado>.csv`.
 
-## Alcances y limitaciones
+### 4. Ranking global por colonia y CP
 
-- El análisis se basa en los anuncios presentes en los CSV y en los campos de precio y superficie construida.
-- El ranking compara colonias dentro del estado procesado: la normalización min-max se calcula para cada archivo por separado. Los puntajes de distintos estados no son directamente comparables.
-- El filtro de anuncios usa como umbral el menor valor entre `min_ads` (10 por defecto) y la mediana de anuncios por grupo. Por ello, el mínimo efectivo puede ser inferior a 10.
-- El tipo de cambio (`tipo_cambio`) y la fecha de referencia (`fecha_scrap`) son constantes en `config/config.py`; hay que actualizarlos para reflejar otra fecha o conversión.
-- Aunque `filter_date` recibe un año mínimo, actualmente no aplica el filtro al DataFrame que devuelve. Por tanto, el procesamiento no excluye efectivamente anuncios por año de publicación.
-- El cálculo de precio por m² usa división entera y requiere una superficie construida válida y distinta de cero. La calidad y cobertura de los datos de entrada afectan los resultados.
-- Los pesos de los puntajes y el tratamiento de atípicos son decisiones configurables.
+```bash
+python global_norm_cp.py
+```
 
-## Estructura del proyecto
+Hace los mismos pasos de limpieza que el paso 1, pero con los CSV geocodificados. Agrupa por estado, ciudad, municipio (tomado del polígono), colonia y CP, exige al menos `min_ads_cp` (3) anuncios y normaliza a nivel nacional. Salida: `data/scored/global_norm_cp.csv`.
+
+> **Paso manual:** el paso 5 lee las columnas `conteo_cp` y `proporcion_cp_colonia`, pero el script escribe `conteo` y `proporcion`. Antes de seguir, renómbralas (es lo que hace `notebooks/cp_test.ipynb`):
+>
+> ```python
+> import pandas as pd
+> from config.paths import SCORED_DATA
+> f = SCORED_DATA / "global_norm_cp.csv"
+> pd.read_csv(f, dtype={"codigo_postal": str}).rename(
+>     columns={"conteo": "conteo_cp", "proporcion": "proporcion_cp_colonia"}
+> ).to_csv(f, index=False)
+> ```
+
+### 5. Asignar score a cada colonia de los GeoJSON
+
+```bash
+python insertar_score_json.py
+```
+
+Para cada polígono de `geojson_with_names/`, busca cada colonia de `properties.colonias` en `global_norm_cp.csv` por (CP, nombre normalizado sin acentos ni mayúsculas) y le escribe `score` (= `qs_score`) y `precio_m2` (mediana); si no la encuentra, los deja en `null`. Las colonias con score que no estaban en el GeoJSON se añaden a su CP. Solo usa colonia-CP con `conteo_cp >= MIN_ANUNCIOS` (3, constante en el script). Salida: `geojson_with_scores/cp_<Estado>.geojson`.
+
+## Puntajes
+
+- **PAVC**: mediana de precio/m² (50 %), antigüedad promedio (25 %) y coeficiente de variación (25 %).
+- **QS** (el que se usa en el mapa): calidad 75 % (precio 75 %, antigüedad 25 %) + tamaño de mercado 25 % (`ln(1 + n)`).
+
+En antigüedad y variabilidad, menor valor da mayor puntuación. Pesos, `tipo_cambio`, `fecha_scrap`, `min_ads` y `min_ads_cp` están en `config/config.py`; las rutas, en `config/paths.py`.
+
+## Limitaciones
+
+- La normalización del paso 1 es por estado: esos puntajes no se comparan entre estados (usa los pasos 2 o 4).
+- `filter_date` solo conserva anuncios publicados después de 2024.
+- `tipo_cambio` y `fecha_scrap` son constantes: actualízalas para otro corte de datos.
+- El cruce del paso 5 depende de que el nombre de la colonia en los anuncios coincida con el del GeoJSON.
+
+## Estructura
 
 ```text
-config/       Rutas y parámetros del análisis
-data/raw/     Anuncios originales por estado
-data/clean/   Registros limpios generados
-data/grouped/ Métricas agregadas por colonia generadas
-data/scored/  Métricas normalizadas y puntajes generados
-data/geocoded/ Anuncios con código postal asignado
-geocoding/    Asignación de código postal (point-in-polygon)
-geojson_with_names/ Polígonos de códigos postales por estado (no versionado)
-notebooks/    Ejecución por estados y visualización
-src/          Preprocesamiento, limpieza, puntuación y gráficas
+config/                Rutas y parámetros
+src/                   Preprocesamiento, limpieza, puntuación, gráficas y pipeline por estado
+geocoding/             Asignación de código postal
+global_norm.py         Ranking global por colonia
+global_norm_cp.py      Ranking global por colonia y CP
+insertar_score_json.py Score y precio en los GeoJSON
+notebooks/             Ejecución por estados, ajuste de columnas CP y visualización
+data/raw/              Anuncios originales por estado
+data/{clean,grouped,scored,geocoded}/  Salidas generadas (CSV no versionados)
+geojson_with_names/    Polígonos de CP por estado (no versionado)
+geojson_with_scores/   Polígonos de CP con score por colonia
 ```
