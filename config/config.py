@@ -19,7 +19,7 @@ columns_renamed = ["municipio",
 
 fecha_scrap = "2026-08-26"
 tipo_cambio = 17.04
-min_ads = 10
+min_ads = 3
 
 #-- GEOCODING (código postal) --
 crs_metrico = 6372          #Mexico ITRF2008 / LCC, en metros
