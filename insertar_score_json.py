@@ -8,13 +8,14 @@ from typing import Any
 
 import pandas as pd
 
+from config.config import min_ads_cp
 from config.paths import SCORED_DATA, GEOJSON_CP
 
 
 # Configuración
 INPUT_CSV = SCORED_DATA / "global_norm_cp.csv"
 OUTPUT_DIR = GEOJSON_CP.parent / "geojson_with_scores"
-MIN_ANUNCIOS = 3
+MIN_ANUNCIOS = min_ads_cp
 
 
 def normalizar_codigo_postal(codigo: Any) -> str | None:
@@ -86,17 +87,18 @@ def cargar_metricas(
     ruta_csv : Path
         Ruta al archivo CSV de scores.
     min_anuncios : int
-        Número mínimo de anuncios para incluir una colonia.
+        Número mínimo de anuncios (de toda la colonia) para incluirla.
 
     Returns
     -------
     dict
         Métricas indexadas por (código postal, colonia normalizada).
+        Cada colonia aparece solo en su código postal principal.
     """
     columnas = [
         "codigo_postal",
         "colonia",
-        "conteo_cp",
+        "conteo",
         "qs_score",
         "precio_m2",
     ]
@@ -115,11 +117,16 @@ def cargar_metricas(
     df = df[
         df["codigo_postal"].notna()
         & df["colonia_key"].notna()
-        & (df["conteo_cp"] >= min_anuncios)
+        & (df["conteo"] >= min_anuncios)
     ].copy()
 
     # Una única entrada por código postal y colonia.
-    # Si hay duplicados, se promedian las métricas disponibles.
+    # Si hay duplicados (la misma colonia con distinta ciudad en los
+    # anuncios), se promedian las métricas ponderando por anuncios
+    # y se suman los anuncios.
+    for columna in ["qs_score", "precio_m2"]:
+        df[columna] = df[columna] * df["conteo"]
+
     df = (
         df.groupby(
             ["codigo_postal", "colonia_key"],
@@ -128,10 +135,14 @@ def cargar_metricas(
         )
         .agg(
             colonia=("colonia", "first"),
-            qs_score=("qs_score", "mean"),
-            precio_m2=("precio_m2", "mean"),
+            conteo=("conteo", "sum"),
+            qs_score=("qs_score", "sum"),
+            precio_m2=("precio_m2", "sum"),
         )
     )
+
+    for columna in ["qs_score", "precio_m2"]:
+        df[columna] = df[columna] / df["conteo"]
 
     metricas: dict[tuple[str, str], dict[str, Any]] = {}
 
@@ -140,6 +151,7 @@ def cargar_metricas(
 
         metricas[clave] = {
             "colonia": fila.colonia,
+            "conteo": int(fila.conteo),
             "score": (
                 float(fila.qs_score)
                 if pd.notna(fila.qs_score)
@@ -188,9 +200,11 @@ def actualizar_feature(
     En la entrada, ``properties.colonias`` es una lista de nombres y
     ``properties.tipo_asenta`` una lista paralela con su tipo. En la
     salida cada colonia lleva su propio ``tipo_asenta`` (None para las
-    añadidas desde los anuncios) y el feature tiene propiedades escalares
-    (``score_cp``, ``precio_m2_cp``, ``n_colonias_score``) para colorear
-    el polígono directamente en el mapa.
+    añadidas desde los anuncios) y su ``conteo`` de anuncios, y el feature
+    tiene propiedades escalares (``score_cp``, ``precio_m2_cp``,
+    ``n_colonias_score``) para colorear el polígono directamente en el
+    mapa. ``score_cp`` y ``precio_m2_cp`` son las medias de las colonias
+    ponderadas por su número de anuncios.
 
     Parameters
     ----------
@@ -230,7 +244,10 @@ def actualizar_feature(
         nombre = normalizar_colonia(nombre_original)
         datos = None
 
-        if nombre is not None:
+        # Si el GeoJSON repite el nombre (mismo nombre con distinto
+        # tipo_asenta), los datos van solo en la primera aparición
+        # para no contar la colonia dos veces en el polígono.
+        if nombre is not None and nombre not in nombres_existentes:
             nombres_existentes.add(nombre)
             datos = metricas.get((codigo_postal, nombre))
 
@@ -238,6 +255,7 @@ def actualizar_feature(
             {
                 "colonia": nombre_original,
                 "tipo_asenta": tipos[i] if i < len(tipos) else None,
+                "conteo": datos["conteo"] if datos else None,
                 "precio_m2": datos["precio_m2"] if datos else None,
                 "score": datos["score"] if datos else None,
             }
@@ -264,6 +282,7 @@ def actualizar_feature(
             {
                 "colonia": datos["colonia"],
                 "tipo_asenta": None,
+                "conteo": datos["conteo"],
                 "precio_m2": datos["precio_m2"],
                 "score": datos["score"],
             }
@@ -272,10 +291,12 @@ def actualizar_feature(
         nombres_existentes.add(nombre)
         nuevas += 1
 
-    scores = [c["score"] for c in colonias if c["score"] is not None]
-    precios = [
-        c["precio_m2"] for c in colonias if c["precio_m2"] is not None
-    ]
+    con_score = [c for c in colonias if c["score"] is not None]
+    scores = [c["score"] for c in con_score]
+    pesos_score = [c["conteo"] for c in con_score]
+    con_precio = [c for c in colonias if c["precio_m2"] is not None]
+    precios = [c["precio_m2"] for c in con_precio]
+    pesos = [c["conteo"] for c in con_precio]
 
     geometria = feature.get("geometry")
 
@@ -294,9 +315,15 @@ def actualizar_feature(
             "d_codigo": codigo_postal,
             "estado": propiedades.get("estado"),
             "municipio": propiedades.get("municipio"),
-            "score_cp": statistics.fmean(scores) if scores else None,
+            "score_cp": (
+                statistics.fmean(scores, weights=pesos_score)
+                if scores
+                else None
+            ),
             "precio_m2_cp": (
-                statistics.median(precios) if precios else None
+                statistics.fmean(precios, weights=pesos)
+                if precios
+                else None
             ),
             "n_colonias_score": len(scores),
             "colonias": colonias,

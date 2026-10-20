@@ -11,8 +11,8 @@ data/raw/properties_<Estado>.csv
   ├─ 1. src/pipeline.py        → data/{clean,grouped,scored}/*_<Estado>.csv   (ranking por estado)
   ├─ 2. global_norm.py         → data/scored/global_norm.csv                  (ranking global por colonia)
   └─ 3. geocoding/assign_cp.py → data/geocoded/geocoded_<Estado>.csv
-        4. global_norm_cp.py   → data/scored/global_norm_cp.csv               (ranking global colonia-CP)
-        5. insertar_score_json.py → geojson_with_scores/cp_<Estado>.geojson   (score en cada colonia)
+        4. global_norm_cp.py   → data/scored/global_norm_cp.csv               (ranking global por colonia, en su CP principal)
+        5. insertar_score_json.py → geojson_with_scores/cp_<Estado>.geojson   (score en cada colonia y precio por CP)
 ```
 
 ### 0. Instalación
@@ -32,7 +32,7 @@ resultado = full_treatment("data/raw/properties_Sonora.csv")
 print(get_top(resultado, top=10, criterion="qs_score")[["municipio", "colonia", "qs_score"]])
 ```
 
-Para cada estado: limpia los datos, convierte USD a MXN, calcula `precio_m2`, quita atípicos (IQR), calcula la edad del anuncio, agrupa por municipio y colonia, descarta grupos con menos de `min(min_ads, mediana de anuncios)` y normaliza (min-max) **dentro del estado**. Guarda `clean_`, `grouped_` y `scored_<Estado>.csv`. `notebooks/test.ipynb` lo corre para todos los estados y grafica los primeros lugares.
+Para cada estado: limpia los datos, convierte USD a MXN, calcula `precio_m2`, quita atípicos (IQR), calcula la edad del anuncio, agrupa por municipio y colonia, descarta colonias con menos de `min_ads` (3) anuncios y normaliza (min-max) **dentro del estado**. Guarda `clean_`, `grouped_` y `scored_<Estado>.csv`. `notebooks/test.ipynb` lo corre para todos los estados y grafica los primeros lugares.
 
 ### 2. Ranking global
 
@@ -56,7 +56,12 @@ Cruza las coordenadas de cada anuncio con los polígonos de CP (*point-in-polygo
 python global_norm_cp.py
 ```
 
-Hace los mismos pasos de limpieza que el paso 1, pero con los CSV geocodificados. Agrupa por estado, ciudad, municipio (tomado del polígono), colonia y CP, exige al menos `min_ads_cp` (3) anuncios y normaliza a nivel nacional. Salida: `data/scored/global_norm_cp.csv`, con `conteo_cp` (anuncios en esa colonia-CP), `proporcion_cp_colonia` (fracción de los anuncios de la colonia que caen en ese CP), `precio_m2` y los puntajes; es la entrada directa del paso 5.
+Hace los mismos pasos de limpieza que el paso 1, pero con los CSV geocodificados, y normaliza a nivel nacional.
+
+- **Métricas por colonia.** Agrupa por estado, ciudad y colonia con *todos* los anuncios de la colonia, sin partirla por CP; los anuncios sin CP también cuentan. Exige al menos `min_ads_cp` (3) anuncios en la colonia. Con `min_ads = min_ads_cp`, el conjunto de colonias, su conteo y su mediana de precio son los mismos que en el paso 1 (solo cambia la normalización).
+- **CP principal.** Un CP puede contener varias colonias y una colonia puede repartir sus anuncios entre varios CP (bordes del polígono o errores de geocodificación). Cada colonia se ubica en un solo CP: el que concentra más de sus anuncios (en empate, el de menor número). El municipio se toma del polígono de ese CP. Las colonias sin ningún anuncio con CP se descartan porque no se pueden ubicar en el mapa.
+
+Salida: `data/scored/global_norm_cp.csv`, una fila por colonia, con `codigo_postal` (CP principal), `conteo` (anuncios de la colonia), `conteo_cp` (anuncios que caen en el CP principal), `proporcion_cp_colonia` (`conteo_cp / anuncios con CP`), `precio_m2` (mediana de la colonia) y los puntajes; es la entrada directa del paso 5.
 
 ### 5. Asignar score a cada colonia de los GeoJSON
 
@@ -64,7 +69,10 @@ Hace los mismos pasos de limpieza que el paso 1, pero con los CSV geocodificados
 python insertar_score_json.py
 ```
 
-Para cada polígono de `geojson_with_names/`, busca cada colonia de `properties.colonias` en `global_norm_cp.csv` por (CP, nombre normalizado sin acentos ni mayúsculas) y le escribe `score` (= `qs_score`) y `precio_m2` (mediana); si no la encuentra, los deja en `null`. Las colonias con score que no estaban en el GeoJSON se añaden a su CP. Solo usa colonia-CP con `conteo_cp >= MIN_ANUNCIOS` (3, constante en el script). Salida: `geojson_with_scores/cp_<Estado>.geojson` (estructura indentada; cada geometría y cada colonia en una sola línea para no inflar el tamaño). `--decimales N` redondea las coordenadas; por defecto conserva la precisión original.
+Para cada polígono de `geojson_with_names/`, busca cada colonia de `properties.colonias` en `global_norm_cp.csv` por (CP, nombre normalizado sin acentos ni mayúsculas) y le escribe `score` (= `qs_score`), `precio_m2` (mediana de la colonia) y `conteo` (anuncios); si no la encuentra, los deja en `null`. Las colonias con score que no estaban en el GeoJSON se añaden a su CP principal. Solo usa colonias con `conteo >= min_ads_cp`. Dos casos de duplicados:
+
+- Si en los anuncios la misma colonia aparece con dos ciudades distintas y comparte CP principal (p. ej. "Puerto Morelos" como Cancún y como Puerto Morelos), se fusiona en una sola: suma los anuncios y pondera `precio_m2` y `score` por anuncios.
+- Si el GeoJSON repite un nombre en el mismo CP con distinto `tipo_asenta` (p. ej. "San Marcos" Colonia y Barrio), los datos se escriben solo en la primera aparición, para no contar la colonia dos veces en el polígono. Salida: `geojson_with_scores/cp_<Estado>.geojson` (estructura indentada; cada geometría y cada colonia en una sola línea para no inflar el tamaño). `--decimales N` redondea las coordenadas; por defecto conserva la precisión original.
 
 Estructura de cada feature, pensada para el mapa:
 
@@ -72,13 +80,15 @@ Estructura de cada feature, pensada para el mapa:
 {"type": "Feature", "properties": {
   "d_codigo": "20358", "estado": "...", "municipio": "...",
   "score_cp": 0.2377, "precio_m2_cp": 20960.0, "n_colonias_score": 2,
-  "colonias": [{"colonia": "Monteverde", "tipo_asenta": "Fraccionamiento", "precio_m2": null, "score": null}]
+  "colonias": [{"colonia": "Monteverde", "tipo_asenta": "Fraccionamiento", "conteo": null, "precio_m2": null, "score": null}]
 }, "geometry": {...}}
 ```
 
 - `d_codigo`: CP como texto de cinco dígitos.
-- `score_cp` (promedio), `precio_m2_cp` (mediana) y `n_colonias_score` resumen las colonias con score; sirven para colorear el polígono.
-- `colonias`: detalle por colonia para tooltips. `tipo_asenta` es `null` en las colonias añadidas desde los anuncios.
+- `precio_m2_cp`: media de `precio_m2` de las colonias del CP **ponderada por su `conteo`**, de modo que una colonia con 40 anuncios pesa más que una con 3. Es el valor para colorear el polígono.
+- `score_cp`: media de `score` de las colonias del CP, también ponderada por `conteo`.
+- `n_colonias_score`: número de colonias con score en el CP.
+- `colonias`: detalle por colonia para tooltips. `tipo_asenta` es `null` en las colonias añadidas desde los anuncios; `conteo`, `precio_m2` y `score` son `null` en las colonias sin datos. Cada colonia con datos aparece solo en su CP principal.
 
 ## Puntajes
 
@@ -93,6 +103,7 @@ En antigüedad y variabilidad, menor valor da mayor puntuación. Pesos, `tipo_ca
 - `filter_date` solo conserva anuncios publicados después de 2024.
 - `tipo_cambio` y `fecha_scrap` son constantes: actualízalas para otro corte de datos.
 - El cruce del paso 5 depende de que el nombre de la colonia en los anuncios coincida con el del GeoJSON.
+- Una colonia que de verdad abarca varios CP solo colorea su CP principal; los demás CP no reciben su precio aunque tengan algunos de sus anuncios.
 
 ## Estructura
 
@@ -101,7 +112,7 @@ config/                Rutas y parámetros
 src/                   Preprocesamiento, limpieza, puntuación, gráficas y pipeline por estado
 geocoding/             Asignación de código postal
 global_norm.py         Ranking global por colonia
-global_norm_cp.py      Ranking global por colonia y CP
+global_norm_cp.py      Ranking global por colonia, ubicada en su CP principal
 insertar_score_json.py Score y precio en los GeoJSON
 notebooks/             Ejecución por estados y visualización
 data/raw/              Anuncios originales por estado

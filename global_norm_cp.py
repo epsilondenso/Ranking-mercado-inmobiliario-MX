@@ -1,13 +1,15 @@
 """
-Ranking global por colonia y código postal a partir de los datos geocodificados.
+Ranking global por colonia, ubicada en su código postal principal, a partir de los datos geocodificados.
 
 Reutiliza los pasos de src.pipeline.full_treatment (preprocesado, filtro de fecha,
 precio/m2, IQR, edad, agrupación, corte por mínimo de anuncios y score), pero:
     - lee data/geocoded/geocoded_<Estado>.csv en lugar de data/raw,
-    - agrupa por estado, ciudad, municipio, colonia y código postal,
+    - calcula las métricas por colonia (estado, ciudad, colonia) con todos sus anuncios,
+      sin partirla por CP, así que coinciden con las de la versión por estado,
+    - asigna cada colonia a un solo CP: el que concentra más de sus anuncios (CP principal),
     - normaliza sobre el conjunto global (todas las entidades juntas).
 
-El municipio se toma del polígono del CP (geojson_with_names/cp_<Estado>.geojson);
+El municipio se toma del polígono del CP principal (geojson_with_names/cp_<Estado>.geojson);
 la ciudad es la columna "city" del anuncio.
 
 Ejecutar desde la raíz del repositorio:
@@ -32,8 +34,8 @@ columns_geocoded = ["city",
                     "published_date",
                     "scraped_at"]
 
+#El CP no es obligatorio: los anuncios sin CP cuentan en las métricas de su colonia (igual que en la versión por estado)
 columns_geocoded_not_null = ["neighborhood",
-                             "codigo_postal",
                              "price",
                              "built_m2"]
 
@@ -45,7 +47,6 @@ columns_geocoded_renamed = ["ciudad",
                             "fecha_publi",
                             "fecha_scrap"]
 
-group_columns = ["estado", "ciudad", "municipio", "colonia", "codigo_postal"]
 colonia_columns = ["estado", "ciudad", "colonia"]
 
 
@@ -54,13 +55,23 @@ def load_cp_municipios(state_name: str) -> pd.DataFrame:
                         columns=["d_codigo", "municipio"],
                         ignore_geometry=True)
     cps["codigo_postal"] = cps["d_codigo"].astype(int).astype(str).str.zfill(5)
-    #Algunos CP traen el municipio vacío ("[ ]"); se deja en blanco para no perder esos anuncios al agrupar
+    #Algunos CP traen el municipio vacío ("[ ]"); se deja en blanco
     cps["municipio"] = cps["municipio"].fillna("").replace("[ ]", "")
     return cps[["codigo_postal", "municipio"]].drop_duplicates("codigo_postal")
 
 
+def principal_cp(clean_data: pd.DataFrame) -> pd.DataFrame:
+    """CP con más anuncios de cada colonia (en empate, el menor), su conteo y la fracción de la colonia que representa."""
+    with_cp = clean_data[clean_data["codigo_postal"].notna()]
+    counts = with_cp.groupby(colonia_columns + ["codigo_postal"]).size().rename("conteo_cp").reset_index()
+    counts["proporcion_cp_colonia"] = counts["conteo_cp"] / counts.groupby(colonia_columns)["conteo_cp"].transform("sum")
+    counts = counts.sort_values(colonia_columns + ["conteo_cp", "codigo_postal"],
+                                ascending=[True] * len(colonia_columns) + [False, True])
+    return counts.drop_duplicates(colonia_columns)
+
+
 def group_state(geocoded_path, min_ads_cp: int = min_ads_cp) -> pd.DataFrame:
-    """Limpia un estado y lo agrupa por colonia y CP (mismos pasos que full_treatment)."""
+    """Limpia un estado, lo agrupa por colonia y ubica cada colonia en su CP principal."""
     state_name = extraer_sufijo_csv(geocoded_path)
 
     prep_data = filter_date(preprocess(geocoded_path,
@@ -69,20 +80,24 @@ def group_state(geocoded_path, min_ads_cp: int = min_ads_cp) -> pd.DataFrame:
                                        new_names=columns_geocoded_renamed),
                             date_column="fecha_publi")
     #preprocess lee el CP como número: se recupera el 0 inicial
-    prep_data["codigo_postal"] = prep_data["codigo_postal"].astype(int).astype(str).str.zfill(5)
-    prep_data = prep_data.merge(load_cp_municipios(state_name), on="codigo_postal", how="left")
+    has_cp = prep_data["codigo_postal"].notna()
+    prep_data["codigo_postal"] = prep_data["codigo_postal"].astype(object)
+    prep_data.loc[has_cp, "codigo_postal"] = prep_data.loc[has_cp, "codigo_postal"].astype(int).astype(str).str.zfill(5)
     prep_data.insert(0, "estado", state_name)
 
     add_price_m2(prep_data)
     clean_data = filter_iqr(prep_data, ["precio_m2"])
     add_age_column(clean_data)
 
-    grouped = group_by_colonia(clean_data, by=group_columns)
+    grouped = group_by_colonia(clean_data, by=colonia_columns)
+    grouped = grouped[grouped["conteo"] >= min_ads_cp]
 
-    #Proporción de los anuncios de la colonia que caen en cada CP (antes del corte)
-    grouped["proporcion"] = grouped["conteo"] / grouped.groupby(colonia_columns)["conteo"].transform("sum")
+    #Las colonias sin ningún anuncio con CP no se pueden ubicar en el mapa y se descartan
+    grouped = grouped.merge(principal_cp(clean_data), on=colonia_columns, how="inner")
+    grouped = grouped.merge(load_cp_municipios(state_name), on="codigo_postal", how="left")
+    grouped["municipio"] = grouped["municipio"].fillna("")
 
-    return grouped[grouped["conteo"] >= min_ads_cp]
+    return grouped
 
 
 def build_global_ranking_cp() -> pd.DataFrame:
@@ -103,13 +118,14 @@ def build_global_ranking_cp() -> pd.DataFrame:
     )
     normalized = qs_score(pavc_score(normalized))
     normalized["precio_m2"] = grouped["precio_m2_mediana"]
-    #Nombres que espera insertar_score_json.py
-    normalized = normalized.rename(columns={"conteo": "conteo_cp",
-                                            "proporcion": "proporcion_cp_colonia"})
+    #Orden de columnas: identificación, ubicación en el CP principal y métricas
+    first = ["estado", "ciudad", "municipio", "colonia", "codigo_postal",
+             "conteo", "conteo_cp", "proporcion_cp_colonia"]
+    normalized = normalized[first + [c for c in normalized.columns if c not in first]]
     SCORED_DATA.mkdir(parents=True, exist_ok=True)
     output_path = SCORED_DATA / "global_norm_cp.csv"
     normalized.to_csv(output_path, index=False)
-    print(f"Ranking global por CP guardado en {output_path} ({len(normalized)} colonia-CP)")
+    print(f"Ranking global por colonia y CP principal guardado en {output_path} ({len(normalized)} colonias)")
     return normalized
 
 

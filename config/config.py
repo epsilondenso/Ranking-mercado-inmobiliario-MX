@@ -24,7 +24,7 @@ min_ads = 3
 #-- GEOCODING (código postal) --
 crs_metrico = 6372          #Mexico ITRF2008 / LCC, en metros
 cp_max_distancia_m = 500    #Distancia máxima para asignar el CP más cercano si el punto no cae en ningún polígono
-min_ads_cp = 3              #Mínimo fijo de anuncios por colonia-CP en el ranking global por CP
+min_ads_cp = 3              #Mínimo fijo de anuncios por colonia (sumando todos sus CP) en el ranking global por CP
 
 pesos_pavcscore = [0.50, #Price
                    0.25, #Age
