@@ -41,8 +41,8 @@ def full_treatment(raw_data_path: str,
     #GROUP_BY_COLONIA
     grouped = group_by_colonia(clean_data)
     #Filter by minimum number of adds
-    cut_off = min([max_min_ads, grouped["conteo"].median()])
-    grouped = grouped[ grouped["conteo"] >= cut_off ]
+    #cut_off = min([max_min_ads, grouped["conteo"].median()])
+    grouped = grouped[ grouped["conteo"] >= max_min_ads ]
     #Save grouped
     grouped.to_csv(GROUPED_DATA / f"grouped_{state_name}.csv", index= False)
     #Normalized features beetween 0 and 1
